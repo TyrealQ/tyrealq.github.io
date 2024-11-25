@@ -13,11 +13,11 @@ redirect_from:
 
 ## Education
 
-- University of Georgia (2015–2019)
+- University of Georgia, 2015-2019
 	- Ph.D., Sport Management
-- Shanghai University of Sport (2012-2015)
+- Shanghai University of Sport, 2012-2015
 	- MEd, Sport Management
-- Xiamen University of Sport (2007–2011)
+- Xiamen University of Sport, 2007-2011
 	- BA, English Literature
 
 Work experience
