@@ -8,13 +8,21 @@ redirect_from:
   - /resume
 ---
 
-{% include base_path %}
+## Xule Lin 林徐乐
 
-Education
-======
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
-* M.S. in Jekyll, GitHub University, 2014
-* B.S. in GitHub, GitHub University, 2012
+### Imperial College London South Kensington Campus, London SW7 2AZ, UK
+
+### [xule.lin@imperial.ac.uk](mailto:xule.lin@imperial.ac.uk) | [linxule.com](https://linxule.com/)
+
+# Education
+
+- Imperial College Business School, Imperial College London, 2019 – 2025 (Expected)
+	- Doctor of Philosophy, Management and Entrepreneurship
+- University of Chicago, 2018 – 2019
+	- Graduate Student At-Large
+- University of Notre Dame, 2011 – 2016
+	- MSc in Accountancy
+	- BBA in Accounting
 
 Work experience
 ======
