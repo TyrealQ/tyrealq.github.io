@@ -8,7 +8,7 @@ redirect_from:
 ---
 
 ## Yizhou (Tyreal) Qian 钱亦舟
-
+### Assistant Professor of Sport Management
 ### Louisiana State University, Baton Rouge LA 70803
 
 ## Education
