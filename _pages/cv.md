@@ -1,15 +1,15 @@
 ---
 layout: archive
-title: "Curriculum Vitae"
+title: "Yizhou (Tyreal) Qian 钱亦舟"
 permalink: /cv/
 author_profile: true
 redirect_from:
   - /resume
 ---
 
-## Yizhou (Tyreal) Qian 钱亦舟
-### Assistant Professor of Sport Management
-### Louisiana State University, Baton Rouge LA 70803
+## Current Appointment
+Assistant Professor of Sport Management
+Louisiana State University, Baton Rouge LA 70803
 
 ## Education
 
