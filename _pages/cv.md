@@ -1,5 +1,6 @@
 ---
-layout: archive
+layout: cv
+css: Academic CV.css
 title: "CV"
 permalink: /cv/
 author_profile: true
