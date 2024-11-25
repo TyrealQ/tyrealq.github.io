@@ -8,10 +8,10 @@
 
 # Basic Site Settings
 locale                   : "en-US"
-title                    : "Yizhou Qian 钱亦舟"
+title                    : "Dr. Q"
 title_separator          : "-"
-name                     : &name "Your Name"
-description              : &description "personal description"
+name                     : &name "Yizhou Qian 钱亦舟"
+description              : &description ""
 url                      : https://tyrealq.github.io # the base hostname & protocol for your site e.g. "https://[your GitHub username].github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "TyrealQ/tyrealq.github.io"
