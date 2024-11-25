@@ -11,7 +11,7 @@ locale                   : "en-US"
 title                    : "Dr. Q"
 title_separator          : "-"
 name                     : &name "Yizhou Qian 钱亦舟"
-description              : &description " "
+description              : &description ""
 url                      : https://tyrealq.github.io # the base hostname & protocol for your site e.g. "https://[your GitHub username].github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "TyrealQ/tyrealq.github.io"
@@ -24,7 +24,7 @@ author:
   avatar           : "profile.jpg"
   name             : "Yizhou (Tyreal) Qian"
   pronouns         : # example: "she/her"  
-  bio              : #
+  bio              : "AP"
   location         : #
   employer         : "Louisiana State University"
   uri              : # URL
@@ -71,7 +71,7 @@ author:
   weibo            : # Username
   wikipedia        : # Username
   xing             : # Username
-  youtube          : "@yizhouqian5899/podcasts"
+  youtube          : # Username
   zhihu            : # Username
 
 # Publication Category - The following the list of publication categories and their headings
