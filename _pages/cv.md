@@ -1,27 +1,24 @@
 ---
 layout: archive
-title: "CV"
+title: "Curriculum Vitae"
 permalink: /cv/
 author_profile: true
 redirect_from:
   - /resume
 ---
 
-## Xule Lin 林徐乐
+## Yizhou (Tyreal) Qian 钱亦舟
 
-### Imperial College London South Kensington Campus, London SW7 2AZ, UK
+### Louisiana State University, Baton Rouge LA 70803
 
-### [xule.lin@imperial.ac.uk](mailto:xule.lin@imperial.ac.uk) | [linxule.com](https://linxule.com/)
+## Education
 
-# Education
-
-- Imperial College Business School, Imperial College London, 2019 – 2025 (Expected)
-	- Doctor of Philosophy, Management and Entrepreneurship
-- University of Chicago, 2018 – 2019
-	- Graduate Student At-Large
-- University of Notre Dame, 2011 – 2016
-	- MSc in Accountancy
-	- BBA in Accounting
+- University of Georgia (2015–2019)
+	- Ph.D., Sport Management
+- Shanghai University of Sport (2012-2015)
+	- MEd, Sport Management
+- Xiamen University of Sport (2007–2011)
+	- BA, English Literature
 
 Work experience
 ======
