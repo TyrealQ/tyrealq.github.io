@@ -20,7 +20,7 @@ For a comprehensive overview of my academic and professional work, [view my full
 - Xiamen University of Sport
 	- BA in English Literature, 2007-2011
 
-## Scholarly Focus
+## Research Focus
 
 My research addresses problems at the intersection of service marketing and digital communication with a focus on the esports and sports industries. I also leverage applied artificial intelligence and machine learning, particularly large language models for natural language processing and large multimodal models for computer vision, to analyze user-generated content across physical and digital platforms, offering novel perspectives on consumer behavior in today’s interconnected environments.
 
