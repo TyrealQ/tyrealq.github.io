@@ -8,9 +8,8 @@ redirect_from:
 ---
 
 ## Current Appointment
-Assistant Professor of Sport Management
-
-Louisiana State University, Baton Rouge LA 70803
+Assistant Professor of Sport Management<br/>
+Louisiana State University<br/>
 
 ## Education
 
