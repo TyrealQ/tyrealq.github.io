@@ -10,7 +10,7 @@ redirect_from:
 Curriculum Vitae [PDF](https://www.dropbox.com/scl/fi/5txtoeyzk6xkzyqnh85gd/CV_Tyreal-Yizhou-Qian_PR.pdf?rlkey=qfl5iq6uqge8a1v2fq5eau4dh&dl=0)
 ## Current Appointment
 - Louisiana State University
-	- Assistant Professor of Sport Management, 2019
+	- Assistant Professor of Sport Management, 2019-Present
 
 ## Education
 
@@ -21,7 +21,7 @@ Curriculum Vitae [PDF](https://www.dropbox.com/scl/fi/5txtoeyzk6xkzyqnh85gd/CV_T
 - Xiamen University of Sport
 	- BA in English Literature, 2011
 
-## Research Interests
+## Scholarly Focus
 
 My research addresses problems at the intersection of service marketing and digital communication with a focus on the esports and sports industries. I also leverage applied artificial intelligence and machine learning, particularly large language models for natural language processing and large multimodal models for computer vision, to analyze user-generated content across physical and digital platforms, offering novel perspectives on consumer behavior in today’s interconnected environments.
 
