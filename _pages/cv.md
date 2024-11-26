@@ -42,6 +42,6 @@ My research addresses problems at the intersection of service marketing and digi
 - Programming Languages & Software Tools
 	- Python, R, SmartPLS, fsQCA
 - Qualitative Research
-	- Interviews, Case Study, Narrative Analysis
+	- Interviews, Case Studies, Narrative Analysis
 	- [BERTopic](https://maartengr.github.io/BERTopic/index.html), ATLAS.ti
 
