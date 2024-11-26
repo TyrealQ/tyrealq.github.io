@@ -16,7 +16,7 @@ My research bridges service marketing and digital communication through a post-p
 
 I manage knowledge spaces in three key areas:
 
-- Sport Management Research: Research insights on esports consumer behavior, event experiences, gamification in live streaming, and sports-related user-generated content (UGC).
+- Sport Management Research: Research insights into consumer psychology and behavior in sports and esports, the impact of gamification on social live streaming, and the dynamics of user-generated content (UGC).
 - NLP Applications: Large language model (LLM) integrations for aspect-based sentiment analysis (ABSA), BERTopic modeling, and word embeddings.
 - Models & Datasets: Curated collection of reviews, social media content, fine-tuned LLMs, and pre-trained models.
 
