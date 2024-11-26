@@ -14,11 +14,11 @@ redirect_from:
 ## Education
 
 - University of Georgia
-	- Ph.D. in Sport Management, 2019
+	- Ph.D. in Sport Management, 2015-2019
 - Shanghai University of Sport
-	- MEd in Sport Management, 2015
+	- MEd in Sport Management, 2012-2015
 - Xiamen University of Sport
-	- BA in English Literature, 2011
+	- BA in English Literature, 2007-2011
 
 ## Scholarly Focus
 
