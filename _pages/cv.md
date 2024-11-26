@@ -1,6 +1,7 @@
 ---
 layout: archive
 title: "Yizhou (Tyreal) Qian<br/> 
+<br/>
 钱亦舟"
 permalink: /cv/
 author_profile: true
@@ -25,50 +26,13 @@ Louisiana State University<br/>
 
 My research addresses problems at the intersection of service marketing and digital communication with a focus on the esports and sports industries. I also leverage applied artificial intelligence and machine learning, particularly large language models for natural language processing and large multimodal models for computer vision, to analyze user-generated content across physical and digital platforms, offering novel perspectives on consumer behavior in today’s interconnected environments.
 
-# Work in Progress
-
-* Spring 2024: Academic Pages Collaborator
-  * Github University
-  * Duties includes: Updates and improvements to template
-  * Supervisor: The Users
-
-* Fall 2015: Research Assistant
-  * Github University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
-
-* Summer 2015: Research Assistant
-  * Github University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
-  
-Skills
-======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
-
-Publications
-======
-  <ul>{% for post in site.publications reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Talks
-======
-  <ul>{% for post in site.talks reversed %}
-    {% include archive-single-talk-cv.html  %}
-  {% endfor %}</ul>
-  
-Teaching
-======
-  <ul>{% for post in site.teaching reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Service and leadership
-======
-* Currently signed in to 43 different slack teams
+## Work in Progress
+* denotes Ph.D. student under my supervision<br/>
+- Qian, T.Y. , Gong, H., *Li, W., & Xu, C. (Manuscript in preparation). Crafting Olympic narratives: A natural language processing approach to analyze agenda setting and salience and audience engage across Chinese and Western news media. _International Journal of Information Management_.
+- <br/>Qian, T.Y., Matz, R., *Li, W., & Xu, C. (Manuscript in preparation). Make golf great again? Decoding social media reactions to DeChambeau and Trump’s Break 50 video as a lens into sports influencer marketing. _Journal of Sport Management_.
+	- Grant Recipient, Google Cloud Research Credits Program, 2024
+- <br/>Qian, T.Y., Gong, H., & Xu, C. (Manuscript in preparation). Enhancing insights into college football game day experience through text and image sentiment analysis: A natural language processing and computer vision approach. _Tourism Management_.
+	- Grant Recipient, Google Cloud Research Credits Program, 2024
+- <br/>*Li, W., Qian, T.Y., Gong, H., & Xu, C. (Manuscript in preparation). When love story meets cruel summer: How the NFL leverages Taylor Swift and Travis Kelce’s romance on Instagram. _Technological Forecasting and Social Change_.
+	- Winner, 2024 Sport Marketing Association Conference Best Student Paper Award
+- <br/>Qian, T.Y., Yu, B., & Xu, C. (Manuscript in preparation). Breaking boundaries: Public perceptions of esports’ debut as a medal sport in the Asian Games. _Sport Management Review_.
