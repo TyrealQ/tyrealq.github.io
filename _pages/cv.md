@@ -7,11 +7,11 @@ redirect_from:
   - /resume
 ---
 
-## Current Appointment
+# Current Appointment
 Assistant Professor of Sport Management<br/>
 Louisiana State University<br/>
 
-## Education
+# Education
 
 - University of Georgia, 2015-2019
 	- Ph.D., Sport Management
@@ -20,8 +20,12 @@ Louisiana State University<br/>
 - Xiamen University of Sport, 2007-2011
 	- BA, English Literature
 
-Work experience
-======
+# Research Interests
+
+My research addresses problems at the intersection of service marketing and digital communication with a focus on the esports and sports industries. I also leverage applied artificial intelligence and machine learning, particularly large language models for natural language processing and large multimodal models for computer vision, to analyze user-generated content across physical and digital platforms, offering novel perspectives on consumer behavior in today’s interconnected environments.
+
+# Work in Progress
+
 * Spring 2024: Academic Pages Collaborator
   * Github University
   * Duties includes: Updates and improvements to template
