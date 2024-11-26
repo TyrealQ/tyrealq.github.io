@@ -1,6 +1,6 @@
 ---
 layout: archive
-title: "Yizhou (Tyreal) Qian 钱亦舟"
+title: "Yizhou (Tyreal) Qian<br/> 钱亦舟"
 permalink: /cv/
 author_profile: true
 redirect_from:
