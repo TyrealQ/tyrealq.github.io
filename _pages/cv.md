@@ -6,8 +6,7 @@ author_profile: true
 redirect_from:
   - /resume
 ---
-
-Curriculum Vitae [PDF](https://www.dropbox.com/scl/fi/5txtoeyzk6xkzyqnh85gd/CV_Tyreal-Yizhou-Qian_PR.pdf?rlkey=qfl5iq6uqge8a1v2fq5eau4dh&dl=0)
+[Curriculum Vitae](https://www.dropbox.com/scl/fi/5txtoeyzk6xkzyqnh85gd/CV_Tyreal-Yizhou-Qian_PR.pdf?rlkey=qfl5iq6uqge8a1v2fq5eau4dh&dl=0)
 ## Current Appointment
 - Louisiana State University
 	- Assistant Professor of Sport Management, 2019-Present
