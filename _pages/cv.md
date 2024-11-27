@@ -40,4 +40,4 @@ My research addresses problems at the intersection of service marketing and digi
 - Programming Languages
 	- Python, R, Node.js
 - Software & Tools
-	- SmartPLS, fsQCA, ATLAS.ti, BERTopic
+	- SmartPLS, fsQCA, ATLAS.ti, Canva, ComfyUI
