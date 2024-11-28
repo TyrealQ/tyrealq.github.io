@@ -3,7 +3,7 @@ title: "College Football Game Day: Experience Is All You Need"
 collection: talks
 excerpt: Our latest [podcast](https://youtu.be/TCzltLSmOiM) examines new research published in _Sport Management Review_ that uses advanced AI language models to analyze fan sentiment in college football stadium reviews, revealing valuable insights for college football game day experience management and operations.
 type: "Talk"
-permalink: /talks/Podcast_experience
+permalink: /talks/Podcast_EXP
 date: 2024-09-27
 ---
 
