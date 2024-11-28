@@ -9,7 +9,7 @@ date: 2024-09-27
 
 In this [podcast](https://youtu.be/TCzltLSmOiM), we break down complex AI and NLP concepts for a general audience, explaining the innovative applications of LLMs in analyzing college football game day experience. Whether you're an AI enthusiast or just curious about how technology is shaping sports analytics, this podcast offers valuable insights.
 
-<iframe src="https://youtu.be/embed/TCzltLSmOiM" 
+<iframe src="https://www.youtube.com/embed/TCzltLSmOiM" 
     style="display: block; width: 100%; aspect-ratio: 16/9; margin-bottom: 1em;"
     frameborder="0" 
     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
