@@ -1,5 +1,5 @@
 ---
-title: 'Whispers of Dawn in Tracy's Smile'
+title: "Whispers of Dawn in Tracy's Smile"
 excerpt: "<br/><img src='/images/Tracy_cute.png'>"
 collection: portfolio
 permalink: /portfolio/Tracy_cute
