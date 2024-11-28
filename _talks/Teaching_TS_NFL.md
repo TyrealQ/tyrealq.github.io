@@ -24,4 +24,4 @@ I welcome your feedback and thoughts on this new online learning experience. Who
     src="https://www.canva.com/design/DAGXlyvQ-hs/-WuprGU1BeLNpn0OnNs5Cg/view?embed" allowfullscreen="allowfullscreen" allow="fullscreen">
   </iframe>
 </div>
-<a href="https://www.canva.com/design/DAGXlyvQ-hs/-WuprGU1BeLNpn0OnNs5Cg/view?utm_content=DAGXlyvQ-hs&utm_campaign=designshare&utm_medium=link&utm_source=editor" target="_blank" rel="noopener">Presentation</a>
+<a href="https://www.canva.com/design/DAGXlyvQ-hs/-WuprGU1BeLNpn0OnNs5Cg/view?utm_content=DAGXlyvQ-hs&utm_campaign=designshare&utm_medium=link&utm_source=editor" target="_blank" rel="noopener">Presentation</a> by Dr. Q
