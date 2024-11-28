@@ -1,10 +1,10 @@
 ---
-title: "Esports Debuts as Medal Sport at 2023 Asian Games: Public Perception on X"
+title: "When Love Story Meets Cruel Summer: Did the NFL Score with Taylor Swift and Travis Kelce’s Romance on Instagram?"
 collection: talks
-excerpt: This [podcast](https://youtu.be/OGSWYdjpHUE) examines an interesting study accepted by _The 58th Hawaii International Conference on System Sciences_ that uses latest NLP techniques (BERTopic and LLM topic representation) to analyze public discourse around esports’ inclusion in the Asian Games on X.
+excerpt: One of our most intriguing findings shared in the [podcast](https://youtu.be/HpOOvWrgiGM) is that posts showing Swift and Kelce together naturally garnered the best engagement - no staged moments needed, just their genuine connection speaking for itself.
 type: "Talk"
-permalink: /talks/Podcast_HICSS58
-date: 2024-10-30
+permalink: /talks/Podcast_TS_NFL
+date: 2024-11-14
 ---
 
-Our [podcast](https://youtu.be/OGSWYdjpHUE) touches on the innovative combination of BERTopic and GPT-4 for topic modeling, shares insights into global perceptions of esports as a competitive sport, and offers implications for future Olympic inclusion. Note that we have made our data and code publicly available on [GitHub](https://github.com/TyrealQ/Twitter-Perceptions-Esports-2023-Asian-Games_HICSS-58)!
+Our [podcast](https://youtu.be/HpOOvWrgiGM) discusses how we combined NLP with fsQCA to explore this unique intersection of sports and entertainment on social media. Note that my doctoral student Weizhe (Willie) Li received the Outstanding Student Paper Award at the 2024 Sport Marketing Association Conference in St. Louis for the study titled "From the field to the heart: How the NFL scores with Taylor Swift and Travis Kelce's romance on Instagram"!
