@@ -1,5 +1,5 @@
 ---
-title: "Real Talk About Robo-Umps: Baseball's Authenticity Debate on Reddit"
+title: "Real Talk about Robo-Umps: Baseball's Authenticity Debate on Reddit"
 collection: talks
 excerpt: In this [podcast](https://youtu.be/oYZV_o9TMR0?si=V9E5Jj_O4PFMwnWs), Luke and I explore how baseball fans perceive Automated Ball-Strike System (ABS) and its impact on the authenticity of the game.
 type: "Talk"
