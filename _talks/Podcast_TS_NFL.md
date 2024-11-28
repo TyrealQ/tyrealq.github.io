@@ -7,4 +7,6 @@ permalink: /talks/Podcast_TS_NFL
 date: 2024-11-14
 ---
 
-Our [podcast](https://youtu.be/HpOOvWrgiGM) discusses how we combined NLP with fsQCA to explore this unique intersection of sports and entertainment on social media. <br>Note that my doctoral student, Weizhe (Willie) Li, received the Outstanding Student Paper Award at the 2024 Sport Marketing Association Conference in St. Louis for the study titled "From the field to the heart: How the NFL scores with Taylor Swift and Travis Kelce's romance on Instagram"!
+Our [podcast](https://youtu.be/HpOOvWrgiGM) discusses how we combined NLP with fsQCA to explore this unique intersection of sports and entertainment on social media. 
+
+Note that my doctoral student, Weizhe (Willie) Li, received the Outstanding Student Paper Award at the 2024 Sport Marketing Association Conference in St. Louis for the study titled "From the field to the heart: How the NFL scores with Taylor Swift and Travis Kelce's romance on Instagram"!
