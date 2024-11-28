@@ -9,5 +9,3 @@ venue: 'Sports Technology and Innovation Symposium (host by Lemelson Center for 
 paperurl: ''
 citation: "Mao, L. L., Qian, T. Y., & Xu, C. (2024, October). Technology, authenticity, and fans’ sentiment: A case study of the automated ball-strike system. Sports Technology and Innovation Symposium, Washington, DC."
 ---
-
-The contents above will be part of a list of publications, if the user clicks the link for the publication than the contents of section will be rendered as a full page, allowing you to provide more information about the paper for the reader. When publications are displayed as a single page, the contents of the above "citation" field will automatically be included below this section in a smaller font.
