@@ -7,5 +7,5 @@ excerpt: 'This study pioneers a transfer learning approach grounded in a post-po
 date: August 2024
 venue: 'Sport Management Review'
 paperurl: 'https://www.tandfonline.com/doi/full/10.1080/14413523.2024.2386467'
-citation: 'Qian, T.Y., *Li, W., Gong, H., Seifried, C., & Xu, C. (2024). Experience is all you need: A large language model application of fine-tuned GPT-3.5 and RoBERTa for aspect-based sentiment analysis of college football stadium reviews. <i>Sport Management Review</i>.'
+citation: 'Qian, T.Y., Li, W., Gong, H., Seifried, C., & Xu, C. (2024). Experience is all you need: A large language model application of fine-tuned GPT-3.5 and RoBERTa for aspect-based sentiment analysis of college football stadium reviews. <i>Sport Management Review</i>.'
 ---
