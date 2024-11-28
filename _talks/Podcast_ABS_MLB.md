@@ -1,10 +1,10 @@
 ---
-title: "Esports Debuts as Medal Sport at 2023 Asian Games: Public Perception on X"
+title: "Real Talk About Robo-Umps: Baseball's Authenticity Debate on Reddit"
 collection: talks
-excerpt: This [podcast](https://youtu.be/OGSWYdjpHUE) examines an interesting study accepted by _The 58th Hawaii International Conference on System Sciences_ that uses latest NLP techniques (BERTopic and LLM topic representation) to analyze public discourse around esports’ inclusion in the Asian Games on X.
+excerpt: In this [podcast](https://youtu.be/oYZV_o9TMR0?si=V9E5Jj_O4PFMwnWs), Luke and I explore how baseball fans perceive Automated Ball-Strike System (ABS) and its impact on the authenticity of the game.
 type: "Talk"
-permalink: /talks/Podcast_HICSS58
-date: 2024-10-30
+permalink: /talks/Podcast_ABS_MLB
+date: 2024-11-01
 ---
 
-Our [podcast](https://youtu.be/OGSWYdjpHUE) touches on the innovative combination of BERTopic and GPT-4 for topic modeling, shares insights into global perceptions of esports as a competitive sport, and offers implications for future Olympic inclusion. Note that we have made our data and code publicly available on [GitHub](https://github.com/TyrealQ/Twitter-Perceptions-Esports-2023-Asian-Games_HICSS-58)!
+Our [podcast](https://youtu.be/oYZV_o9TMR0?si=V9E5Jj_O4PFMwnWs) reveals three major dimensions of authenticity driving fans’ reactions. Nostalgic authenticity preserves the classic feel of the game. Procedural authenticity pertains to fairness and consistency through tech. Community authenticity addresses how ABS affects fan connections and culture. Feel free to join us on YouTube as we discuss how fans weigh these elements, often balancing innovation with baseball’s timeless spirit.
