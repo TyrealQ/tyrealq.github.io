@@ -11,7 +11,7 @@ Our [podcast](https://youtu.be/EFhTut5Vrnc) discusses Winter Olympic-related twe
 
 <div style="position: relative; width: 100%; padding-bottom: 56.25%;">
     <iframe style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"
-        src="https://youtu.be/EFhTut5Vrnc"
+        src="https://youtu.be/embed/EFhTut5Vrnc"
         title="YouTube video player"
         frameborder="0"
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
