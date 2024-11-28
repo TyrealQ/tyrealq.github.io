@@ -5,4 +5,4 @@ collection: portfolio
 permalink: /portfolio/Tracy_cute
 ---
 
-Tyreal as a football player, generated via [ComfyUI-InstantID](https://github.com/ZHO-ZHO-ZHO/ComfyUI-InstantID)
+Whispers of Dawn in Tracy's Smile, created via [ComfyUI-InstantID](https://github.com/ZHO-ZHO-ZHO/ComfyUI-InstantID)
