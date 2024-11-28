@@ -11,7 +11,7 @@ In this [podcast](https://youtu.be/TCzltLSmOiM), we break down complex AI and NL
 
 <div style="position: relative; width: 100%; padding-bottom: 56.25%;">
     <iframe style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"
-        src="https://youtu.be/TCzltLSmOiM"
+        src="https://youtu.be/embed/TCzltLSmOiM"
         title="YouTube video player"
         frameborder="0"
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
