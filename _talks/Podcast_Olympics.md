@@ -1,5 +1,5 @@
 ---
-title: "Tweets, triumphs, and tensions"
+title: "Tweets, triumphs, and tensions: 2022 Beijing Winter Olympics on X"
 collection: talks
 excerpt: This [podcast](https://youtu.be/EFhTut5Vrnc) examines new research published in _Communication & Sport_ that uses an NLP technique (LDA topic modeling) to unpack the social media buzz around the 2022 Beijing Winter Olympics.
 type: "Talk"
