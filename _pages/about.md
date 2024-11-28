@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "Meet Ty"
+title: "Meet Tyreal"
 author_profile: true
 redirect_from: 
   - /about/
