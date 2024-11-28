@@ -1,7 +1,7 @@
 ---
 title: "Tweets, triumphs, and tensions"
 collection: talks
-excerpt: This [podcast](https://youtu.be/EFhTut5Vrnc) examines new research published in _Communication & Sport_ that uses natural langugage processing technique (topic modeling) to unpack the social media buzz around the 2022 Beijing Winter Olympics.
+excerpt: This [podcast](https://youtu.be/EFhTut5Vrnc) examines new research published in _Communication & Sport_ that uses an NLP technique (LDA topic modeling) to unpack the social media buzz around the 2022 Beijing Winter Olympics.
 type: "Talk"
 permalink: /talks/Podcast_experience
 date: 2024-10-28
