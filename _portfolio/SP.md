@@ -1,6 +1,6 @@
 ---
 title: "Siping's Poem: Portrait of A Father"
-excerpt: "<br/><img src='/images/SP.png'>"
+excerpt: "<br/><img src='/images/SP8.png'>"
 collection: portfolio
 permalink: /portfolio/SP
 ---
