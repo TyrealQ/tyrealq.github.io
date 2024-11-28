@@ -2,7 +2,7 @@
 title: "Experience is all you need"
 collection: talks
 type: "Talk"
-permalink: /talks/Experience
+permalink: /talks/Podcast_experience
 date: August 2024
 location: "Podcast"
 ---
