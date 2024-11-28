@@ -7,7 +7,7 @@ permalink: /portfolio/Logo_Q
 
 Brand logos for Yizhou (Tyreal) Qian, created via [Ideogram](https://ideogram.ai/) and [Canva](https://www.canva.com/)
 
-<img src='/images/embed/Logo_Q_W.png'>
+<img src='/images/Logo_Q_W.png'>
 
 Originally from mainland China, I carry a cultural heritage embedded in my name 钱亦舟 (Qian Yi Zhou). The surname Qian (钱) traces back to the State of Qian in ancient China and holds historical significance in its connection to currency and wealth, as this character represents money in Chinese. In my given name, 亦舟 (Yizhou), 亦 (Yi) means "also" or "alike," while 舟 (Zhou) means "boat" or "vessel." Together, my name conveys a profound truth: like vessels navigating the vast sea, we are all on a shared journey across life's boundless waters.
 
