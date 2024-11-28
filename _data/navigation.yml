@@ -12,7 +12,4 @@ main:
     url: /publications/
 
   - title: "Teaching Demos"
-    url: /talks/    
-          
-  - title: "Fun Stuff"
-    url: /year-archive/
+    url: /talks/
