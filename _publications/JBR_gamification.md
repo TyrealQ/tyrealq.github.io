@@ -1,5 +1,5 @@
 ---
-title: "Gamification for value creation and viewer engagement in gamified livestreaming services: The moderating role of gender in esports."
+title: "Gamification for value creation and viewer engagement in gamified livestreaming services: The moderating role of gender in esports"
 collection: publications
 category: manuscripts
 permalink: /publication/JBR_gamification
