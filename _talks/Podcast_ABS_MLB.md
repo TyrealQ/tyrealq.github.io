@@ -11,7 +11,7 @@ Our [podcast](https://youtu.be/oYZV_o9TMR0?si=V9E5Jj_O4PFMwnWs) reveals three ma
 
 <div style="position: relative; width: 100%; padding-bottom: 56.25%;">
     <iframe style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"
-        src="https://youtu.be/oYZV_o9TMR0"
+        src="https://youtu.be/embed/oYZV_o9TMR0"
         title="YouTube video player"
         frameborder="0"
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
