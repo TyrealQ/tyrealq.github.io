@@ -20,7 +20,7 @@ As someone who is passionate about teaching and making research more accessible,
     allowfullscreen>
 </iframe>
 
-The slides are available via the link provided below. If you're an educator, please feel free to incorporate some of the ideas into your own teaching, just be sure to give proper attribution when sharing my work with your colleagues and students.
+<br>The slides are available via the link provided below. If you're an educator, please feel free to incorporate some of the ideas into your own teaching, just be sure to give proper attribution when sharing my work with your colleagues and students.
 
 I welcome your feedback and thoughts on this new online learning experience. Who knows - you might just come away with some brilliant social media content ideas of your own!
 
