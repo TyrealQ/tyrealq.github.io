@@ -9,5 +9,3 @@ venue: 'The 58th Hawaii International Conference on System Sciences (HICSS), Big
 paperurl: 'https://arxiv.org/abs/2409.18798'
 citation: "Qian, T. Y., Yu, B., Li, W., & Xu, C. (2025, January). Esports’ debut as a medal event at the 2023 Asian Games: Exploring public perceptions with BERTopic and GPT-4 topic fine-tuning. Accepted (free communication) at the 58th Hawaii International Conference on System Sciences (HICSS), Big Island, HI."
 ---
-
-The contents above will be part of a list of publications, if the user clicks the link for the publication than the contents of section will be rendered as a full page, allowing you to provide more information about the paper for the reader. When publications are displayed as a single page, the contents of the above "citation" field will automatically be included below this section in a smaller font.
