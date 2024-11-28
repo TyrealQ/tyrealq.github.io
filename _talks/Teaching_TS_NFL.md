@@ -1,5 +1,5 @@
 ---
-title: "QLearning: The Hits and Misses in the NFL's Swift-Kelce Instagram Strategy"
+title: "QLearning: Hits and Misses in the NFL's Swift-Kelce Instagram Strategy"
 collection: talks
 excerpt: Introducing [a transformative online learning experience](https://youtu.be/HpOOvWrgiGM) that takes an in-depth look at highly engaged, yet negatively received NFL Instagram posts featuring Taylor Swift and Travis Kelce. By analyzing this real-world case study, students will uncover valuable insights on how celebrity-athlete crossovers can face backlash if perceived as prioritizing fame over the sport, as well as strategies for striking the right balance between sports and culture on social media. The course culminates in an interactive activity where students use the COSTAR framework to ideate and refine their own original Instagram post concept.
 type: "Talk"
@@ -24,4 +24,4 @@ I welcome your feedback and thoughts on this new online learning experience. Who
     src="https://www.canva.com/design/DAGXlyvQ-hs/-WuprGU1BeLNpn0OnNs5Cg/view?embed" allowfullscreen="allowfullscreen" allow="fullscreen">
   </iframe>
 </div>
-<a href="https://www.canva.com/design/DAGXlyvQ-hs/-WuprGU1BeLNpn0OnNs5Cg/view?utm_content=DAGXlyvQ-hs&utm_campaign=designshare&utm_medium=link&utm_source=editor" target="_blank" rel="noopener">QLearning_When Love Story Meets Cruel Summer at Canva</a> by Dr. Q
+<a href="https://www.canva.com/design/DAGXlyvQ-hs/-WuprGU1BeLNpn0OnNs5Cg/view?utm_content=DAGXlyvQ-hs&utm_campaign=designshare&utm_medium=link&utm_source=editor" target="_blank" rel="noopener">QLearning: When Love Story Meets Cruel Summer at Canva</a> by Dr. Q
