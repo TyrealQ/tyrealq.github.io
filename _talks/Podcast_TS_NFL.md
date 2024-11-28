@@ -11,12 +11,9 @@ Our [podcast](https://youtu.be/HpOOvWrgiGM) discusses how we combined NLP with f
 
 Note that my doctoral student, Weizhe (Willie) Li, received the Outstanding Student Paper Award at the 2024 Sport Marketing Association Conference in St. Louis for the study titled "From the field to the heart: How the NFL scores with Taylor Swift and Travis Kelce's romance on Instagram"!
 
-<div style="position: relative; width: 100%; padding-bottom: 56.25%;">
-    <iframe style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"
-        src="https://www.youtube.com/embed/F6tCFdRKuoE"
-        title="YouTube video player"
-        frameborder="0"
-        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-        allowfullscreen>
-    </iframe>
-</div>
+<iframe src="https://www.youtube.com/embed/F6tCFdRKuoE" 
+    style="display: block; width: 100%; aspect-ratio: 16/9; margin-bottom: 1em;"
+    frameborder="0" 
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+    allowfullscreen>
+</iframe>
