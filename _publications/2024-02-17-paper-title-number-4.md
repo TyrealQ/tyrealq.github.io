@@ -1,5 +1,5 @@
 ---
-title: "Technology, authenticity, and fans’ sentiment: A case study of the automated ball-strike system"
+title: 'Technology, authenticity, and fans’ sentiment: A case study of the automated ball-strike system'
 collection: publications
 category: conferences
 permalink: 
