@@ -18,7 +18,7 @@ As someone who is passionate about teaching and making research more accessible,
     position: relative;
     width: 100%;
     padding-bottom: 56.25%;
-    margin: 1em 0;
+    margin: 20px 0;
 }
 .video-container iframe {
     position: absolute;
