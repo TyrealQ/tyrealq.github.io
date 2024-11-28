@@ -1,7 +1,7 @@
 ---
 title: "Experience is all you need"
 collection: talks
-excerpt: Our latest [podcast](https://youtu.be/TCzltLSmOiM) examines new research published in Sport Management Review that uses advanced AI language models to analyze fan sentiment in college football stadium reviews, revealing valuable insights for college football game day experience management and operations.
+excerpt: Our latest [podcast](https://youtu.be/TCzltLSmOiM) examines new research published in _Sport Management Review_ that uses advanced AI language models to analyze fan sentiment in college football stadium reviews, revealing valuable insights for college football game day experience management and operations.
 type: "Talk"
 permalink: /talks/Podcast_experience
 date: 2024-09-27
