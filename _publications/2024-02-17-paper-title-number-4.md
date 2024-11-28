@@ -1,13 +1,13 @@
 ---
-title: "Paper Title Number 4"
+title: "Technology, authenticity, and fans’ sentiment: A case study of the automated ball-strike system"
 collection: publications
 category: conferences
-permalink: /publication/2024-02-17-paper-title-number-4
-excerpt: 'This paper is about fixing template issue #693.'
-date: 2024-02-17
-venue: 'GitHub Journal of Bugs'
-paperurl: 'http://academicpages.github.io/files/paper3.pdf'
-citation: 'Your Name, You. (2024). &quot;Paper Title Number 3.&quot; <i>GitHub Journal of Bugs</i>. 1(3).'
+permalink: 
+excerpt: 'This study examines sports fans' perceptions of Automated Ball-Strike (ABS) technology in baseball, focusing on its impact on the perceived authenticity of the game. By analyzing 225 Reddit posts and 8,529 comments through topic modeling, sentiment, and thematic analysis, three core themes emerged: nostalgic authenticity, procedural authenticity, and community authenticity. Fans' views on ABS reflect a tension between embracing technological advancement and preserving traditional elements of the sport. This nuanced reconciliation shapes whether fans accept or resist ABS, contributing valuable insight into the evolving role of technology in sports and its effect on fan engagement and authenticity.'
+date: October 2024
+venue: 'Sports Technology and Innovation Symposium (host by Lemelson Center for the Study of Invention and Innovation, National Museum of American History, Smithsonian Institution), Washington, DC.'
+paperurl: ''
+citation: 'Mao, L. L., Qian, T. Y., & Xu, C. (2024, October). Technology, authenticity, and fans’ sentiment: A case study of the automated ball-strike system. Sports Technology and Innovation Symposium, Washington, DC.'
 ---
 
 The contents above will be part of a list of publications, if the user clicks the link for the publication than the contents of section will be rendered as a full page, allowing you to provide more information about the paper for the reader. When publications are displayed as a single page, the contents of the above "citation" field will automatically be included below this section in a smaller font.
