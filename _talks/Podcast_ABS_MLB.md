@@ -8,3 +8,13 @@ date: 2024-11-01
 ---
 
 Our [podcast](https://youtu.be/oYZV_o9TMR0?si=V9E5Jj_O4PFMwnWs) reveals three major dimensions of authenticity driving fans’ reactions. Nostalgic authenticity preserves the classic feel of the game. Procedural authenticity pertains to fairness and consistency through tech. Community authenticity addresses how ABS affects fan connections and culture. Hope you enjoy this food for thought as we discuss how fans weigh these elements, often balancing innovation with baseball’s timeless spirit.
+
+<div style="position: relative; width: 100%; padding-bottom: 56.25%;">
+    <iframe style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"
+        src="https://youtu.be/oYZV_o9TMR0"
+        title="YouTube video player"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen>
+    </iframe>
+</div>
