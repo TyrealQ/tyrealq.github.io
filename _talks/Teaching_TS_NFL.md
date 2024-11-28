@@ -15,7 +15,7 @@ As someone who is passionate about teaching and making research more accessible,
 
 <div style="position: relative; width: 100%; padding-bottom: 56.25%;">
     <iframe style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"
-        src="https://youtu.be/HpOOvWrgiGM"
+        src="https://www.youtube.com/embed/HpOOvWrgiGM"
         title="YouTube video player"
         frameborder="0"
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
