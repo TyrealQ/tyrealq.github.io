@@ -7,5 +7,5 @@ excerpt: 'The current study examined the relationships between gamification, per
 date: 2022
 venue: 'Journal of Business Research'
 paperurl: 'https://www.sciencedirect.com/science/article/pii/S0148296322002211?via%3Dihub'
-citation: 'Qian, T. Y., Matz, R., Luo, L., & Xu, C. (2022). Gamification for value creation and viewer engagement in gamified livestreaming services: The moderating role of gender in esports. Journal of Business Research, 145, 482-494.'
+citation: 'Qian, T. Y., Matz, R., Luo, L., & Xu, C. (2022). Gamification for value creation and viewer engagement in gamified livestreaming services: The moderating role of gender in esports. <i>Journal of Business Research, 145</i>, 482-494.'
 ---
