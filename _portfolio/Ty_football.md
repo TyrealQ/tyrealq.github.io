@@ -1,5 +1,5 @@
 ---
-title: "Tyrael's Gridiron Glory"
+title: "Tyreal's Gridiron Glory"
 excerpt: "<br/><img src='/images/Q.png'>"
 collection: portfolio
 permalink: /portfolio/Ty_football
