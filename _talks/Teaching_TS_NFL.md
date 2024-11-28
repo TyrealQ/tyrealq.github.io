@@ -13,6 +13,16 @@ But the learning doesn’t stop there. I’ve designed an interactive activity a
 
 As someone who is passionate about teaching and making research more accessible, I’m really proud of this innovative content. My goal is to create learning experiences that are not only informative, but also fun and relevant to students’ interests. After all, the most impactful education happens when we can connect the material to things people truly care about.
 
+<div style="position: relative; width: 100%; padding-bottom: 56.25%;">
+    <iframe style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"
+        src="https://youtu.be/HpOOvWrgiGM"
+        title="YouTube video player"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen>
+    </iframe>
+</div>
+
 The course slides are available via the link provided below. If you're an educator, please feel free to incorporate some of the ideas into your own teaching, just be sure to give proper attribution when sharing my work with your colleagues and students.
 
 I welcome your feedback and thoughts on this new online learning experience. Who knows - you might just come away with some brilliant social media content ideas of your own!
