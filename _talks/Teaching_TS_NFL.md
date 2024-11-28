@@ -18,7 +18,6 @@ As someone who is passionate about teaching and making research more accessible,
     position: relative;
     width: 100%;
     padding-bottom: 56.25%;
-    margin: 20px 0;
 }
 .video-container iframe {
     position: absolute;
@@ -28,6 +27,7 @@ As someone who is passionate about teaching and making research more accessible,
     height: 100%;
 }
 </style>
+
 <div class="video-container">
     <iframe src="https://www.youtube.com/embed/HpOOvWrgiGM"
         title="YouTube video player"
