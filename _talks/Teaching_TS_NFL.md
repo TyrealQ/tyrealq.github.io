@@ -14,7 +14,7 @@ But the learning doesn’t stop there. I’ve designed an interactive activity a
 As someone who is passionate about teaching and making research more accessible, I’m really proud of this innovative content. My goal is to create learning experiences that are not only informative, but also fun and relevant to students’ interests. After all, the most impactful education happens when we can connect the material to things people truly care about.
 
 <iframe src="https://www.youtube.com/embed/HpOOvWrgiGM" 
-    style="display: block; width: 100%; aspect-ratio: 16/9; margin-bottom: 1em;"
+    style="display: block; width: 100%; aspect-ratio: 16/9; margin-bottom: 2em;"
     frameborder="0" 
     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
     allowfullscreen>
