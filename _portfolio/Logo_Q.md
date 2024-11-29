@@ -1,11 +1,11 @@
 ---
-title: "Brand Logos for Yizhou (Tyreal) Qian"
+title: "Brand Logos for Yizhou (Tyreal) Qian 钱亦舟"
 excerpt: "<br/><img src='/images/Logo_Q.png'>"
 collection: portfolio
 permalink: /portfolio/Logo_Q
 ---
 
-Brand logos for Yizhou (Tyreal) Qian, created via [Ideogram](https://ideogram.ai/) and [Canva](https://www.canva.com/)
+Brand logos for Yizhou (Tyreal) Qian 钱亦舟, created via [Ideogram](https://ideogram.ai/) and [Canva](https://www.canva.com/)
 
 <img src='/images/Logo_Q_SB.png'>
 
