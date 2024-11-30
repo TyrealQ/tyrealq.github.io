@@ -18,6 +18,6 @@ I manage knowledge spaces in three key areas:
 
 - Sport Management Research: Research insights into consumer psychology and behavior in sports and esports, the impact of gamification on social live streaming, and the dynamics of user-generated content (UGC).
 - NLP Applications: Large language model (LLM) integrations for aspect-based sentiment analysis (ABSA), BERTopic modeling, and word embeddings.
-- Models & Datasets: Curated collection of reviews, social media content, fine-tuned LLMs, and pre-trained models.
+- Models & Datasets: Curated collection of reviews, social media content, and fine-tuned LLMs.
 
 Resources available on: [YouTube](https://www.youtube.com/@yizhouqian5899/podcasts), [GitHub](https://github.com/TyrealQ), [Hugging Face](https://huggingface.co/tyrealqian), and [OSF](https://osf.io/dx8bc/).
