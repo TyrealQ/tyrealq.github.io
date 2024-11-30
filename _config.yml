@@ -22,7 +22,7 @@ repository               : "TyrealQ/tyrealq.github.io"
 author:
   # Biographic information
   avatar           : "profile.jpg"
-  name             : "Yizhou (Tyreal) Qian<br><div style='display: block; text-align: center; width: calc(100% - 60px); margin-left: 30px;'>钱亦舟</div>"
+  name             : "Yizhou (Tyreal) Qian<br><div style='position: relative; left: 50px; margin-top: 5px;'>钱亦舟</div>"
   pronouns         : # example: "she/her"  
   bio              : ""
   location         : #
