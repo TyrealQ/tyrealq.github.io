@@ -3,7 +3,7 @@ title: "Technology, authenticity, and fans’ sentiment: A case study of the aut
 collection: publications
 category: conferences
 permalink: /publication/Smithsonian
-excerpt: "Our research examines baseball fans' reactions to Automated Ball-Strike technology through analysis of Reddit posts and comments. The findings reveal three key dimensions of authenticity that influence fan acceptance: nostalgic (traditional elements), procedural (game mechanics), and community (shared experiences). This study provides valuable insights into how sports organizations can effectively balance technological innovation with preserving the game's essential character, ultimately enhancing our understanding of technology's role in modern sports engagement."
+excerpt: "Our research examined baseball fans' reactions to Automated Ball-Strike technology through analysis of Reddit posts and comments. The findings revealed three key dimensions of authenticity that influenced fan acceptance: nostalgic (traditional elements), procedural (game mechanics), and community (shared experiences). This study provides valuable insights into how sports organizations can effectively balance technological innovation with preserving the game's essential character, ultimately enhancing our understanding of technology's role in modern sports engagement."
 date: October 2024
 venue: 'Sports Technology and Innovation Symposium, Washington, DC.'
 ---
