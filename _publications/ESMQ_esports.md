@@ -3,7 +3,7 @@ title: "It is in the game: Dimensions of esports online spectator motivation and
 collection: publications
 category: manuscripts
 permalink: /publication/ESMQ_esports
-excerpt: 'Our study developed the Motivation Scale of Esports Spectatorship (MSES) through mixed methods analysis. The findings revealed unique motivational factors specific to esports viewing—skill improvement and vicarious sensation—alongside traditional viewing factors like competition excitement and social bonding. By examining platform-specific features such as first-person views and chat interaction, this study provides stakeholders with a validated framework for understanding and enhancing viewer engagement in the expanding esports market.'
+excerpt: 'We utilized a mixed methods design to develop the Motivation Scale for Esports Spectatorship (MSES). The findings revealed unique motivational factors specific to esports viewing—skill improvement and vicarious sensation—alongside traditional viewing factors like competition excitement and social bonding. By examining platform-specific features such as first-person views and chat interaction, this study provides stakeholders with a validated framework for understanding and enhancing viewer engagement in the expanding esports market.'
 date: June 2020
 venue: 'European Sport Management Quarterly'
 paperurl: 'https://www.tandfonline.com/doi/full/10.1080/16184742.2019.1630464'
