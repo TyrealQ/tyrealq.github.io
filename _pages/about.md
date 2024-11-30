@@ -6,7 +6,7 @@ redirect_from:
   - /about/
   - /about.html
 ---
-Welcome! I'm Ty—also known as Dr. Q—an [Assistant Professor of Sport Management at Louisiana State University](https://www.lsu.edu/chse/kinesiology/faculty_listing/qian.php). Outside of work, I cherish a joyful life with my wife, Tracy. We share our passions, celebrate special moments, and find meaning in the beauty of everyday life.
+Welcome! I'm Ty, also known as Dr. Q, an [Assistant Professor of Sport Management at Louisiana State University](https://www.lsu.edu/chse/kinesiology/faculty_listing/qian.php). Outside of work, I cherish a joyful life with my wife, Tracy. We share our passions, celebrate special moments, and find meaning in the beauty of everyday life.
 
 ## Research Interests
 
@@ -16,8 +16,8 @@ My research bridges service marketing and digital communication through a post-p
 
 I manage knowledge spaces in three key areas:
 
-- Sport Management Research: Research insights into consumer psychology and behavior in sports and esports, the impact of gamification on social live streaming, and the dynamics of user-generated content (UGC).
+- Sport Management Research: Research insights into consumer psychology and behavior in sports and esports, the impact of gamification on social live streaming, and the dynamics of user-generated content (UGC), while simultaneously developing accessible teaching frameworks that translate research findings into inclusive learning experiences and democratize knowledge across diverse communities.
 - NLP Applications: Large language model (LLM) integrations for aspect-based sentiment analysis (ABSA), BERTopic modeling, and word embeddings.
 - Models & Datasets: Curated collection of reviews, social media content, and fine-tuned LLMs.
 
-Resources available on: [YouTube](https://www.youtube.com/@yizhouqian5899/podcasts), [GitHub](https://github.com/TyrealQ), [Hugging Face](https://huggingface.co/tyrealqian), and [OSF](https://osf.io/dx8bc/).
+Resources available on: [YouTube](https://youtube.com/@tyrealq?si=nAMjGEzRCEXQ7SBt), [GitHub](https://github.com/TyrealQ), [Hugging Face](https://huggingface.co/tyrealqian), and [OSF](https://osf.io/dx8bc/).
