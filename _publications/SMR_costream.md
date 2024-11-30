@@ -3,7 +3,7 @@ title: "Watching sports on Twitch? A study of factors influencing continuance in
 collection: publications
 category: manuscripts
 permalink: /publication/SMR_costream
-excerpt: 'We explored the NFL's Thursday Night Football co-streaming partnership with Twitch, examining how video game personalities influence viewer engagement. The findings revealed that co-streaming fit and virtual interactions significantly drive continued viewership, with streamer expertise having particularly strong impact among highly identified viewers. This study provides valuable insights for sports organizations seeking to leverage social live streaming platforms for enhanced fan engagement through personalized commentary and interactive experiences.'
+excerpt: "We explored the NFL's Thursday Night Football co-streaming partnership with Twitch, examining how video game personalities influence viewer engagement. The findings revealed that co-streaming fit and virtual interactions significantly drive continued viewership, with streamer expertise having particularly strong impact among highly identified viewers. This study provides valuable insights for sports organizations seeking to leverage social live streaming platforms for enhanced fan engagement through personalized commentary and interactive experiences."
 date: July 2021
 venue: 'Sport Management Review'
 paperurl: 'https://doi.org/10.1080/14413523.2021.1930700'
