@@ -37,9 +37,9 @@ My research addresses problems at the intersection of service marketing and digi
 
 ## Skills
 
-- Programming Languages
-	- Python, R, Node.js
-- Software & Tools
-	- SmartPLS, fsQCA 4.1<br>
- 	- Excalidraw, Canva, ComfyUI<br>
- 	- Multi-Agent AI Systems (LLMs & LMMs) 
+- Programming Languages:
+    - Python, R, Node.js
+- Software & Tools:
+    - SmartPLS, fsQCA 4.1
+    - Excalidraw, Canva, ComfyUI
+    - Multi-Agent AI Systems (LLMs & LMMs)
