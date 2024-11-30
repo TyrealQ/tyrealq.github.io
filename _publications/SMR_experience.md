@@ -3,7 +3,7 @@ title: "Experience is all you need: A large language model application of fine-t
 collection: publications
 category: manuscripts
 permalink: /publication/SMR_experience
-excerpt: 'Drawing on cutting-edge transfer learning and large language models, our research analyzed thousands of Tripadvisor reviews to decode what drives exceptional experiences at college football stadiums. The findings reveal that five-star ratings emerge from the interplay of positive game dynamics, well-maintained facilities, emotional intensity, and vibrant fan interactions. Notably, the study identified that addressing facility issues and safety concerns has the most significant impact on visitor satisfaction. This research provides event managers with both a comprehensive framework for understanding the fan experience and practical tools to enhance game day operations, bridging theoretical insights with actionable strategies for college football stadium management.'
+excerpt: 'Drawing on LLMs (transfer learning), we analyzed Tripadvisor reviews to identify the key drivers of exceptional college football game day experience. The findings revealed that top-rated experiences stem from a combination of engaging game dynamics, quality facilities, emotional atmosphere, and fan community. Critical to achieving high satisfaction is the effective management of facility maintenance and safety protocols. Our study provides event managers with both a comprehensive framework for understanding the fan experience and practical tools to enhance game day operations, bridging theoretical insights with actionable strategies.'
 date: August 2024
 venue: 'Sport Management Review'
 paperurl: 'https://www.tandfonline.com/doi/full/10.1080/14413523.2024.2386467'
