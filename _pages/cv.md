@@ -25,7 +25,7 @@ For a comprehensive overview of my academic and professional work, [view my full
 My research addresses problems at the intersection of service marketing and digital communication with a focus on the esports and sports industries. I also leverage applied artificial intelligence and machine learning, particularly large language models for natural language processing and large multimodal models for computer vision, to analyze user-generated content across physical and digital platforms, offering novel perspectives on consumer behavior in today’s interconnected environments.
 
 ## Work in Progress
-"*" denotes Ph.D. student under my supervision.<br/>
+Note: * student mentored.<br/>
 - Qian, T.Y. , Gong, H., *Li, W., & Xu, C. (Manuscript in preparation). Crafting Olympic narratives: A natural language processing approach to analyze agenda setting and salience and audience engage across Chinese and Western news media. _International Journal of Information Management_.
 - Qian, T.Y., Matz, R., *Li, W., & Xu, C. (Manuscript in preparation). Make golf great again? Decoding social media reactions to DeChambeau and Trump’s Break 50 video as a lens into cross-promotional marketing. _Journal of Sport Management_.
 	- Grant Recipient, Google Cloud Research Credits Program, 2024
