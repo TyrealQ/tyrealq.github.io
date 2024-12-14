@@ -1,5 +1,5 @@
 ---
-title: "Xiaoli's Radiant Moment: Portrait of A Mother"
+title: "Xiaoli's Radiant Moment: Portrait of a Mother"
 excerpt: "<br/><img src='/images/XL.png'>"
 collection: portfolio
 permalink: /portfolio/XL
