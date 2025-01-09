@@ -16,6 +16,7 @@ Our [podcast](https://youtu.be/OGSWYdjpHUE) touches on the innovative combinatio
     allowfullscreen>
 </iframe>
 
+
 The associated slides can be accessed through the link below. Dr. Q presented the project at HICSS-58.
 
 <div style="position: relative; width: 100%; height: 0; padding-top: 56.2500%;
