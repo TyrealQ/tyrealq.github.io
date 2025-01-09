@@ -20,7 +20,7 @@ Our [podcast](https://youtu.be/OGSWYdjpHUE) touches on the innovative combinatio
  padding-bottom: 0; box-shadow: 0 2px 8px 0 rgba(63,69,81,0.16); margin-top: 1.6em; margin-bottom: 0.9em; overflow: hidden;
  border-radius: 8px; will-change: transform;">
   <iframe loading="lazy" style="position: absolute; width: 100%; height: 100%; top: 0; left: 0; border: none; padding: 0;margin: 0;"
-    src="https://www.canva.com/design/DAGXlyvQ-hs/-WuprGU1BeLNpn0OnNs5Cg/view?embed" allowfullscreen="allowfullscreen" allow="fullscreen">
+    src="https://www.canva.com/design/DAGbK_XHxe0/8ePRDvu3If6-1NOp5TCBFg/view?embed" allowfullscreen="allowfullscreen" allow="fullscreen">
   </iframe>
 </div>
 <a href="https://www.canva.com/design/DAGbK_XHxe0/IRrhMpKQtrdSniFpl3CKmA/view?utm_content=DAGbK_XHxe0&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=hc2ce5a9d6b" target="_blank" rel="noopener">Esports’ Debut as a Medal Event at 2023 Asian Games: Exploring Public Perceptions with BERTopic and GPT-4 Topic Fine-Tuning at Canva</a> by Weizhe Li and Dr. Q
