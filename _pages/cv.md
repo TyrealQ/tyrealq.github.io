@@ -40,8 +40,7 @@ Note: * student mentored.<br/>
 - Programming Languages:
     - Python
     - R
-    - Node.js
 - Software & Tools:
     - SmartPLS, fsQCA 4.1
     - Excalidraw, Canva, ComfyUI
-    - Multi-Agent AI Systems (LLMs & LMMs)
+    - Multi-Agent & Multimodal AI Systems
