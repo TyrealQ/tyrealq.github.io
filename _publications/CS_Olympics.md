@@ -1,7 +1,6 @@
 ---
 title: "Tweets, triumphs, and tensions: A machine learning approach to decoding multi-tier thematic framing of the 2022 Beijing Winter Olympics on social media"
 collection: publications
-category: manuscripts
 permalink: /publication/CS_Olympics
 excerpt: 'Our research examined how different content creator tiers on X framed and influenced engagement during the 2022 Beijing Winter Olympics. Through text mining, we identified three key themes—athletic achievements, international participation, and geopolitical implications—with distinct engagement patterns across creator levels. The findings revealed that while mega creators drove engagement through sports content, smaller creators balanced athletic and political discussions, providing valuable insights into how creator hierarchy shapes public discourse around major sporting events.'
 date: July 2024
