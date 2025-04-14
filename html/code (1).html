@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Experience is All You Need: LLM Sentiment Analysis of Fan Reviews</title>
+    <link href="https://cdn.staticfile.org/tailwindcss/2.2.19/tailwind.min.css" rel="stylesheet">
+    <link href="https://cdn.staticfile.org/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Serif+Pro:wght@400;600;700&family=Source+Sans+Pro:wght@300;400;600&display=swap" rel="stylesheet">
+    <style>
+        /* Base Styles - Light Mode */
+        :root {
+            --bg-color: #f8f9fa; /* Off-white background */
+            --text-color: #212529; /* Dark gray text */
+            --heading-color: #000; /* Black headings */
+            --link-color: #0d6efd; /* Standard blue link */
+            --link-hover-color: #0a58ca;
+            --card-bg: #ffffff; /* White cards */
+            --card-shadow: 0 2px 4px rgba(0,0,0,0.05), 0 4px 8px rgba(0,0,0,0.05);
+            --border-color: #dee2e6; /* Light gray border */
+            --accent-color: #0d6efd; /* Accent blue */
+            --highlight-bg: rgba(13, 110, 253, 0.1); /* Subtle highlight */
+            --table-header-bg: #e9ecef;
+            --table-row-even-bg: #f8f9fa;
+        }
+
+        /* Dark Mode Styles */
+        html.dark {
+            --bg-color: #1a1a1a; /* Very dark gray background */
+            --text-color: #e0e0e0; /* Light gray text */
+            --heading-color: #ffffff; /* White headings */
+            --link-color: #6ea8fe; /* Lighter blue link */
+            --link-hover-color: #8bb9ff;
+            --card-bg: #2c2c2c; /* Darker card background */
+            --card-shadow: 0 4px 8px rgba(0,0,0,0.3);
+            --border-color: #444; /* Darker border */
+            --accent-color: #6ea8fe; /* Lighter blue accent */
+            --highlight-bg: rgba(110, 168, 254, 0.15); /* Subtle dark highlight */
+            --table-header-bg: #343a40;
+            --table-row-even-bg: #2c2c2c;
+        }
+
+        body {
+            background-color: var(--bg-color);
+            color: var(--text-color);
+            font-family: 'Source Sans Pro', Tahoma, Arial, sans-serif;
+            line-height: 1.7;
+            transition: background-color 0.3s ease, color 0.3s ease;
+        }
+        h1, h2, h3, h4, h5, h6 {
+            font-family: 'Source Serif Pro', serif;
+            color: var(--heading-color);
+            font-weight: 600;
+            margin-bottom: 0.75em;
+        }
+        .prose { max-width: none; }
+        .prose p, .prose li { color: var(--text-color); font-size: 1rem; margin-bottom: 1em; }
+        .prose h2 { font-size: 1.8rem; margin-top: 2.5em; border-bottom: 1px solid var(--border-color); padding-bottom: 0.4em; }
+        .prose h3 { font-size: 1.4rem; margin-top: 2em; }
+        .prose a { color: var(--link-color); text-decoration: none; }
+        .prose a:hover { color: var(--link-hover-color); text-decoration: underline; }
+        .prose strong { font-weight: 600; color: var(--heading-color); }
+
+        .card {
+            background-color: var(--card-bg);
+            border-radius: 0.375rem; /* 6px */
+            box-shadow: var(--card-shadow);
+            border: 1px solid var(--border-color);
+            transition: all 0.3s ease;
+            overflow: hidden;
+        }
+        .card:hover { transform: translateY(-3px); box-shadow: 0 6px 12px rgba(0,0,0,0.08), 0 8px 16px rgba(0,0,0,0.08); }
+        html.dark .card:hover { box-shadow: 0 6px 12px rgba(0,0,0,0.4); }
+
+        .badge { display: inline-block; padding: 0.3em 0.6em; font-size: 0.75rem; font-weight: 600; line-height: 1; text-align: center; white-space: nowrap; vertical-align: baseline; border-radius: 0.25rem; margin: 0.1rem; background-color: var(--accent-color); color: var(--bg-color); }
+        html.dark .badge { color: var(--heading-color); }
+
+        .highlight { background-color: var(--highlight-bg); padding: 0.1em 0.3em; border-radius: 3px; font-weight: 600; color: var(--heading-color); }
+
+        /* Table Styles */
+        .custom-table { width: 100%; margin: 1.5em 0; border-collapse: collapse; overflow: hidden; border: 1px solid var(--border-color); border-radius: 6px; font-size: 0.9rem; }
+        .custom-table th, .custom-table td { padding: 10px 12px; text-align: left; border-bottom: 1px solid var(--border-color); }
+        .custom-table thead th { background-color: var(--table-header-bg); color: var(--heading-color); font-weight: 600; border-bottom-width: 2px; }
+        .custom-table tbody tr:nth-child(even) { background-color: var(--table-row-even-bg); }
+        .custom-table tbody tr:hover { background-color: rgba(13, 110, 253, 0.05); }
+        html.dark .custom-table tbody tr:hover { background-color: rgba(110, 168, 254, 0.1); }
+
+        /* Responsive table styles */
+        @media screen and (max-width: 600px) {
+            .custom-table thead { display: none; }
+            .custom-table tr { display: block; margin-bottom: 10px; border: 1px solid var(--border-color); border-radius: 4px; }
+            .custom-table td { display: block; text-align: right; border-bottom: 1px dotted var(--border-color); }
+            .custom-table td::before { content: attr(data-label); float: left; font-weight: bold; text-transform: uppercase; color: var(--heading-color); }
+            .custom-table td:last-child { border-bottom: 0; }
+        }
+
+        /* Mermaid Styles */
+        .mermaid svg { display: block; margin: auto; max-width: 100%; height: auto; }
+        .mermaid .node rect, .mermaid .node circle, .mermaid .node ellipse, .mermaid .node polygon { fill: var(--card-bg) !important; stroke: var(--accent-color) !important; stroke-width: 1.5px !important; }
+        .mermaid .node text { fill: var(--text-color) !important; font-family: 'Source Sans Pro', sans-serif !important; }
+        .mermaid .edgeLabel text { fill: var(--text-color) !important; background-color: var(--bg-color) !important; }
+        .mermaid .edgePath { stroke: var(--border-color) !important; }
+        .mermaid .arrowheadPath { fill: var(--border-color) !important; }
+        .mermaid .mindmap-node > rect { fill: var(--accent-color) !important; stroke: var(--accent-color) !important; }
+        .mermaid .mindmap-node > text { fill: var(--bg-color) !important; font-weight: 600; }
+        .mermaid .mindmap-level-1 > rect, .mermaid .mindmap-level-2 > rect, .mermaid .mindmap-level-3 > rect { fill: var(--card-bg) !important; stroke: var(--border-color) !important; }
+        .mermaid .mindmap-level-1 > text, .mermaid .mindmap-level-2 > text, .mermaid .mindmap-level-3 > text { fill: var(--text-color) !important; }
+        html.dark .mermaid .mindmap-node > text { fill: var(--heading-color) !important; }
+
+    </style>
+</head>
+<body class="antialiased">
+
+    <!-- Dark/Light Mode Toggle Button -->
+    <button id="theme-toggle" type="button" class="fixed bottom-5 right-5 z-50 p-3 rounded-full bg-gray-200 dark:bg-gray-700 text-gray-800 dark:text-gray-200 shadow-lg hover:bg-gray-300 dark:hover:bg-gray-600 transition duration-300" aria-label="Toggle dark mode">
+        <i class="fas fa-sun block dark:hidden"></i>
+        <i class="fas fa-moon hidden dark:block"></i>
+    </button>
+
+    <!-- Header -->
+    <header class="py-16 md:py-24 bg-white dark:bg-gray-800 border-b border-gray-200 dark:border-gray-700">
+        <div class="container mx-auto px-6 text-center">
+            <h1 class="text-4xl md:text-5xl font-bold mb-3 leading-tight text-gray-900 dark:text-white">Experience is All You Need</h1>
+            <p class="text-lg md:text-xl mb-6 text-gray-600 dark:text-gray-300 max-w-3xl mx-auto">Using Fine-Tuned LLMs for Aspect-Based Sentiment Analysis of College Football Fan Reviews</p>
+            <div class="text-xs text-gray-500 dark:text-gray-400">
+                <p>Tyreal Yizhou Qianª, Weizhe Liª, Hua Gongᵇ, Chad Seifriedª, Chenglong Xuᶜ</p>
+                <p>ªLSU, USA; ᵇRice Univ., USA; ᶜShanghai Univ. of Sport, China</p>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="container mx-auto px-6 py-12">
+        <article class="prose lg:prose-lg dark:prose-dark mx-auto max-w-4xl">
+
+            <!-- Abstract/Summary -->
+            <section id="summary" class="mb-12 p-6 card">
+                <h2 class="!text-xl !font-semibold !mt-0 !mb-3 !border-b-0"><i class="fas fa-file-alt mr-2 text-blue-600 dark:text-blue-400"></i>Study Summary</h2>
+                <p>Understanding fan experience in spectator sports is complex and often oversimplified. This study introduces a <strong class="highlight">novel approach using fine-tuned Large Language Models (LLMs)</strong> to perform Aspect-Based Sentiment Analysis (ABSA) on 8,405 Tripadvisor reviews of college football stadiums. We identify key experience dimensions (Core, Functional, Emotional, Socialization, Monetary, Safety) and analyze how sentiment towards each impacts fan ratings. Findings reveal that positive emotional and social experiences boost ratings, but <strong class="highlight">mitigating negative functional and safety issues is paramount</strong> for achieving top (5-star) scores. The study provides both a refined understanding of fan experience and practical LLM tools for sports managers.</p>
+            </section>
+
+            <section id="introduction">
+                <h2><i class="fas fa-lightbulb mr-2 text-green-600 dark:text-green-400"></i>The Challenge: Deeply Understanding Fan Experience</h2>
+                <p>Optimizing customer experience (CE) is vital in spectator sports, boosting loyalty and satisfaction. However, CE's multifaceted nature is hard to grasp, especially with traditional methods like surveys that miss spontaneous reactions. Online reviews offer rich insights, but analyzing them at scale requires advanced tools.</p>
+                <p>While Natural Language Processing (NLP) helps, standard sentiment analysis lacks granularity. <strong class="highlight">Aspect-Based Sentiment Analysis (ABSA)</strong> analyzes feelings towards specific aspects (e.g., parking, atmosphere), but requires domain-specific models often lacking in sports management.</p>
+                 <p>This study addresses this gap by fine-tuning LLMs (GPT-3.5, RoBERTa) specifically for college football reviews, aiming to answer:</p>
+                 <ol class="list-decimal list-inside text-sm !mb-0">
+                    <li>How do fans express different aspects of their experience in reviews?</li>
+                    <li>How do sentiments towards these aspects influence 5-star ratings?</li>
+                </ol>
+            </section>
+
+            <section id="framework-methods">
+                <h2><i class="fas fa-cogs mr-2 text-orange-600 dark:text-orange-400"></i>Framework & Methodology</h2>
+                <p>We adopted a unified CE view, focusing on spontaneous fan reactions to six key stimuli categories, visualized below. Our methodology employed a post-positivism approach, blending qualitative depth from reviews with quantitative analysis via NLP.</p>
+
+                <!-- ORIGINAL Customer Experience Framework Diagram -->
+                <div class="my-8 p-4 card">
+                    <h3 class="text-lg font-semibold !mt-0 mb-3"><i class="fas fa-project-diagram mr-2 text-indigo-600 dark:text-indigo-400"></i>Integrative Customer Experience Framework</h3>
+                    <p class="text-xs italic mb-4">This diagram illustrates the six key stimuli categories influencing the multifaceted customer experience in spectator sports.</p>
+                    <div class="mermaid">
+                    mindmap
+                      root((Game Day Experience))
+                        Core
+                          ::icon(fa fa-futbol)
+                          Game Dynamics
+                          Player Quality
+                          Team Performance
+                        Functional
+                          ::icon(fa fa-cogs)
+                          Facilities
+                          Services
+                          Parking
+                          Concessions
+                          Restrooms
+                        Emotional
+                          ::icon(fa fa-heart)
+                          Excitement
+                          Atmosphere
+                          Thrill
+                          Disappointment
+                        Socialization
+                          ::icon(fa fa-users)
+                          Fan Interaction
+                          Traditions
+                          Tailgating
+                          Community Spirit
+                        Monetary
+                          ::icon(fa fa-dollar-sign)
+                          Ticket Price
+                          Value for Money
+                          Concession Costs
+                        Safety
+                          ::icon(fa fa-shield-alt)
+                          Security Presence
+                          Crowd Control
+                          Feeling Secure
+                          Exit Routes
+                    </div>
+                </div>
+
+                <h3 class="!text-lg"><i class="fas fa-stream mr-2 text-cyan-600 dark:text-cyan-400"></i>Analysis Pipeline</h3>
+                 <p>Our process involved:</p>
+                 <ol class="list-decimal list-inside text-sm space-y-1">
+                     <li><strong>Data Prep:</strong> Cleaned 8,405 relevant Tripadvisor reviews.</li>
+                     <li><strong>LLM Fine-tuning:</strong> Trained GPT-3.5 on 100 annotated reviews for Aspect Extraction (AE) and Experience Classification (CC) based on the framework.</li>
+                     <li><strong>Sentiment Scoring:</strong> Used a fine-tuned RoBERTa model to score sentiment (-1 to +1) for each extracted aspect description.</li>
+                     <li><strong>Variable Creation:</strong> Calculated average positive and negative sentiment scores for each of the 6 CE categories per review (12 variables total).</li>
+                     <li><strong>Analysis:</strong> Used logistic regression to predict the likelihood of a 5-star rating based on the 12 CE variables.</li>
+                 </ol>
+                 <div class="my-6 text-center text-sm italic text-gray-500 dark:text-gray-400">(See original paper Figure 2 for detailed methodology flowchart)</div>
+            </section>
+
+            <section id="results">
+                <h2><i class="fas fa-chart-bar mr-2 text-pink-600 dark:text-pink-400"></i>Key Findings</h2>
+                 <p>Functional aspects were most frequently mentioned in reviews, followed by Emotional and Socialization. Core game aspects, Monetary, and Safety were mentioned less often.</p>
+                <p>The logistic regression highlighted:</p>
+
+                <!-- Key Results Table -->
+                <div class="my-8 card p-4 md:p-6">
+                     <h3 class="text-lg font-semibold !mt-0 mb-3"><i class="fas fa-star mr-2 text-yellow-500 dark:text-yellow-400"></i>Impact on 5-Star Rating Likelihood</h3>
+                     <p class="text-xs italic mb-4">Odds ratios show the change in likelihood for a 0.1 unit improvement in sentiment score. Only significant results (p<0.05) shown.</p>
+                     <div class="overflow-x-auto">
+                         <table class="custom-table">
+                            <thead>
+                                <tr>
+                                    <th>Experience Aspect</th>
+                                    <th>Sentiment Type</th>
+                                    <th>Impact on 5-Star Odds (per 0.1 unit ↑)</th>
+                                    <th>Relative Strength</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr> <td data-label="Aspect">Emotional</td> <td data-label="Sentiment">Positive</td> <td data-label="Impact">▲ 10%</td> <td data-label="Strength"><span class="font-bold text-green-600 dark:text-green-400">Strong Positive</span></td> </tr>
+                                <tr> <td data-label="Aspect">Socialization</td> <td data-label="Sentiment">Positive</td> <td data-label="Impact">▲ 7%</td> <td data-label="Strength"><span class="font-bold text-green-600 dark:text-green-400">Notable Positive</span></td> </tr>
+                                <tr> <td data-label="Aspect">Core</td> <td data-label="Sentiment">Positive</td> <td data-label="Impact">▲ 3%</td> <td data-label="Strength"><span class="font-bold text-green-600 dark:text-green-400">Significant Positive</span></td> </tr>
+                                <tr> <td data-label="Aspect">Functional</td> <td data-label="Sentiment">Positive</td> <td data-label="Impact">▲ 1%</td> <td data-label="Strength"><span class="font-bold text-green-600 dark:text-green-400">Modest Positive</span></td> </tr>
+                                <tr> <td data-label="Aspect" class="pt-4 border-t-2 border-gray-400 dark:border-gray-600">Functional</td> <td data-label="Sentiment">Negative (Reduced)</td> <td data-label="Impact">▲ 36%</td> <td data-label="Strength"><span class="font-bold text-red-600 dark:text-red-400">Very Strong Negative Impact</span></td> </tr>
+                                <tr> <td data-label="Aspect">Safety</td> <td data-label="Sentiment">Negative (Reduced)</td> <td data-label="Impact">▲ 27%</td> <td data-label="Strength"><span class="font-bold text-red-600 dark:text-red-400">Strong Negative Impact</span></td> </tr>
+                                <tr> <td data-label="Aspect">Monetary</td> <td data-label="Sentiment">Negative (Reduced)</td> <td data-label="Impact">▲ 14%</td> <td data-label="Strength"><span class="font-bold text-red-600 dark:text-red-400">Significant Negative Impact</span></td> </tr>
+                                <tr> <td data-label="Aspect">Socialization</td> <td data-label="Sentiment">Negative (Reduced)</td> <td data-label="Impact">▲ 10%</td> <td data-label="Strength"><span class="font-bold text-red-600 dark:text-red-400">Notable Negative Impact</span></td> </tr>
+                                <tr> <td data-label="Aspect">Emotional</td> <td data-label="Sentiment">Negative (Reduced)</td> <td data-label="Impact">▲ 4%</td> <td data-label="Strength"><span class="font-bold text-red-600 dark:text-red-400">Significant Negative Impact</span></td> </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                     <p class="mt-4 text-sm font-semibold">Key Takeaway: Boosting positive emotional & social vibes helps, but <strong class="highlight">fixing negative functional and safety issues is critical</strong> for top ratings.</p>
+                </div>
+            </section>
+
+            <section id="discussion">
+                <h2><i class="fas fa-comments mr-2 text-indigo-600 dark:text-indigo-400"></i>Discussion & Implications</h2>
+                <p>The findings reveal an <strong class="highlight">asymmetric impact</strong>: poor functional experiences (bad facilities, service) and safety concerns hurt ratings much more than positive experiences in these areas help. Fans likely see good facilities and safety as baseline expectations.</p>
+                <p>Positive emotional and social aspects are key drivers of excellent experiences. Managing the social environment (encouraging positive interactions, mitigating negative ones) and fostering emotional connection are crucial.</p>
+
+                <h3 class="!text-lg">Contributions & Practical Value</h3>
+                <ul class="list-disc list-inside text-sm space-y-1">
+                    <li><strong>Theoretical:</strong> Refines understanding of CE in sports, distinct from simple service quality.</li>
+                    <li><strong>Methodological:</strong> Demonstrates accessible application of fine-tuned LLMs for nuanced sentiment analysis in sport management.</li>
+                    <li><strong>Empirical:</strong> Provides actionable insights for stadium managers – prioritize fixing functional/safety issues, then enhance emotional/social elements. The study's models and code are publicly available.</li>
+                </ul>
+            </section>
+
+             <section id="limitations">
+                <h2><i class="fas fa-exclamation-triangle mr-2 text-red-600 dark:text-red-400"></i>Limitations & Future Directions</h2>
+                <p class="text-sm">This study used only Tripadvisor data. Future research could broaden data sources (e.g., Google Reviews, social media, images/videos) and explore more advanced NLP techniques or non-linear models. Fine-tuning open-source LLMs could enhance accessibility. The binary rating analysis could be expanded to explore nuances in lower ratings.</p>
+            </section>
+
+            <!-- Further Reading Section Removed -->
+
+        </article>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-gray-100 dark:bg-gray-800 border-t border-gray-200 dark:border-gray-700 mt-16 py-8 text-sm text-gray-600 dark:text-gray-400">
+        <div class="container mx-auto px-6 text-center">
+             <div class="mb-6">
+                 <h4 class="font-semibold mb-2 text-gray-700 dark:text-gray-300 text-base">Data Availability</h4>
+                 <p class="mb-3 text-xs">Python code, data files, and materials are publicly available:</p>
+                 <div class="flex justify-center space-x-4">
+                     <a href="https://github.com/TyrealQ/Experience-is-all-you-need_SMR" target="_blank" class="inline-block px-3 py-1.5 bg-gray-600 dark:bg-gray-500 text-white rounded hover:bg-gray-700 dark:hover:bg-gray-400 transition duration-300 text-xs">
+                         <i class="fab fa-github mr-1"></i> GitHub
+                     </a>
+                      <a href="https://osf.io/3cke9/" target="_blank" class="inline-block px-3 py-1.5 bg-blue-600 dark:bg-blue-500 text-white rounded hover:bg-blue-700 dark:hover:bg-blue-400 transition duration-300 text-xs">
+                         <i class="fas fa-archive mr-1"></i> OSF
+                     </a>
+                 </div>
+            </div>
+            <div class="text-xs border-t border-gray-300 dark:border-gray-600 pt-6">
+                <p>Contact: Chenglong Xu <a href="mailto:xuchenglong@sus.edu.cn" class="hover:text-blue-600 dark:hover:text-blue-400"><i class="fas fa-envelope ml-1"></i></a></p>
+                <p class="mt-1">Acknowledgements: C. Duan, Y. Chun, anonymous reviewers. Funding: CHSE/SOK LSU grants.</p>
+                <p class="mt-2">© 2024 Sport Management Association of Australia and New Zealand. Webpage design adapted from paper content.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/mermaid@latest/dist/mermaid.min.js"></script>
+    <script>
+        const applyMermaidTheme = () => {
+            const isDarkMode = document.documentElement.classList.contains('dark');
+            const computedStyle = getComputedStyle(document.documentElement);
+            const bgColor = computedStyle.getPropertyValue('--bg-color').trim();
+            const textColor = computedStyle.getPropertyValue('--text-color').trim();
+            const cardBg = computedStyle.getPropertyValue('--card-bg').trim();
+            const accentColor = computedStyle.getPropertyValue('--accent-color').trim();
+            const borderColor = computedStyle.getPropertyValue('--border-color').trim();
+            const headingColor = computedStyle.getPropertyValue('--heading-color').trim();
+
+            mermaid.initialize({
+                startOnLoad: false,
+                theme: 'base',
+                themeVariables: {
+                    background: bgColor,
+                    primaryColor: cardBg,
+                    primaryTextColor: textColor,
+                    primaryBorderColor: accentColor,
+                    lineColor: borderColor,
+                    secondaryColor: accentColor,
+                    secondaryTextColor: isDarkMode ? headingColor : bgColor,
+                    tertiaryColor: cardBg,
+                    tertiaryTextColor: textColor,
+                    tertiaryBorderColor: borderColor,
+                    textColor: textColor,
+                    fontSize: '14px',
+                },
+                securityLevel: 'loose', // Needed for FontAwesome icons in diagrams
+                fontFamily: "'Source Sans Pro', sans-serif",
+                logLevel: 'warn',
+                mindmap: { padding: 15, maxNodeWidth: 150 }, // Adjusted maxNodeWidth for original diagram
+                graph: { nodeSpacing: 40, rankSpacing: 40 }
+            });
+             try {
+                 mermaid.init(undefined, '.mermaid');
+             } catch (e) {
+                 console.error("Mermaid rendering failed:", e);
+             }
+        };
+
+        const themeToggleBtn = document.getElementById('theme-toggle');
+        const setupTheme = () => {
+             if (localStorage.getItem('color-theme') === 'dark' || (!('color-theme' in localStorage) && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
+                 document.documentElement.classList.add('dark');
+             } else {
+                 document.documentElement.classList.remove('dark');
+             }
+             applyMermaidTheme();
+        };
+
+        document.addEventListener('DOMContentLoaded', setupTheme);
+
+        themeToggleBtn.addEventListener('click', function() {
+            const isDark = document.documentElement.classList.toggle('dark');
+            localStorage.setItem('color-theme', isDark ? 'dark' : 'light');
+            applyMermaidTheme();
+        });
+
+        document.querySelectorAll('.custom-table').forEach(table => {
+            const headers = Array.from(table.querySelectorAll('thead th')).map(th => th.textContent);
+            table.querySelectorAll('tbody tr').forEach(row => {
+                row.querySelectorAll('td').forEach((td, index) => {
+                    if (headers[index]) {
+                      td.setAttribute('data-label', headers[index]);
+                    }
+                });
+            });
+        });
+    </script>
+</body>
+</html>
