@@ -1,6 +1,7 @@
 ---
 title: "Esports’ debut as a medal event at the 2023 Asian Games: Exploring public perceptions with BERTopic and GPT-4 topic fine-tuning"
 collection: publications
+category: conferences
 permalink: /publication/HICSS58
 excerpt: "This study examined public perceptions and stakeholder dynamics of esports at the 2023 Asian Games through LLM-enhanced topic modeling. The findings revealed that while esports' inclusion as a medal event helped legitimize competitive gaming, strategic social media marketing and cross-subcultural collaborations were crucial for building mainstream acceptance. This study provides valuable insights into how major sporting events can effectively integrate esports while managing public perception and stakeholder engagement."
 date: January 2025
