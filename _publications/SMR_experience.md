@@ -1,6 +1,7 @@
 ---
 title: "Experience is all you need: A large language model application of fine-tuned GPT-3.5 and RoBERTa for aspect-based sentiment analysis of college football stadium reviews"
 collection: publications
+category: manuscripts
 permalink: /publication/SMR_experience
 excerpt: 'Drawing on LLMs (transfer learning), we analyzed Tripadvisor reviews to identify the key drivers of exceptional college football game day experience. The findings revealed that top-rated experiences stem from a combination of engaging game dynamics, quality facilities, emotional atmosphere, and fan community. Critical to achieving high satisfaction is the effective management of facility maintenance and safety protocols. Our study provides event managers with both a comprehensive framework for understanding the fan experience and practical tools to enhance game day operations, bridging theoretical insights with actionable strategies.'
 date: August 2024
