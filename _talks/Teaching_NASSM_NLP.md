@@ -17,4 +17,4 @@ The slides are available via the link provided below. I appreciate your feedback
     src="https://www.canva.com/design/DAGonID45DA/fxYlziviV6mAP_AmTK0RWQ/view?embed" allowfullscreen="allowfullscreen" allow="fullscreen">
   </iframe>
 </div>
-<a href="https:&#x2F;&#x2F;www.canva.com&#x2F;design&#x2F;DAGonID45DA&#x2F;fxYlziviV6mAP_AmTK0RWQ&#x2F;view?utm_content=DAGonID45DA&amp;utm_campaign=designshare&amp;utm_medium=embeds&amp;utm_source=link" target="_blank" rel="noopener">NLP4ALL_MAY26</a> by Yizhou Qian nd Weizhe Li
+<a href="https:&#x2F;&#x2F;www.canva.com&#x2F;design&#x2F;DAGonID45DA&#x2F;fxYlziviV6mAP_AmTK0RWQ&#x2F;view?utm_content=DAGonID45DA&amp;utm_campaign=designshare&amp;utm_medium=embeds&amp;utm_source=link" target="_blank" rel="noopener">NLP4ALL</a> by Yizhou Qian nd Weizhe Li
