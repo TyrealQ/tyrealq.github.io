@@ -16,4 +16,4 @@ The slides are available via the link provided below. As always, I welcome your 
     src="https://www.canva.com/design/DAGgOSaOCQU/X4yFmdK8uo8yeGp7YE9ZEg/view?embed" allowfullscreen="allowfullscreen" allow="fullscreen">
   </iframe>
 </div>
-<a href="https://www.canva.com/design/DAGgOSaOCQU/28G4AsJgjSTgl3CaUBM5lA/view?utm_content=DAGgOSaOCQU&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h702e46d8f9" target="_blank" rel="noopener">NASSM Conversations: AI at Canva</a> by Dr. Q
+<a href="https://www.canva.com/design/DAGgOSaOCQU/28G4AsJgjSTgl3CaUBM5lA/view?utm_content=DAGgOSaOCQU&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h702e46d8f9" target="_blank" rel="noopener">NASSM Conversations: Applied AI</a> by Dr. Q
