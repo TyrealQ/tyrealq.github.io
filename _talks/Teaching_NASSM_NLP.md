@@ -8,7 +8,7 @@ permalink: /talks/NASSM_NLP
 date: 2025-05-29
 ---
 
-The slides are available via the link provided below. I appreciate your feedback and thoughts on this talk.
+The workshop resources can be accessed via my Gituhb repo [NLP4ALL](https://github.com/TyrealQ/NLP4ALL). The slides are available via the link provided below. I appreciate your feedback and thoughts on this talk.
 
 <div style="position: relative; width: 100%; height: 0; padding-top: 56.2500%;
  padding-bottom: 0; box-shadow: 0 2px 8px 0 rgba(63,69,81,0.16); margin-top: 1.6em; margin-bottom: 0.9em; overflow: hidden;
