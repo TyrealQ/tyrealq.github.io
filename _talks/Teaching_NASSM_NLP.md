@@ -1,7 +1,8 @@
 ---
 title: "NASSM Workshop: NLP4ALL Insights from Zeigler Lectures"
 collection: talks
-excerpt: > I was honored to lead the NLP4ALL workshop at NASSM 2025 in San Diego. NLP4ALL is dedicated to advancing NLP applications in sport management research. This workshop, "[NLP4ALL: Insights from Zeigler Lectures](https://www.canva.com/design/DAGonID45DA/PjU2wWzTs5P69EvsNerqrA/view?utm_content=DAGonID45DA&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h576a331106)," sparked insightful discussions around diverse NLP techniques, ranging from traditional machine learning methods such as topic modeling to LLM-assisted content analysis. A huge thank you to my co-presenters and all participants who contributed to the engaging dialogue!
+excerpt: >
+  I was honored to lead the NLP4ALL workshop at NASSM 2025 in San Diego. NLP4ALL is dedicated to advancing NLP applications in sport management research. This workshop, "[NLP4ALL: Insights from Zeigler Lectures](https://www.canva.com/design/DAGonID45DA/PjU2wWzTs5P69EvsNerqrA/view?utm_content=DAGonID45DA&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h576a331106)," sparked insightful discussions around diverse NLP techniques, ranging from traditional machine learning methods such as topic modeling to LLM-assisted content analysis. I am grateful to my co-presenters and all participants who contributed to the engaging dialogue!
 type: "Talk"
 permalink: /talks/NASSM_NLP
 date: 2025-05-29
