@@ -26,14 +26,11 @@ My research addresses problems at the intersection of service marketing and digi
 
 ## Work in Progress
 Note: * student mentored.<br/>
-- Qian, T.Y. , Gong, H., *Li, W., & Xu, C. (Manuscript in preparation). Crafting Olympic narratives: A natural language processing approach to analyze agenda setting and salience and audience engage across Chinese and Western news media. _International Journal of Information Management_.
-- Qian, T.Y., Matz, R., *Li, W., & Xu, C. (Manuscript in preparation). Make golf great again? Decoding social media reactions to DeChambeau and Trump’s Break 50 video as a lens into cross-promotional marketing. _Journal of Sport Management_.
-	- Grant Recipient, Google Cloud Research Credits Program, 2024
+- Qian, T.Y., Gong, H., Matz, R., & Xu, C. (Manuscript in preparation). Tee up with me: A multimodal approach to analyzing audience engagement with golf influencers. _International Journal of Information Management_.
+- Qian, T.Y., *Li, W., & Xu, C. (Manuscript in preparation). Redefining the narrative: A Reddit analysis of Caitlin Clark and Angel Reese’s impact on the WNBA discourse. _Journal of Sport Management_.
 - Qian, T.Y., Gong, H., & Xu, C. (Manuscript in preparation). Enhancing insights into college football game day experience through text and image sentiment analysis: A natural language processing and computer vision approach. _Tourism Management_.
 	- Grant Recipient, Google Cloud Research Credits Program, 2024
-- *Li, W., Qian, T.Y., Gong, H., & Xu, C. (Manuscript in preparation). When love story meets cruel summer: How the NFL leverages Taylor Swift and Travis Kelce’s romance on Instagram. _Technological Forecasting and Social Change_.
-	- Winner, 2024 Sport Marketing Association Conference Best Student Paper Award
-- Qian, T.Y., Yu, B., & Xu, C. (Manuscript in preparation). Breaking boundaries: Public perceptions of esports’ debut as a medal sport in the Asian Games. _Sport Management Review_.
+- Qian, T.Y., Yu, B., & Xu, C. (Manuscript in preparation). Breaking boundaries: Public perceptions of esports’ debut as a medal sport in the Asian Games. _Computers in Human Behavior_.
 
 ## Skills
 
