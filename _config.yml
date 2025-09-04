@@ -21,7 +21,7 @@ repository               : "TyrealQ/tyrealq.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "profile.jpg"
+  avatar           : "Ty.png"
   name             : "Yizhou (Tyreal) Qian<br><div style='position: relative; left: 60px; margin-top: 5px;'>钱亦舟</div>"
   pronouns         : # example: "she/her"  
   bio              : ""
