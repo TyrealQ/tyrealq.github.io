@@ -4,7 +4,7 @@ collection: publications
 category: manuscripts
 permalink: /publication/JRCS_Trump
 excerpt: 'Using a human-AI collaboration pipeline, we revealed how entertainment, politics, and athletic frames shaped warmth and competence judgments of Trump’s Break 50 appearance, advancing theory while offering a scalable, replicable way to study user-generated content.'
-date: September 2025
+date: September 2026
 venue: 'Journal of Retailing and Consumer Services'
 paperurl: ''
 ---
