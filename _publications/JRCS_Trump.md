@@ -6,7 +6,7 @@ permalink: /publication/JRCS_Trump
 excerpt: 'Using a human-AI collaboration pipeline, we revealed how entertainment, politics, and athletic frames shaped warmth and competence judgments of Trump’s Break 50 appearance, advancing theory while offering a scalable, replicable way to study user-generated content.'
 date: September 2026
 venue: 'Journal of Retailing and Consumer Services'
-paperurl: ''
+paperurl: 'https://www.sciencedirect.com/science/article/pii/S0969698925002991?dgcid=coauthor'
 ---
 
 What happens when sports, politics, and entertainment collide on social media?
