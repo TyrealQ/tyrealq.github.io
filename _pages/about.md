@@ -22,10 +22,11 @@ My research bridges service marketing and digital communication through a post-p
 
 ## Open Resource Space
 
-I manage knowledge spaces in three key areas:
+I manage knowledge spaces in the following areas:
 
-- Sport Management Research: Research insights into consumer psychology and behavior in sports and esports, the impact of gamification on social live streaming, and the dynamics of user-generated content (UGC), while simultaneously developing accessible teaching frameworks that translate research findings into inclusive learning experiences and democratize knowledge across diverse communities.
-- NLP Applications: Large language model (LLM) integrations for aspect-based sentiment analysis (ABSA), BERTopic modeling, and word embeddings.
-- Models & Datasets: Curated collection of reviews, social media content, and fine-tuned LLMs.
+- Sport Management Research: Generating insights into consumer psychology and behavior in sports and esports contexts, such as the impact of gamification on social live streaming and the dynamics of user-generated content (UGC), while also developing accessible teaching frameworks that translate research into inclusive learning experiences and help democratize knowledge across diverse communities.
+- NLP Applications: Integration of large language models (LLMs) with aspect-based sentiment analysis (ABSA), BERTopic topic modeling, and word embedding techniques.
+- Computer vision: Application of large multimodal models (LMMs) for computer vision tasks and advanced video analytics.
+- Datasets: Custom-curated collections of multimodal data, encompassing user-generated content (UGC), news media, corporate reports, and other textual, visual, and audiovisual sources.
 
 Resources available on: [YouTube](https://youtube.com/@tyrealq?si=nAMjGEzRCEXQ7SBt), [GitHub](https://github.com/TyrealQ), [Hugging Face](https://huggingface.co/tyrealqian), and [OSF](https://osf.io/dx8bc/).
