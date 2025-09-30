@@ -7,7 +7,7 @@ permalink: /talks/Podcast_B50
 date: 2025-09-30
 ---
 
-[Break 50](https://youtu.be/eF3-8QLw7Z8) analyzes the diverse online reactions to a YouTube collaboration between professional golfer Bryson DeChambeau and President Donald Trump, demonstrating how a single event can be interpreted in multiple ways. Using natural language processing on over 54,000 comments, the analysis applies Framing Theory and the Stereotype Content Model (SCM) to reveal that audiences split into three main groups, viewing the video through the lens of entertainment, politics, or athletics. These frames led to vastly different judgments of warmth and competence, resulting in reactions ranging from admiration to contempt. The study concludes that online reputation is not fixed but is a fluid, situational construct, dynamically shaped by the audience, the specific context, and the platform (e.g., YouTube vs. Instagram), proving that viewers are active interpreters rather than passive consumers of media.
+[Break 50](https://youtu.be/eF3-8QLw7Z8) analyzes the diverse online reactions to a YouTube collaboration between professional golfer Bryson DeChambeau and President Donald Trump, demonstrating how a single event can be interpreted in multiple ways. We argue that online reputation is not fixed but is a fluid, situational construct, dynamically shaped by the audience, the specific context, and the platform (e.g., YouTube vs. Instagram), proving that viewers are active interpreters rather than passive consumers of media.
 
 <iframe src="https://www.youtube.com/embed/eF3-8QLw7Z8?si=12sFku9M92BZ4quK" 
     style="display: block; width: 100%; aspect-ratio: 16/9; margin-bottom: 2em;"
