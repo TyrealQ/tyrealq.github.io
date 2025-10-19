@@ -8,7 +8,7 @@ permalink: /talks/SMA_HAI
 date: 2025-10-23
 ---
 
-The symposium resources can be accessed via my Gituhb repo [AI-Conversation](https://github.com/TyrealQ/AI-Conversation). The slides are available via the link below. Your feedback on this talk is greatly appreciated.
+The symposium resources can be accessed via my Gituhb repo [AI-Conversation](https://github.com/TyrealQ/AI-Conversation). The slides are available below. Your feedback on this talk is greatly appreciated.
 
 <div style="position: relative; width: 100%; height: 0; padding-top: 56.2500%;
  padding-bottom: 0; box-shadow: 0 2px 8px 0 rgba(63,69,81,0.16); margin-top: 1.6em; margin-bottom: 0.9em; overflow: hidden;
