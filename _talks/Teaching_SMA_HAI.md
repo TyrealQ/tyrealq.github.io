@@ -2,7 +2,7 @@
 title: "SMA Symposium: Human-AI Collaboration in Sport Marketing Research"
 collection: talks
 excerpt: >
-  It was a pleasure to share our experiences of integrating AI in sport marketing research at SMA 2025 in Phoenix-Glendale. Our [talk](https://www.canva.com/design/DAGx9MB9sYg/-AvljRSDZXO1_yP4ZcYJwQ/view?utm_content=DAGx9MB9sYg&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h4d0609387a), "Human-AI Collaboration in Sport Marketing Research: Harnessing Practical AI Tools and Applications," is dedicated to advancing AI literacy and applications in sport marketing research. We emphasized important considerations for successful human-AI collaboration, including the need for awareness and articulation of research needs, context engineering, systems thinking, output evaluation.
+  It was a pleasure to share our experiences of integrating AI in sport marketing research at SMA 2025 in Phoenix-Glendale. Our talk, "[Human-AI Collaboration in Sport Marketing Research: Harnessing Practical AI Tools and Applications](https://www.canva.com/design/DAGx9MB9sYg/-AvljRSDZXO1_yP4ZcYJwQ/view?utm_content=DAGx9MB9sYg&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h4d0609387a)," is dedicated to advancing AI literacy and applications in sport marketing research. We emphasized important considerations for successful human-AI collaboration, including the need for awareness and articulation of research needs, context engineering, systems thinking, output evaluation.
 type: "Talk"
 permalink: /talks/SMA_HAI
 date: 2025-10-23
