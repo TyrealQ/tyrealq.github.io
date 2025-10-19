@@ -17,4 +17,4 @@ The symposium resources can be accessed via my Gituhb repo [AI-Conversation](htt
     src="https://www.canva.com/design/DAGx9MB9sYg/iHBzqa9FH9a_J8cmHh0J-A/view?embed" allowfullscreen="allowfullscreen" allow="fullscreen">
   </iframe>
 </div>
-<a href="https:&#x2F;&#x2F;www.canva.com&#x2F;design&#x2F;DAGonID45DA&#x2F;fxYlziviV6mAP_AmTK0RWQ&#x2F;view?utm_content=DAGonID45DA&amp;utm_campaign=designshare&amp;utm_medium=embeds&amp;utm_source=link" target="_blank" rel="noopener">HAI-SMA</a> by Dr. Q, Shuoyu (Sam) Chen, Weizhe (Willie) Li, and Ruichen (John) Yang
+<a href="https:&#x2F;&#x2F;www.canva.com&#x2F;design&#x2F;DAGx9MB9sYg&#x2F;iHBzqa9FH9a_J8cmHh0J-A&#x2F;view?utm_content=DAGx9MB9sYg&amp;utm_campaign=designshare&amp;utm_medium=embeds&amp;utm_source=link" target="_blank" rel="noopener">HAI-SMA</a> by Dr. Q, Shuoyu (Sam) Chen, Weizhe (Willie) Li, and Ruichen (John) Yang
