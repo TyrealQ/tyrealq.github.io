@@ -39,6 +39,6 @@ Note: * student mentored.<br/>
     - Python
     - R
 - Software & Tools:
-    - SmartPLS, fsQCA 4.1
+    - SmartPLS, fsQCA
     - Excalidraw, Canva, ComfyUI
     - Multi-Agent & Multimodal AI Systems
