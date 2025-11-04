@@ -29,7 +29,7 @@ My research addresses problems at the intersection of service marketing and digi
 Note: * student mentored.<br/>
 - Qian, T.Y., Gong, H., Matz, R., & Xu, C. (Manuscript in preparation). Tee up with me: A multimodal approach to analyzing audience engagement with golf influencers. _International Journal of Information Management_.
 - Qian, T.Y., *Li, W., & Xu, C. (Manuscript in preparation). Redefining the narrative: A Reddit analysis of Caitlin Clark and Angel Reese’s impact on the WNBA discourse. _Journal of Sport Management_.
-- Qian, T.Y., Gong, H., & Xu, C. (Manuscript in preparation). Enhancing insights into college football game day experience through text and image sentiment analysis: A natural language processing and computer vision approach. _Tourism Management_.
+- Qian, T.Y., Gong, H., & Xu, C. (Manuscript in preparation). Enhancing insights into college football game day experience through multimodal analytics. _Tourism Management_.
 	- Grant Recipient, Google Cloud Research Credits Program, 2024
 - Qian, T.Y., Yu, B., & Xu, C. (Manuscript in preparation). Breaking boundaries: Public perceptions of esports’ debut as a medal sport in the Asian Games. _Computers in Human Behavior_.
 
