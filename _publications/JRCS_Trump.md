@@ -1,5 +1,5 @@
 ---
-title: "Sports, politics, and social media: A human-AI collaborative analysis of consumer reactions to Trump’s Break 50 appearance "
+title: "Sports, politics, and social media: A human-AI collaborative analysis of consumer reactions to Trump’s Break 50 appearance"
 collection: publications
 category: manuscripts
 permalink: /publication/JRCS_Trump
