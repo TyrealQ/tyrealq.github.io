@@ -5,7 +5,7 @@ collection: portfolio
 permalink: /portfolio/Sticker_Q
 ---
 
-Social media sticker, created using Nano Banana Pro
+My social media sticker, created using Nano Banana Pro
 
 <img src='/images/Ty_Q_EN.jpeg'>
 
