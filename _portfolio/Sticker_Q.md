@@ -7,8 +7,6 @@ permalink: /portfolio/Sticker_Q
 
 Social media sticker, created using Nano Banana Pro
 
-<img src='/images/Q.png'>
-
 <img src='/images/Ty_Q_EN.jpeg'>
 
 # Prompt
