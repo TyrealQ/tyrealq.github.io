@@ -1,6 +1,6 @@
 ---
 title: "3D City Landmark Weather Visualization"
-excerpt: "<br/><img src='/images/Athens_GA.jpeg'>"
+excerpt: "<br/><img src='/images/SM_FJ.jpeg'>"
 collection: portfolio
 permalink: /portfolio/Landmark_Weather
 ---
