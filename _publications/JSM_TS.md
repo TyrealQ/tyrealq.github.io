@@ -6,7 +6,7 @@ permalink: /publication/JSM_TS
 excerpt: 'Our analysis of 41 NFL Instagram posts along with over 200,000 comments about the Taylor Swift-Travis Kelce relationship revealed that content visually presenting the couple with minimal explicit romantic cues achieved higher engagement and more favorable sentiment by effectively managing competing audience expectations rooted in a gendered cognitive schema conflict.'
 date: January 2026
 venue: 'Journal of Sport Management'
-paperurl: 'TBD'
+paperurl: 'https://doi.org/10.1123/jsm.2025-0076'
 ---
 
 The Swift-Kelce paradox: The NFL's fan civil war
