@@ -51,8 +51,8 @@ Resources available on: [YouTube](https://youtube.com/@tyrealq?si=nAMjGEzRCEXQ7S
   justify-content: center;
   overflow: hidden;
 }
+
 .globe-wrapper canvas {
   margin: auto;
 }
 </style>
-
