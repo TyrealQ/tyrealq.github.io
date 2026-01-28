@@ -43,7 +43,9 @@ Resources available on: [YouTube](https://youtube.com/@tyrealq?si=nAMjGEzRCEXQ7S
 
 <style>
 .globe-wrapper {
-  transform: scale(0.5);
-  transform-origin: top left;
+  width: 400px;
+  height: 400px;
+  overflow: hidden;
 }
 </style>
+
