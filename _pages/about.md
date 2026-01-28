@@ -43,13 +43,13 @@ Resources available on: [YouTube](https://youtube.com/@tyrealq?si=nAMjGEzRCEXQ7S
 
 <style>
 .globe-wrapper {
-  width: 600px;      /* adjust as needed */
-  height: 600px;
+  width: 500px;      /* adjust as needed */
+  height: 500px;
   margin: 0 auto;    /* centers the container itself */
   display: flex;
   align-items: center;
   justify-content: center;
-  overflow: visible;
+  overflow: hidden;
 }
 </style>
 
