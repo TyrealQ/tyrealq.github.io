@@ -43,8 +43,8 @@ Resources available on: [YouTube](https://youtube.com/@tyrealq?si=nAMjGEzRCEXQ7S
 
 <style>
 .globe-wrapper {
-  width: 300px;
-  height: 300px;
+  width: 350px;
+  height: 350px;
   margin: 0 auto;
   display: flex;
   align-items: center;
