@@ -28,7 +28,7 @@ Here is a glimpse of where visitors are connecting from around the world.
   display: flex;
   align-items: center;
   justify-content: center;
-  overflow: hidden;
+  overflow: visible;
 }
 
 .globe-wrapper canvas {
