@@ -10,8 +10,6 @@ Welcome! I'm Ty, also known as Dr. Q, an [Associate Professor of Sport Managemen
 
 Here is a glimpse of where visitors are connecting from around the world.
 
-<br>
-
 <div class="globe-wrapper">
   <script
     type="text/javascript"
