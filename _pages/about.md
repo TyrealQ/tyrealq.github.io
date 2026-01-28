@@ -30,3 +30,6 @@ I manage knowledge spaces in the following areas:
 - Datasets: Custom-curated collections of multimodal data, encompassing user-generated content (UGC), news media, corporate reports, and other textual, visual, and audiovisual sources.
 
 Resources available on: [YouTube](https://youtube.com/@tyrealq?si=nAMjGEzRCEXQ7SBt), [GitHub](https://github.com/TyrealQ), [Hugging Face](https://huggingface.co/tyrealqian), and [OSF](https://osf.io/dx8bc/).
+
+## Where are people visiting Dr. Q from?
+<script type="text/javascript" id="mmvst_globe" src="//mapmyvisitors.com/globe.js?d=ooaECNzufDWakMvsN3TbjNQRsrecxnAKXopSuYFTTHM"></script>
