@@ -31,7 +31,7 @@ I manage knowledge spaces in the following areas:
 
 Resources available on: [YouTube](https://youtube.com/@tyrealq?si=nAMjGEzRCEXQ7SBt), [GitHub](https://github.com/TyrealQ), [Hugging Face](https://huggingface.co/tyrealqian), and [OSF](https://osf.io/dx8bc/).
 
-## Where are people visiting Dr. Q from?
+## Where are people visiting Ty from?
 
 <div class="globe-wrapper">
   <script
