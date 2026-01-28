@@ -6,7 +6,7 @@ redirect_from:
   - /about/
   - /about.html
 ---
-Welcome! I'm Ty, also known as Dr. Q, an [Associate Professor of Sport Management at Louisiana State University](https://www.lsu.edu/chse/kinesiology/faculty_listing/qian.php). Outside of work, I enjoy video games and cherish a joyful life with my wife, Tracy. We share our passions, celebrate special moments, and find meaning in the beauty of everyday life. 
+Welcome! I'm Ty, also known as Dr. Q, an Associate Professor of Sport Management at Louisiana State University. Outside of work, I enjoy video games and cherish a joyful life with my wife, Tracy. We share our passions, celebrate special moments, and find meaning in the beauty of everyday life. 
 
 Here is a glimpse of where visitors are connecting from around the world.
 
