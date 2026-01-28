@@ -45,10 +45,14 @@ Resources available on: [YouTube](https://youtube.com/@tyrealq?si=nAMjGEzRCEXQ7S
 .globe-wrapper {
   width: 400px;
   height: 400px;
+  margin: 0 auto;
   display: flex;
   align-items: center;
   justify-content: center;
   overflow: hidden;
+}
+.globe-wrapper canvas {
+  margin: auto;
 }
 </style>
 
