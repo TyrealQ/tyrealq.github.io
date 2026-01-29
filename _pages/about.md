@@ -10,30 +10,6 @@ Welcome! I'm Ty, also known as Dr. Q, an Associate Professor of Sport Management
 
 Here is a glimpse of where visitors are connecting from around the world.
 
-<div class="globe-wrapper">
-  <script
-    type="text/javascript"
-    id="mmvst_globe"
-    src="//mapmyvisitors.com/globe.js?d=ooaECNzufDWakMvsN3TbjNQRsrecxnAKXopSuYFTTHM">
-  </script>
-</div>
-
-<style>
-.globe-wrapper {
-  width: 350px;
-  height: 350px;
-  margin: 0 auto;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  overflow: visible;
-}
-
-.globe-wrapper canvas {
-  margin: auto;
-}
-</style>
-
 <script type="text/javascript" id="mapmyvisitors" src="//mapmyvisitors.com/map.js?d=6NSMM9lrJc5M_xL0jlSDtBsuZtRRx7kvsq_3gSIA-oo&cl=ffffff&w=a"></script>
 
 ## Research Interests
