@@ -10,7 +10,7 @@ paperurl: 'https://doi.org/10.1123/jsm.2025-0076'
 ---
 
 <p align="center">
-    <img src="https://github.com/TyrealQ/tyrealq.github.io/blob/master/images/JSM_TS.jpeg" alt="JSM_TS">
+    <img src="https://github.com/TyrealQ/tyrealq.github.io/blob/master/images/JSM_TS.png" alt="JSM_TS">
 </p>
 
 The Swift-Kelce paradox: The NFL's fan civil war
