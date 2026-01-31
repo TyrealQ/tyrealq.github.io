@@ -9,6 +9,10 @@ venue: 'Journal of Sport Management'
 paperurl: 'https://doi.org/10.1123/jsm.2025-0076'
 ---
 
+<p align="center">
+    <img src="https://github.com/TyrealQ/tyrealq.github.io/blob/master/images/JSM_TS.jpeg" alt="JSM_TS">
+</p>
+
 The Swift-Kelce paradox: The NFL's fan civil war
 
 When Taylor Swift entered the NFL world, social media teams saw gold. Likes and follower counts exploded, signaling a massive brand expansion. But a look at the comments revealed a warzone. For every "like" from a new, curious fan, the league got a "hate" comment from a die-hard, traditional one.
