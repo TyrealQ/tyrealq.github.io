@@ -9,6 +9,8 @@ venue: 'Journal of Retailing and Consumer Services'
 paperurl: 'https://www.sciencedirect.com/science/article/pii/S0969698925002991?dgcid=coauthor'
 ---
 
+<img src='/images/B50_INFO.png'>
+
 What happens when sports, politics, and entertainment collide on social media?
 
 Our study on Donald Trump’s appearance in Break 50 revealed that such intersections did not just generate attention: they sparked a kaleidoscope of interpretations shaped by framing and stereotype perceptions. On YouTube and Instagram, the same event was framed alternately as entertainment, controversy, or athletic performance, each producing strikingly different evaluations of Trump.
