@@ -9,7 +9,7 @@ venue: 'Journal of Retailing and Consumer Services'
 paperurl: 'https://www.sciencedirect.com/science/article/pii/S0969698925002991?dgcid=coauthor'
 ---
 
-<img src='/images/B50_INFO.png'>
+<img src='/images/B50_INFO.jpeg'>
 
 What happens when sports, politics, and entertainment collide on social media?
 
