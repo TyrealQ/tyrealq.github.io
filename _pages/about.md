@@ -12,9 +12,7 @@ Here is a glimpse of where visitors are connecting from around the world.
 
 <script type='text/javascript' id='mapmyvisitors' src='https://mapmyvisitors.com/map.js?cl=c3fbb1&w=a&t=tt&d=6NSMM9lrJc5M_xL0jlSDtBsuZtRRx7kvsq_3gSIA-oo&cmo=000000&cmn=ff5353&co=0080ff&ct=ffffff'></script>
 
-## Research Interests
-
-My research bridges service marketing and digital communication through a post-positivist lens, examining consumer experiences and interactions across both traditional and digital channels, with particular focus on sports and esports environments. Through artificial intelligence (AI)—particularly natural language processing (NLP) and computer vision (CV)—I utilize both structured and unstructured data from these diverse channels to advance our understanding of modern service ecosystems and digital transformation.
+---
 
 ## Open Resource Space
 
