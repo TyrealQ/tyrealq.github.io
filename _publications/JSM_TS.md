@@ -9,7 +9,7 @@ venue: 'Journal of Sport Management'
 paperurl: 'https://doi.org/10.1123/jsm.2025-0076'
 ---
 
-<img src='/images/JSM_TS.png'>
+<img src='/images/TS_INFO.png'>
 
 The Swift-Kelce paradox: The NFL's fan civil war
 
