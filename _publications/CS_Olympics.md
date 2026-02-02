@@ -9,6 +9,8 @@ venue: 'Communication & Sport'
 paperurl: 'https://doi.org/10.1177/21674795241262667'
 ---
 
+<img src='/images/WG_INFO.jpeg'>
+
 What really drives Olympic conversation? Medals or geopolitics? Our study on the Beijing 2022 Winter Games suggests the answer is "both…and it depends who’s talking."
 
 Analyzing a year of Twitter/X discourse with topic modeling, we identify three intertwined frames: athletic achievement, international participation/boycotts, and broader geopolitical undercurrents. The twist is tiered influence: mega creators reliably amplify on-field moments, macro creators pivot with the news cycle, micro creators lean into geopolitics and governance debates, and nano creators, despite small followings—supply the largest share of volume and spark vibrant engagement within tight communities. In short, medals keep the lights on; politics changes the color of the room.
