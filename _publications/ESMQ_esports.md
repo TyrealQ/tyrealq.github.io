@@ -9,4 +9,6 @@ venue: 'European Sport Management Quarterly'
 paperurl: 'https://doi.org/10.1080/16184742.2019.1630464'
 ---
 
+<img src='/images/ESPORTS_INFO.jpg'>
+
 This study explored what motivates people to watch esports online, developing and validating the Motivation Scale of Esports Spectatorship (MSES) through a rigorous mixed-methods approach. The researchers combined qualitative data from interviews and surveys (n = 207) with comprehensive quantitative analysis, including exploratory factor analysis (n = 671) and confirmatory factor analysis (n = 638). The findings revealed distinct patterns in esports viewership motivation: skill improvement and vicarious sensation emerged as unique esports-specific drivers, while factors like competition excitement, friends bonding, and game knowledge mirrored traditional sports consumption patterns. Additionally, the study uncovered novel perspectives on skill appreciation and socialization opportunities. By examining how distinctive platform features—such as first-person views, chat rooms, and personality streams—influence spectator engagement, this research provides valuable insights for understanding and serving the rapidly expanding esports consumer market.
