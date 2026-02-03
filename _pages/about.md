@@ -22,7 +22,7 @@ I manage knowledge spaces in the following areas:
 - NLP Applications: Integration of large language models (LLMs) with aspect-based sentiment analysis (ABSA), BERTopic topic modeling, and word embedding techniques.
 - Computer vision: Application of large multimodal models (LMMs) for computer vision tasks and advanced video analytics.
 - Datasets: Collections of multimodal data, encompassing user-generated content (UGC), news media, corporate reports, and other textual, visual, and audiovisual sources.
-- Agent Skills: Specialized agentic modulars (q-skills) to autonomously execute end-to-end tasks, such as running analytical pipelines, creating creative content, and generating formatted research reports directly within a secure environment.
+- Agent Skills: Specialized agentic modulars (q-skills) to autonomously execute end-to-end tasks, such as running analytical pipelines, creating social media content, and generating formatted research reports directly within a secure environment.
 
 Resources available on: [GitHub](https://github.com/TyrealQ), [Hugging Face](https://huggingface.co/tyrealqian), [YouTube](https://youtube.com/@tyrealq?si=nAMjGEzRCEXQ7SBt), and [OSF](https://osf.io/dx8bc/).
 
