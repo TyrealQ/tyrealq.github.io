@@ -24,6 +24,6 @@ I manage knowledge spaces in the following areas:
 - Datasets: Curation and analysis of multimodal datasets encompassing UGC, news media, corporate reports, and other textual, visual, and audiovisual sources.
 - Agent Skills: Development of specialized agentic modules ([q-skills](https://github.com/TyrealQ/q-skills)) that autonomously execute end-to-end tasks, including analytical pipeline execution, social media content generation, and the production of formatted research reports.
 
-Resources available on: [GitHub](https://github.com/TyrealQ), [Hugging Face](https://huggingface.co/tyrealqian), [YouTube](https://youtube.com/@tyrealq?si=nAMjGEzRCEXQ7SBt), and [OSF](https://osf.io/dx8bc/).
+Resources available on: [GitHub](https://github.com/TyrealQ), [Hugging Face](https://huggingface.co/tyrealqian), [OSF](https://osf.io/dx8bc/), and [YouTube](https://youtube.com/@tyrealq?si=nAMjGEzRCEXQ7SBt).
 
 ---
