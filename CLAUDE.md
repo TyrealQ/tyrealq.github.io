@@ -95,7 +95,7 @@ Homepage: `_pages/about.md` (permalink: `/`)
 
 Publication categories in `_config.yml`: Books, Journal Articles (`manuscripts`), Conference Papers (`conferences`).
 
-### Talks (`_talks/`) — 13 files, ALL ACTIVE
+### Talks (`_talks/`) — 14 files, ALL ACTIVE
 
 **Podcast episodes (7)** — YouTube video discussions of Q's research:
 
@@ -109,7 +109,7 @@ Publication categories in `_config.yml`: Books, Journal Articles (`manuscripts`)
 | `Podcast_TS_NFL.md` | NFL's Swift-Kelce Instagram strategy | JSM_TS.md | 2024-11-14 |
 | `Podcast_Twitch.md` | TNF co-streaming on Twitch | SMR_costream.md | 2021-06-16 |
 
-**Teaching demos (6)** — QLearning tutorials and conference presentations:
+**Teaching demos (7)** — QLearning tutorials and conference presentations:
 
 | File | Title (short) | Format | Date |
 |---|---|---|---|
@@ -119,6 +119,7 @@ Publication categories in `_config.yml`: Books, Journal Articles (`manuscripts`)
 | `Teaching_NLP.md` | QLearning: NLP 101 (sentiment analysis) | YouTube tutorial | 2025-03-03 |
 | `Teaching_SMA_HAI.md` | SMA Symposium: Human-AI Collaboration | Canva slides + GitHub repo | 2025-10-23 |
 | `Teaching_TS_NFL.md` | QLearning: Swift-Kelce Instagram case study | YouTube tutorial + slides | 2024-12-02 |
+| `Teaching_Agents.md` | QLearning: From Chatbots to Agents | YouTube tutorial | 2026-03-04 |
 
 ### Portfolio (`_portfolio/`) — 7 files, ALL ACTIVE
 
