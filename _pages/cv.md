@@ -6,7 +6,7 @@ author_profile: true
 redirect_from:
   - /resume
 ---
-For a comprehensive overview of my academic and professional work, [view my full CV here](https://www.dropbox.com/scl/fi/r7oill570nu2d76p02gro/CV_Tyreal-Yizhou-Qian_PR.pdf?rlkey=47oqtj2pgy2qddfwv80fclvw7&dl=0).
+For a comprehensive overview of my academic and professional work, [view my full CV here](https://www.dropbox.com/scl/fi/r7oill570nu2d76p02gro/CV_Tyreal-Yizhou-Qian_PR.pdf?rlkey=ezwq0pkbr1j40ly8qcm0tbjss&st=67qrqsd2&dl=0).
 ## Academic Appointment
 - Louisiana State University
 	- Associate Professor, 2025-Present
