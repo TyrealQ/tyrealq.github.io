@@ -2,10 +2,10 @@
 
 ## Owner & Site Identity
 
-- **Q** = Dr. Yizhou (Tyreal) Qian 钱亦舟, Associate Professor at Louisiana State University
+- **Q** = Dr. Yizhou (Tyreal) Qian 钱亦舟, Assistant Professor at Indiana University Bloomington
 - **Site title**: "Dr. Q"
 - **Author display**: "Yizhou (Tyreal) Qian" with Chinese name 钱亦舟
-- **Email**: yqian@lsu.edu
+- **Email**: tyqian@iu.edu
 - **Research focus**: sport management, esports, NLP/AI, computer vision, datasets, agent skills
 - **Academic profiles**: [Google Scholar](https://scholar.google.com/citations?user=1FtSN0gAAAAJ&hl=en), [ORCID](http://orcid.org/0000-0002-5362-2634), [GitHub](https://github.com/TyrealQ), [YouTube](https://youtube.com/@tyrealq), [LinkedIn](https://www.linkedin.com/in/tyreal-yizhou-qian)
 - **Avatar**: `images/Ty.png`
