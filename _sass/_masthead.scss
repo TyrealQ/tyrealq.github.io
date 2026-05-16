@@ -19,6 +19,7 @@
   &__inner-wrap {
     @include container;
     @include clearfix;
+    position: relative;
     padding: 1em 1em 1em;
     font-family: $sans-serif-narrow;
 
@@ -57,19 +58,23 @@
   }
 }
 
-/* dark/light theme toggle — sits inline with the nav links */
+/* dark/light theme toggle — vertically aligned with the nav links */
 .theme-toggle {
-  display: block;
-  margin: 0 1rem;
-  padding: 0.5rem 0;
-  font-size: 1.1rem;
-  line-height: 1.5;
+  position: absolute;
+  top: 50%;
+  right: 3.25em;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  padding: 0.5rem;
+  font-size: 1.15rem;
+  line-height: 1;
   color: $masthead-link-color;
   background: transparent;
   border: 0;
   cursor: pointer;
   -webkit-transition: $global-transition;
           transition: $global-transition;
+  z-index: 100;
 
   &:hover {
     color: $masthead-link-color-hover;
