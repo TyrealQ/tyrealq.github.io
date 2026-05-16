@@ -1,8 +1,5 @@
 /* ==========================================================================
    DARK THEME
-   Scoped overrides activated by <html data-theme="dark">. Imported last in
-   main.scss so these rules win the cascade. Colors are literal values
-   because the toggle switches themes at runtime.
    ========================================================================== */
 
 $dark-bg         : #1a1a1b;
@@ -18,7 +15,6 @@ $dark-code-bg    : #2a2a2c;
 [data-theme="dark"] {
   background-color: $dark-bg;
 
-  /* base */
   body {
     background-color: $dark-bg;
     color: $dark-text;
@@ -49,7 +45,6 @@ $dark-code-bg    : #2a2a2c;
     color: $dark-text-muted;
   }
 
-  /* masthead + navigation */
   .masthead {
     background: $dark-surface;
     border-bottom-color: $dark-border;
@@ -97,7 +92,6 @@ $dark-code-bg    : #2a2a2c;
     }
   }
 
-  /* sidebar / author profile */
   .author__avatar img {
     border-color: $dark-border;
   }
@@ -129,7 +123,6 @@ $dark-code-bg    : #2a2a2c;
     }
   }
 
-  /* page content */
   .page__content,
   .page__title,
   .page__lead {
@@ -142,7 +135,6 @@ $dark-code-bg    : #2a2a2c;
     color: $dark-text-muted;
   }
 
-  /* archive listings */
   .archive__subtitle {
     color: $dark-text-muted;
     border-bottom-color: $dark-border;
@@ -160,7 +152,6 @@ $dark-code-bg    : #2a2a2c;
     border-bottom-color: $dark-border;
   }
 
-  /* footer */
   .page__footer {
     background-color: $dark-surface;
     border-top-color: $dark-border;
@@ -178,7 +169,6 @@ $dark-code-bg    : #2a2a2c;
     }
   }
 
-  /* code */
   p > code,
   a > code,
   li > code,
@@ -201,7 +191,6 @@ $dark-code-bg    : #2a2a2c;
     background-color: $dark-code-bg;
   }
 
-  /* tables */
   table {
     color: $dark-text;
   }
@@ -224,7 +213,6 @@ $dark-code-bg    : #2a2a2c;
     }
   }
 
-  /* forms */
   input,
   textarea,
   select {
@@ -233,7 +221,6 @@ $dark-code-bg    : #2a2a2c;
     color: $dark-text;
   }
 
-  /* notices */
   .notice,
   .notice--primary,
   .notice--info,
@@ -252,7 +239,6 @@ $dark-code-bg    : #2a2a2c;
     }
   }
 
-  /* pagination */
   .page__content + .pagination,
   .page__meta + .pagination,
   .page__share + .pagination,
