@@ -57,7 +57,7 @@ Site serves at `http://localhost:4000`. Changes to `_config.yml` require a serve
 
 ### Dark Mode
 
-The site supports a light/dark theme toggle (sun/moon button in the masthead, right side):
+The site supports a light/dark theme toggle (sun/moon button in the masthead nav, inline with the links):
 
 - `_includes/head.html` — inline script applies the saved or system (`prefers-color-scheme`) theme before paint by setting `data-theme="dark"` on `<html>`
 - `_includes/masthead.html` — `#theme-toggle` button
