@@ -112,6 +112,10 @@ $dark-code-bg    : #2a2a2c;
     background: $dark-surface;
     border-color: $dark-border;
 
+    @include breakpoint($large) {
+      background: transparent;
+    }
+
     &:before {
       border-color: $dark-border transparent;
     }
