@@ -2,28 +2,30 @@
 
 <script>
   (function () {
-    var btn = document.getElementById('theme-toggle');
-    if (!btn) return;
     var root = document.documentElement;
-    var icon = btn.querySelector('i');
-    function sync() {
+    function syncIcon() {
+      var btn = document.getElementById('theme-toggle');
+      if (!btn) return;
       var dark = root.getAttribute('data-theme') === 'dark';
+      var icon = btn.querySelector('i');
       if (icon) icon.className = dark ? 'fas fa-sun' : 'fas fa-moon';
       var label = dark ? 'Switch to light mode' : 'Switch to dark mode';
       btn.setAttribute('aria-label', label);
       btn.setAttribute('title', label);
     }
-    sync();
-    btn.addEventListener('click', function () {
+    document.addEventListener('click', function (e) {
+      var btn = e.target && e.target.closest ? e.target.closest('#theme-toggle') : null;
+      if (!btn) return;
       var dark = root.getAttribute('data-theme') === 'dark';
       if (dark) {
         root.removeAttribute('data-theme');
       } else {
         root.setAttribute('data-theme', 'dark');
       }
-      try { localStorage.setItem('theme', dark ? 'light' : 'dark'); } catch (e) {}
-      sync();
+      try { localStorage.setItem('theme', dark ? 'light' : 'dark'); } catch (err) {}
+      syncIcon();
     });
+    syncIcon();
   })();
 </script>
 

@@ -16,6 +16,7 @@ $dark-link-hover : #9bdcea;
 $dark-code-bg    : #2a2a2c;
 
 [data-theme="dark"] {
+  background-color: $dark-bg;
 
   /* base */
   body {
@@ -90,11 +91,9 @@ $dark-code-bg    : #2a2a2c;
 
   .theme-toggle {
     color: $dark-text;
-    border-color: $dark-border;
 
     &:hover {
       color: #fff;
-      border-color: $dark-text-muted;
     }
   }
 
