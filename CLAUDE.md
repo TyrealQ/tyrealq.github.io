@@ -48,12 +48,21 @@ Site serves at `http://localhost:4000`. Changes to `_config.yml` require a serve
 - `_pages/` — Static pages (about, cv, archive pages); explicitly included via `_config.yml`
 - `_includes/` — Reusable HTML partials (author profile, header, footer)
 - `_layouts/` — Page templates (`single`, `talk`, etc.)
-- `_sass/` — SCSS stylesheets (compressed output)
+- `_sass/` — SCSS stylesheets (compressed output); `_dark.scss` holds the dark-theme override layer
 - `_data/navigation.yml` — Header navigation links and order
 - `_drafts/` — Unpublished content
 - `images/` — Site images
 - `files/` — Downloadable files (PDFs, etc.)
 - `assets/js/` — JavaScript; `main.min.js` is the bundled output
+
+### Dark Mode
+
+The site supports a light/dark theme toggle (sun/moon button in the masthead, right side):
+
+- `_includes/head.html` — inline script applies the saved or system (`prefers-color-scheme`) theme before paint by setting `data-theme="dark"` on `<html>`
+- `_includes/masthead.html` — `#theme-toggle` button
+- `_includes/scripts.html` — inline handler flips `data-theme`, persists the choice to `localStorage` (`theme`), and swaps the icon
+- `_sass/_dark.scss` — `[data-theme="dark"]` override layer, imported last in `assets/css/main.scss`
 
 ### Content Generation Pipeline
 
@@ -71,7 +80,7 @@ Header links (defined in `_data/navigation.yml`):
 |---|---|---|
 | Curriculum Vitae | `/cv/` | `_pages/cv.md` |
 | Research Highlights | `/publications/` | `_pages/publications.html` |
-| Teaching Demos | `/talks/` | `_pages/talks.html` |
+| Featured Talks | `/talks/` | `_pages/talks.html` |
 | Fun Stuff | `/portfolio/` | `_pages/portfolio.html` |
 
 Homepage: `_pages/about.md` (permalink: `/`)
@@ -231,7 +240,7 @@ All images live in `images/`. Grouped by purpose:
 | File | Purpose |
 |---|---|
 | `_config.yml` | Site metadata, author info, collections, plugins, publication categories, defaults |
-| `_data/navigation.yml` | Header nav links: CV, Research Highlights, Teaching Demos, Fun Stuff |
+| `_data/navigation.yml` | Header nav links: CV, Research Highlights, Featured Talks, Fun Stuff |
 | `Gemfile` | Ruby deps (`jekyll`, `github-pages`, `webrick`) |
 | `package.json` | Node deps for JS bundling (`jquery`, `fitvids`, `magnific-popup`) |
 | `Dockerfile` | Docker build for local dev |

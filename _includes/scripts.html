@@ -1,3 +1,30 @@
 <script src="{{ base_path }}/assets/js/main.min.js"></script>
 
+<script>
+  (function () {
+    var btn = document.getElementById('theme-toggle');
+    if (!btn) return;
+    var root = document.documentElement;
+    var icon = btn.querySelector('i');
+    function sync() {
+      var dark = root.getAttribute('data-theme') === 'dark';
+      if (icon) icon.className = dark ? 'fas fa-sun' : 'fas fa-moon';
+      var label = dark ? 'Switch to light mode' : 'Switch to dark mode';
+      btn.setAttribute('aria-label', label);
+      btn.setAttribute('title', label);
+    }
+    sync();
+    btn.addEventListener('click', function () {
+      var dark = root.getAttribute('data-theme') === 'dark';
+      if (dark) {
+        root.removeAttribute('data-theme');
+      } else {
+        root.setAttribute('data-theme', 'dark');
+      }
+      try { localStorage.setItem('theme', dark ? 'light' : 'dark'); } catch (e) {}
+      sync();
+    });
+  })();
+</script>
+
 {% include analytics.html %}

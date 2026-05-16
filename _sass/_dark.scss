@@ -1,0 +1,259 @@
+/* ==========================================================================
+   DARK THEME
+   Scoped overrides activated by <html data-theme="dark">. Imported last in
+   main.scss so these rules win the cascade. Colors are literal values
+   because the toggle switches themes at runtime.
+   ========================================================================== */
+
+$dark-bg         : #1a1a1b;
+$dark-surface    : #232325;
+$dark-surface-hi : #2f2f31;
+$dark-text       : #e6e6e6;
+$dark-text-muted : #9aa0a6;
+$dark-border     : #3a3a3d;
+$dark-link       : #6cc7dd;
+$dark-link-hover : #9bdcea;
+$dark-code-bg    : #2a2a2c;
+
+[data-theme="dark"] {
+
+  /* base */
+  body {
+    background-color: $dark-bg;
+    color: $dark-text;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    color: $dark-text;
+  }
+
+  a {
+    color: $dark-link;
+
+    &:hover {
+      color: $dark-link-hover;
+    }
+  }
+
+  hr {
+    border-top-color: $dark-border;
+  }
+
+  blockquote {
+    color: $dark-text-muted;
+    border-left-color: #5b6166;
+  }
+
+  figcaption {
+    color: $dark-text-muted;
+  }
+
+  /* masthead + navigation */
+  .masthead {
+    background: $dark-surface;
+    border-bottom-color: $dark-border;
+  }
+
+  .greedy-nav {
+    background: $dark-surface;
+
+    a {
+      color: $dark-text;
+
+      &:hover {
+        color: #fff;
+      }
+    }
+
+    .hidden-links {
+      background: $dark-surface;
+      border-color: $dark-border;
+
+      a:hover {
+        color: #fff;
+        background: $dark-surface-hi;
+      }
+
+      &:before {
+        border-color: $dark-border transparent;
+      }
+
+      &:after {
+        border-color: $dark-surface transparent;
+      }
+
+      li {
+        border-bottom-color: $dark-border;
+      }
+    }
+  }
+
+  .theme-toggle {
+    color: $dark-text;
+    border-color: $dark-border;
+
+    &:hover {
+      color: #fff;
+      border-color: $dark-text-muted;
+    }
+  }
+
+  /* sidebar / author profile */
+  .author__avatar img {
+    border-color: $dark-border;
+  }
+
+  .author__name,
+  .author__pronouns,
+  .author__bio {
+    color: $dark-text;
+  }
+
+  .author__urls {
+    background: $dark-surface;
+    border-color: $dark-border;
+
+    &:before {
+      border-color: $dark-border transparent;
+    }
+
+    &:after {
+      border-color: $dark-surface transparent;
+    }
+
+    a {
+      color: $dark-text;
+    }
+  }
+
+  /* page content */
+  .page__content,
+  .page__title,
+  .page__lead {
+    color: $dark-text;
+  }
+
+  .page__meta,
+  .page__date,
+  .page__taxonomy {
+    color: $dark-text-muted;
+  }
+
+  /* archive listings */
+  .archive__subtitle {
+    color: $dark-text-muted;
+    border-bottom-color: $dark-border;
+  }
+
+  .archive__item-title a {
+    color: $dark-link;
+  }
+
+  .archive__item-excerpt {
+    color: $dark-text;
+  }
+
+  .feature__wrapper {
+    border-bottom-color: $dark-border;
+  }
+
+  /* footer */
+  .page__footer {
+    background-color: $dark-surface;
+    border-top-color: $dark-border;
+    color: $dark-text-muted;
+
+    a {
+      color: $dark-text-muted;
+    }
+
+    .fas,
+    .fab,
+    .far,
+    .fal {
+      color: $dark-text-muted;
+    }
+  }
+
+  /* code */
+  p > code,
+  a > code,
+  li > code,
+  figcaption > code,
+  td > code {
+    background: $dark-code-bg;
+    border-color: $dark-border;
+    color: #f0c674;
+  }
+
+  pre,
+  .highlight,
+  div.highlighter-rouge,
+  figure.highlight {
+    background-color: $dark-code-bg;
+    color: $dark-text;
+  }
+
+  .highlight pre {
+    background-color: $dark-code-bg;
+  }
+
+  /* tables */
+  table {
+    color: $dark-text;
+  }
+
+  th {
+    background-color: $dark-surface-hi;
+    border-color: $dark-border;
+    color: $dark-text;
+  }
+
+  td {
+    border-color: $dark-border;
+  }
+
+  tbody tr {
+    border-bottom-color: $dark-border;
+
+    &:nth-child(even) {
+      background-color: #242426;
+    }
+  }
+
+  /* forms */
+  input,
+  textarea,
+  select {
+    background-color: $dark-surface;
+    border-color: $dark-border;
+    color: $dark-text;
+  }
+
+  /* notices */
+  .notice,
+  .notice--primary,
+  .notice--info,
+  .notice--warning,
+  .notice--success,
+  .notice--danger {
+    background-color: $dark-surface;
+    color: $dark-text;
+
+    a {
+      color: $dark-link;
+    }
+
+    code {
+      background-color: $dark-code-bg;
+    }
+  }
+
+  /* pagination */
+  .page__content + .pagination,
+  .page__meta + .pagination,
+  .page__share + .pagination,
+  .page__comments + .pagination {
+    border-top-color: $dark-border;
+  }
+}
