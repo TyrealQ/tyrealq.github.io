@@ -2,13 +2,13 @@
 title: "NASSM Presentation: Multimodal Video Analytics of TMRW Golf League Pre-Launch Coverage"
 collection: talks
 excerpt: >
-  It was a pleasure to present our research on emerging sport properties at NASSM 2026. Our talk, "[Before the First Swing: How Creator Videos Shape First Impressions of a New Sport](https://www.canva.com/design/DAHJ9wu3n7c/TAvPTQeq9zC0tZmyA4LcOg/view?utm_content=DAHJ9wu3n7c&utm_campaign=designshare&utm_medium=embeds&utm_source=link)," examines how pre-launch YouTube coverage of the TMRW Golf League shaped audience engagement before its inaugural season. Drawing on the Stereotype Content Model, we measured warmth and competence signals across 310 creator videos with a multimodal computational pipeline and used fuzzy-set Qualitative Comparative Analysis to identify which combinations of content perceptions and creator characteristics drove high and low engagement. I am grateful to my co-authors and to everyone who joined the conversation!
+  It was a pleasure to present our research on emerging sport properties at NASSM 2026. Our talk, "[Before the First Swing: How Creator Videos Shape First Impressions of a New Sport](https://www.canva.com/design/DAHJ9wu3n7c/TAvPTQeq9zC0tZmyA4LcOg/view?utm_content=DAHJ9wu3n7c&utm_campaign=designshare&utm_medium=embeds&utm_source=link)," examines how pre-launch YouTube coverage of the TMRW Golf League shaped audience engagement before its inaugural season. Drawing on the Stereotype Content Model, we measured warmth and competence signals across 310 creator videos with a multimodal computational pipeline and used fuzzy-set Qualitative Comparative Analysis to identify which combinations of content perceptions and creator characteristics drove high and low engagement.
 type: "Talk"
 permalink: /talks/NASSM_TGL
 date: 2026-05-29
 ---
 
-The slides are available via the link provided below. As always, I welcome your feedback and thoughts on this talk.
+You can browse the full slide deck through the link below. I would love to hear your perspectives on this work.
 
 <div style="position: relative; width: 100%; height: 0; padding-top: 56.2500%;
  padding-bottom: 0; box-shadow: 0 2px 8px 0 rgba(63,69,81,0.16); margin-top: 1.6em; margin-bottom: 0.9em; overflow: hidden;
