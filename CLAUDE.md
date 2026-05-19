@@ -104,7 +104,7 @@ Homepage: `_pages/about.md` (permalink: `/`)
 
 Publication categories in `_config.yml`: Books, Journal Articles (`manuscripts`), Conference Papers (`conferences`).
 
-### Talks (`_talks/`) — 15 files, ALL ACTIVE
+### Talks (`_talks/`) — 16 files, ALL ACTIVE
 
 **Podcast episodes (7)** — YouTube video discussions of Q's research:
 
@@ -118,10 +118,11 @@ Publication categories in `_config.yml`: Books, Journal Articles (`manuscripts`)
 | `Podcast_TS_NFL.md` | NFL's Swift-Kelce Instagram strategy | JSM_TS.md | 2024-11-14 |
 | `Podcast_Twitch.md` | TNF co-streaming on Twitch | SMR_costream.md | 2021-06-16 |
 
-**Teaching demos (8)** — QLearning tutorials and conference presentations:
+**Teaching demos (9)** — QLearning tutorials and conference presentations:
 
 | File | Title (short) | Format | Date |
 |---|---|---|---|
+| `MMAB_AMA.md` | AMA Presentation: Athlete branding via adaptive multimodal strategies (MMAB) | Canva slides | 2026-07-25 |
 | `Teaching_LLM101.md` | QLearning: LLM 101 (GPT-4o in Colab) | YouTube tutorial | 2025-04-04 |
 | `Teaching_NASSM_AI.md` | NASSM Conversations: Applied AI in Sport Mgmt | Canva slides | 2025-03-03 |
 | `Teaching_NASSM_NLP.md` | NASSM Workshop: NLP4ALL (Zeigler Lectures) | Canva slides + GitHub repo | 2025-05-29 |
