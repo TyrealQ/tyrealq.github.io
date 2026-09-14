@@ -131,7 +131,7 @@ Publication categories in `_config.yml`: Books, Journal Articles (`manuscripts`)
 | `Teaching_SMA_HAI.md` | SMA Symposium: Human-AI Collaboration | Canva slides + GitHub repo | 2025-10-23 |
 | `Teaching_TS_NFL.md` | QLearning: Swift-Kelce Instagram case study | YouTube tutorial + slides | 2024-12-02 |
 | `Teaching_Agents.md` | QLearning: From Chatbots to Agents | YouTube tutorial | 2026-03-04 |
-| `Interactive_SMQ_Timeline.md` | Interactive Demo: SMQ citing itself, 1999 to 2026 (citation timeline; manuscript in preparation) | Self-hosted interactive HTML (`files/SMQ_timeline.html`) | 2026-09-14 |
+| `Interactive_SMQ_Timeline.md` | Interactive Visualization: Intellectual lineage of SMQ, 1999 to 2026 (citation timeline; manuscript in preparation) | Self-hosted interactive HTML (`files/SMQ_timeline.html`) | 2026-09-14 |
 
 ### Portfolio (`_portfolio/`) — 7 files, ALL ACTIVE
 
