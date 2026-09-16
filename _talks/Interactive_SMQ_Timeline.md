@@ -17,6 +17,8 @@ How to explore the visualization:
 - Click a topic family in the legend to isolate it, or click a period header to show only the citations made by articles from that period.
 - Refine the view with the filter switches, the search box for author surnames and title words, and the size key, where clicking a circle sets a minimum citation count. Reset restores the full view, and Escape clears the current selection.
 
+The four periods (1999 to 2006, 2007 to 2013, 2014 to 2019, and 2020 to 2026) are divided at three developments outside the journal: social media platforms opened to the public in 2006, smartphones and esports reached mass scale in 2013, and the pandemic closed venues in 2020. Because the boundaries come from the industry rather than from the articles, the periods can show whether the journal changed when the industry did.
+
 The visualization is designed for a desktop screen. <a href="/files/SMQ_timeline.html" target="_blank" rel="noopener">Open it in a new tab</a> for the full-size view.
 
 <iframe src="/files/SMQ_timeline.html" title="Interactive citation visualization of Sport Marketing Quarterly, 1999 to 2026"
