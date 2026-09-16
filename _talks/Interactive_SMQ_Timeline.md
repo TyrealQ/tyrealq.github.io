@@ -2,13 +2,13 @@
 title: "Interactive Visualization: Tracing the Intellectual Lineage of Sport Marketing Quarterly, 1999 to 2026"
 collection: talks
 excerpt: >
-  This interactive visualization traces how research in Sport Marketing Quarterly has built on itself over nearly three decades. Drawing on the reference lists of 639 articles published between 1999 and 2026, it maps every instance in which an article cites earlier work in the journal. Each article appears as a dot placed by year, colored by topic family, and sized by the citations it received from later articles; each curve connects a citing article to the work it draws on. Readers can hover over any article for its details, click to trace its citation lineage in both directions, and filter by topic family, period, or author. The visualization is part of a manuscript in preparation on the journal's publication record.
+  An interactive map of the citation network inside Sport Marketing Quarterly, covering all 639 articles published from 1999 to 2026. Part of a study, now being prepared for publication, that traces how sport marketing scholarship has developed across the journal and the association's conferences. Each article is placed by year, colored by topic family, and sized by citations received; curves trace each citation to earlier work. Hover, click, filter by topic or period, and search by author or title.
 type: "Talk"
 permalink: /talks/Interactive_SMQ_Timeline
 date: 2026-09-14
 ---
 
-Every journal carries an internal conversation: later articles cite earlier ones, certain works become anchors for a line of inquiry, and topics gain or lose momentum as researchers build on what came before. This visualization makes that conversation visible for *Sport Marketing Quarterly*. It comes from a project that maps the journal's published record from 1999 to 2026, both the subjects its articles have addressed and the ways those articles draw on one another. The manuscript is in preparation, and the full analysis will follow after publication. Presented here is one element of that work: the journal's own citation network, which shows where later research has built on earlier contributions and which articles have shaped the field's development.
+This visualization maps the citation network inside *Sport Marketing Quarterly* from 1999 to 2026: every instance in which one of the 639 articles the journal published during this period cites another. It comes from a study, now being prepared for publication, that draws on both the journal's articles and the association's conference programs to trace how sport marketing scholarship has developed over twenty-five years. Each article appears as a dot placed by year, colored by topic family, and sized by the number of citations it received from later SMQ articles, and each curve connects a citing article to the earlier article it cites.
 
 How to explore the visualization:
 
