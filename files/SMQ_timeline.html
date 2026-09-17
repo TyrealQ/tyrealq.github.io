@@ -29,6 +29,8 @@
   .controls label { white-space: nowrap; }
   .controls input[type=search] { font: inherit; font-size: 13px; width: 200px; }
   .controls button { font: inherit; font-size: 12px; }
+  .keyrow { display: inline-flex; align-items: center; gap: 6px; white-space: nowrap; }
+  .skbar { overflow: visible; }
   .hint { font-size: 12px; color: #555; margin: 6px 0 0; }
   .tip { position: fixed; pointer-events: none; background: #fff; border: 1px solid #222; padding: 8px 10px;
          font-size: 12px; max-width: 420px; line-height: 1.35; box-shadow: 0 1px 4px rgba(0,0,0,.15); display: none; }
@@ -2688,7 +2690,7 @@
 <text x="36.0" y="698" class="note">cited articles of each period are labelled with the first author and the year, and the curves into them are drawn darker.</text>
 </svg>
 <div class="controls">
-  <label><input type="checkbox" id="only"> Only citations into labelled articles</label>
+  <span class="keyrow" id="sizekey">Citations received from later SMQ articles <svg class="skbar" width="141" height="22" viewBox="0 0 141 22"><g class="sk" data-min="1"><circle cx="4.7" cy="11.0" r="2.68" fill="#fff" stroke="#222" stroke-width="1"/><text x="10.4" y="15.0" class="legend">1</text></g><g class="sk" data-min="10"><circle cx="30.7" cy="11.0" r="4.34" fill="#fff" stroke="#222" stroke-width="1"/><text x="38.1" y="15.0" class="legend">10</text></g><g class="sk" data-min="20"><circle cx="67.2" cy="11.0" r="6.18" fill="#fff" stroke="#222" stroke-width="1"/><text x="76.4" y="15.0" class="legend">20</text></g><g class="sk" data-min="30"><circle cx="107.4" cy="11.0" r="8.03" fill="#fff" stroke="#222" stroke-width="1"/><text x="118.5" y="15.0" class="legend">30</text></g></svg></span>
   <label><input type="checkbox" id="within"> Only within the chosen families</label>
   <label><input type="checkbox" id="cross"> Only across families</label>
   <label>Find <input type="search" id="q" placeholder="author surname or title word"></label>
@@ -2710,7 +2712,7 @@
   svg.querySelectorAll('circle.d').forEach(function (c) { dots[c.dataset.id] = c; });
   svg.querySelectorAll('text.label').forEach(function (l) { labels[l.dataset.id] = l; });
   svg.querySelectorAll('path.e').forEach(function (p) { paths.push(p); });
-  var state = { families: {}, nFam: 0, within: false, cross: false, period: null, min: 0, only: false, selected: null };
+  var state = { families: {}, nFam: 0, within: false, cross: false, period: null, min: 0, selected: null };
 
   function esc(s) { return String(s).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;'); }
   function famOn(f) { return state.nFam === 0 || !!state.families[f]; }
@@ -2720,7 +2722,6 @@
     if (!dotOn(t)) return false;
     if (state.within && !famOn(ds.f)) return false;
     if (state.cross && ds.f === dt.f) return false;
-    if (state.only && !dt.l) return false;
     if (state.period !== null) { var p = PERIODS[state.period]; if (ds.y < p[0] || ds.y > p[1]) return false; }
     return true;
   }
@@ -2741,7 +2742,7 @@
     });
     svg.querySelectorAll('.lg').forEach(function (g) { g.classList.toggle('off', !famOn(g.dataset.family)); });
     svg.querySelectorAll('text.period').forEach(function (h) { h.classList.toggle('on', state.period === +h.dataset.period); });
-    svg.querySelectorAll('.sk').forEach(function (k) { k.classList.toggle('on', state.min === +k.dataset.min); });
+    document.querySelectorAll('.sk').forEach(function (k) { k.classList.toggle('on', state.min === +k.dataset.min); });
     renderPanel();
   }
   function byYear(ids) { return ids.slice().sort(function (a, b) { return DATA[a].y - DATA[b].y || DATA[a].s.localeCompare(DATA[b].s); }); }
@@ -2818,16 +2819,16 @@
     if (a) { state.selected = a.dataset.id; apply(); }
   });
   document.addEventListener('keydown', function (ev) { if (ev.key === 'Escape' && state.selected) { state.selected = null; apply(); } });
-  document.getElementById('only').addEventListener('change', function (ev) { state.only = ev.target.checked; apply(); });
   document.getElementById('within').addEventListener('change', function (ev) { state.within = ev.target.checked; apply(); });
   document.getElementById('cross').addEventListener('change', function (ev) { state.cross = ev.target.checked; apply(); });
   document.getElementById('q').addEventListener('input', function () { if (state.selected) state.selected = null; apply(); });
   document.getElementById('q').addEventListener('keydown', function (ev) {
     if (ev.key === 'Enter') { var a = panel.querySelector('a[data-id]'); if (a) { state.selected = a.dataset.id; apply(); } }
   });
+  document.getElementById('sizekey').addEventListener('click', function (ev) { var k = ev.target.closest ? ev.target.closest('.sk') : null; if (k) { var m = +k.dataset.min; state.min = (state.min === m) ? 0 : m; apply(); } });
   document.getElementById('reset').addEventListener('click', function () {
-    state = { families: {}, nFam: 0, within: false, cross: false, period: null, min: 0, only: false, selected: null };
-    ['only', 'within', 'cross'].forEach(function (id) { document.getElementById(id).checked = false; });
+    state = { families: {}, nFam: 0, within: false, cross: false, period: null, min: 0, selected: null };
+    ['within', 'cross'].forEach(function (id) { document.getElementById(id).checked = false; });
     document.getElementById('q').value = '';
     apply();
   });

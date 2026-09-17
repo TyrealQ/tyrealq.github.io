@@ -52,7 +52,7 @@ Site serves at `http://localhost:4000`. Changes to `_config.yml` require a serve
 - `_data/navigation.yml` — Header navigation links and order
 - `_drafts/` — Unpublished content
 - `images/` — Site images
-- `files/` — Downloadable files (PDFs) and self-hosted standalone HTML pages (e.g., `SMQ_timeline.html`, iframed from a talk entry)
+- `files/` — Downloadable files (PDFs) and self-hosted standalone HTML pages (`SMQ_timeline.html` and `SMQ_cited_works.html`, each iframed from its own talk entry)
 - `assets/js/` — JavaScript; `main.min.js` is the bundled output
 
 ### Dark Mode
@@ -118,7 +118,7 @@ Publication categories in `_config.yml`: Books, Journal Articles (`manuscripts`)
 | `Podcast_TS_NFL.md` | NFL's Swift-Kelce Instagram strategy | JSM_TS.md | 2024-11-14 |
 | `Podcast_Twitch.md` | TNF co-streaming on Twitch | SMR_costream.md | 2021-06-16 |
 
-**Teaching demos and interactive demos (10)** — QLearning tutorials, conference presentations, and self-hosted interactive figures:
+**Teaching demos and interactive demos (11)** — QLearning tutorials, conference presentations, and self-hosted interactive figures:
 
 | File | Title (short) | Format | Date |
 |---|---|---|---|
@@ -132,6 +132,7 @@ Publication categories in `_config.yml`: Books, Journal Articles (`manuscripts`)
 | `Teaching_TS_NFL.md` | QLearning: Swift-Kelce Instagram case study | YouTube tutorial + slides | 2024-12-02 |
 | `Teaching_Agents.md` | QLearning: From Chatbots to Agents | YouTube tutorial | 2026-03-04 |
 | `Interactive_SMQ_Timeline.md` | Interactive Visualization: Intellectual lineage of SMQ, 1999 to 2026 (citation timeline; manuscript in preparation) | Self-hosted interactive HTML (`files/SMQ_timeline.html`) | 2026-09-14 |
+| `Interactive_SMQ_Cited_Works.md` | Interactive Visualization: What SMQ cites beyond itself, 1999 to 2026 (cited works; companion to the timeline) | Self-hosted interactive HTML (`files/SMQ_cited_works.html`) | 2026-09-17 |
 
 ### Portfolio (`_portfolio/`) — 7 files, ALL ACTIVE
 
@@ -258,7 +259,7 @@ All images live in `images/`. Grouped by purpose:
 **Add a new talk (podcast, teaching demo, or interactive demo):**
 1. Create `_talks/<Podcast_or_Teaching>_<slug>.md` with front matter: `title`, `collection: talks`, `excerpt`, `type: "Talk"`, `permalink`, `date`
 2. Embed YouTube iframe or Canva slides in the body
-3. For a self-hosted interactive page: put the self-contained HTML in `files/` with no front matter (Jekyll copies it verbatim; front matter would trigger Liquid and layouts), then embed it with a fixed-height iframe (`height: 85vh; min-height: 640px`) plus an "open in a new tab" link. fitvids only wraps YouTube/Vimeo, so the iframe carries its own sizing
+3. For a self-hosted interactive page: put the self-contained HTML in `files/` with no front matter (Jekyll copies it verbatim; front matter would trigger Liquid and layouts), then embed it with a fixed-height iframe (`height: 85vh; min-height: 640px`) plus an "open in a new tab" link. fitvids only wraps YouTube/Vimeo, so the iframe carries its own sizing. The SMQ pages are copied from the SMA25 project (`~/Dropbox/2026 Fall/SMA25`, `manuscript/figures/<name>/`) with the outreach rewording recorded in that project's `outreach/README.md`; edit them there and re-copy, never here
 
 **Add a portfolio item:**
 1. Create `_portfolio/<slug>.md` with front matter: `title`, `excerpt` (include thumbnail img tag), `collection: portfolio`, `permalink`
