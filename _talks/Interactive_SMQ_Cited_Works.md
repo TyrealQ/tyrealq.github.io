@@ -1,14 +1,14 @@
 ---
-title: "Interactive Visualization: What Sport Marketing Quarterly Cites Beyond Itself, 1999 to 2026"
+title: "Interactive Visualization: The Intellectual Sources Beyond Sport Marketing Quarterly, 1999 to 2026"
 collection: talks
 excerpt: >
-  An interactive map of the works that Sport Marketing Quarterly articles cite outside the journal, covering all 639 articles published from 1999 to 2026 and the nearly 2,900 works that at least two of them cite. The companion to the citation timeline, and part of the same larger project on how sport marketing scholarship has developed across the journal and the association's conferences. Each article is placed by year and colored by topic family; each cited work is placed by its own year, sized by the number of citing articles, and sorted into rows by the kind of source, with the most cited journals as rows of their own. Hover, click, filter by topic, source, or period, set a citation threshold, and search by author, title, or outlet.
+  An interactive map of the intellectual sources beyond Sport Marketing Quarterly, covering all 639 articles published from 1999 to 2026 and the nearly 2,900 works that at least two of them cite. The companion to the intellectual lineage within the journal, and part of the same larger project tracing how sport marketing scholarship has developed across the journal and the association's conferences. Each article is placed by year and colored by topic family; each cited work is placed by its own year, sized by the number of citing articles, and sorted into rows by the kind of source, from sport management and marketing journals to psychology, business, the trade press, and books, with the most cited journals as rows of their own. Hover, click, filter by topic, source, or period, set a citation threshold, and search by author, title, or outlet.
 type: "Talk"
 permalink: /talks/Interactive_SMQ_Cited_Works
 date: 2026-09-17
 ---
 
-This visualization maps what *Sport Marketing Quarterly* articles cite outside the journal from 1999 to 2026: every work that at least two of the 639 articles the journal published during this period name in their reference lists, nearly 2,900 works drawn from more than 26,000 references. It is the companion to the [citation timeline](/talks/Interactive_SMQ_Timeline), which maps the citations inside the journal, and one element of the same larger project that draws on both the journal's articles and the association's conference programs to trace how sport marketing scholarship has developed over twenty-five years. The articles sit in a band along the top, each a dot placed by year and colored by topic family. Below them, each cited work is a dot placed at its own publication year, sized by the number of SMQ articles citing it, and sorted into rows by the kind of source: sport management journals, other sport and leisure journals, marketing and consumer research journals, psychology journals, management and business journals, other journals, the trade and popular press, and books, reports, and other sources. The journals cited most often within the large rows have rows of their own. Each curve connects a citing article to a work it cites, in the color of the article's topic family, so the horizontal distance between its two ends shows how old the cited work was when it was used.
+This visualization maps what *Sport Marketing Quarterly* articles cite outside the journal from 1999 to 2026: every work that at least two of the 639 articles the journal published during this period name in their reference lists, nearly 2,900 works drawn from more than 26,000 references. It is the companion to the [intellectual lineage](/talks/Interactive_SMQ_Timeline), which maps the citations within the journal, and one element of the same larger project that draws on both the journal's articles and the association's conference programs to trace how sport marketing scholarship has developed over twenty-five years. The articles sit in a band along the top, each a dot placed by year and colored by topic family. Below them, each cited work is a dot placed at its own publication year, sized by the number of SMQ articles citing it, and sorted into rows by the kind of source, from sport management and marketing journals to psychology, business, the trade press, and books. The journals cited most often within the large rows have rows of their own. Each curve connects a citing article to a work it cites, in the color of the article's topic family, so the horizontal distance between its two ends shows how old the cited work was when it was used.
 
 How to explore the visualization:
 
@@ -21,7 +21,7 @@ The four periods (1999 to 2006, 2007 to 2013, 2014 to 2019, and 2020 to 2026) ar
 
 The visualization is designed for a desktop screen. <a href="/files/SMQ_cited_works.html" target="_blank" rel="noopener">Open it in a new tab</a> for the full-size view.
 
-<iframe src="/files/SMQ_cited_works.html" title="Interactive visualization of the works cited by Sport Marketing Quarterly, 1999 to 2026"
+<iframe src="/files/SMQ_cited_works.html" title="Interactive visualization of the intellectual sources beyond Sport Marketing Quarterly, 1999 to 2026"
     loading="lazy"
     style="display: block; width: 100%; height: 85vh; min-height: 640px; border: 1px solid #ddd; border-radius: 8px; margin: 1.6em 0 0.9em;">
 </iframe>
