@@ -25,7 +25,7 @@ For a comprehensive overview of my academic and professional work, [view my full
 
 ## Research Focus
 
-My research addresses problems at the intersection of service marketing and digital communication with a focus on the esports and sports industries. I also leverage applied artificial intelligence and machine learning techniques to analyze both structured and unstructured data across physical and digital platforms, offering novel perspectives on consumer behavior in today’s interconnected environments.
+My research addresses problems at the intersection of service marketing and digital communication with a focus on the esports and sports industries. I also leverage applied artificial intelligence and machine learning techniques to analyze both structured and unstructured data across physical and digital platforms, offering perspectives on consumer behavior in today’s interconnected environments.
 
 ## Work in Progress
 Note: * student mentored.<br/>
@@ -34,11 +34,10 @@ Note: * student mentored.<br/>
 - Qian, T.Y., *Li, W., & Xu, C. (Manuscript in preparation). Athlete branding in women’s sport: Multimodal analytics of Caitlin Clark and Angel Reese’s Instagram posts. _Journal of Sport Management_.
 - Qian, T.Y., Gong, H., Matz, R., & Xu, C. (Manuscript in preparation). Tee up with me: A multimodal approach to analyzing audience engagement with golf influencers. _International Journal of Information Management_.
 - Qian, T.Y., Gong, H., & Xu, C. (Manuscript in preparation). Enhancing insights into college football game day experience through text and image sentiment analysis: A natural language processing and computer vision approach. _Tourism Management_.
-	- Grant Recipient, Google Cloud Research Credits Program, 2024
 - Qian, T.Y., Yu, B., & Xu, C. (Manuscript in preparation). Breaking boundaries: Public perceptions of esports’ debut as a medal sport in the Asian Games. _Computers in Human Behavior_.
 - *Li, W., Qian, T.Y., & Xu, C. (Manuscript in preparation). Exploring fan dynamics through large language models: Text mining of social media posts and comments on perceived competitive balance. _Sport Management Review_.
 - Qian, T.Y., *Li, W., & Xu, C. (Manuscript in preparation). Digital foul play: Decoding online hate speech and verbal abuse against student-athletes. _Internet Research_.
-- Qian, T.Y., Li, W., & Xu, C. (Manuscript in preparation). Virtual venom: Exploring social media toxicity directed at professional esports players. _Computers in Human Behavior_.
+- Qian, T.Y., *Li, W., & Xu, C. (Manuscript in preparation). Virtual venom: Exploring social media toxicity directed at professional esports players. _Computers in Human Behavior_.
 - Qian, T.Y., Mastromartino, B., Gong, H., Martinez, J., Min, S.D., & Luo, L. (Manuscript in preparation). What are the drivers of willingness to pay for esports hotels? A combination of symmetrical and asymmetrical approaches. _International Journal of Hospitality Management_.
 
 ## Skills
