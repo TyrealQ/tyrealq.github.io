@@ -47,6 +47,7 @@ The system Ruby (2.6) cannot resolve the `github-pages` gem (it needs Ruby 3); i
 
 ### Key Directories
 
+- `.claude/` — Claude Code project config: `settings.json` (SessionStart hook), `hooks/session-note.sh` (session dashboard)
 - `_pages/` — Static pages (about, cv, archive pages); explicitly included via `_config.yml`
 - `_includes/` — Reusable HTML partials (author profile, header, footer)
 - `_layouts/` — Page templates (`single`, `talk`, etc.)
@@ -84,6 +85,10 @@ The homepage plays a short code-rendered greeting video (about 30 s, muted, 16:9
 - `publications.tsv` → `publications.py` / `publications.ipynb` → `_publications/*.md`
 - `talks.tsv` → `talks.py` / `talks.ipynb` → `_talks/*.md`
 - `PubsFromBib.ipynb` / `OrcidToBib.ipynb` — Import from BibTeX/ORCID
+
+### Session Dashboard
+
+`.claude/hooks/session-note.sh` runs at session start (registered in `.claude/settings.json`) and prints a summary of the site's work streams: the last three commits and how long ago they were, uncommitted or unpushed changes (deploy status), content counts with the most recent date per collection, any future-dated items that Jekyll will not render yet, drafts, and project skills. Every figure is computed from the folder and git history at run time, so the dashboard never needs editing. Publication dates in "Month YYYY" format are normalized to ISO for sorting and comparison.
 
 ## Site Navigation
 
