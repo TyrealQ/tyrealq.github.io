@@ -1,9 +1,5 @@
 /* ==========================================================================
    GREETING ANIMATION (homepage)
-   A 16:9 box that plays the rendered greeting video once per session, then
-   shows an HTML end card with the real links. Sizes above 600 px use container
-   query units so the card keeps the proportions of the 1920 x 1080 frame.
-   The video and the end card keep their own light colors in both themes.
    ========================================================================== */
 
 $greeting-crimson : #990000;
@@ -40,8 +36,6 @@ $greeting-cjk     : "Songti SC", "Noto Serif CJK SC", "SimSun", Georgia, serif;
     background: $greeting-stage;
   }
 
-  /* Replay control: one small circle in the lower right corner of the box,
-     shown only once the end card is up. */
   &__replay {
     position: absolute;
     right: 3%;
@@ -77,7 +71,6 @@ $greeting-cjk     : "Songti SC", "Noto Serif CJK SC", "SimSun", Georgia, serif;
     display: block;
   }
 
-  /* End card: the HTML copy of the last take of the video. */
   &__end {
     position: relative;
     box-sizing: border-box;
@@ -141,7 +134,6 @@ $greeting-cjk     : "Songti SC", "Noto Serif CJK SC", "SimSun", Georgia, serif;
     white-space: nowrap;
   }
 
-  /* Crimson rule with a dot at its end. */
   &__rule {
     position: relative;
     height: 2px;
@@ -187,8 +179,6 @@ $greeting-cjk     : "Songti SC", "Noto Serif CJK SC", "SimSun", Georgia, serif;
     flex-wrap: wrap;
   }
 
-  /* Nested under .greeting so these rules win over the theme's link rules
-     (.page__content a and [data-theme="dark"] a). */
   .greeting__pill {
     display: inline-block;
     box-sizing: border-box;
@@ -224,9 +214,6 @@ $greeting-cjk     : "Songti SC", "Noto Serif CJK SC", "SimSun", Georgia, serif;
     }
   }
 
-  /* Corner mark: the same Dr. Q mark the video keeps in its top right corner
-     (center at 0.905 W, 0.13 H; the PNG has transparent padding). Shown only
-     in the overlay layout, where the card stands in for the last frame. */
   &__mark {
     display: none;
     position: absolute;
@@ -238,7 +225,6 @@ $greeting-cjk     : "Songti SC", "Noto Serif CJK SC", "SimSun", Georgia, serif;
     pointer-events: none;
   }
 
-  /* Narrow screens: the end card is a block under the video. */
   &__end {
     margin-top: 0.75em;
     padding: 1em 1em 1.1em;
@@ -287,8 +273,6 @@ $greeting-cjk     : "Songti SC", "Noto Serif CJK SC", "SimSun", Georgia, serif;
     font-size: 0.8rem;
   }
 
-  /* 600 px and wider: the end card is an overlay inside the 16:9 box, sized
-     in container query units from the 1920 px frame (5 % inner margins). */
   @media (min-width: 600px) {
     &__mark {
       display: block;
@@ -358,8 +342,6 @@ $greeting-cjk     : "Songti SC", "Noto Serif CJK SC", "SimSun", Georgia, serif;
       gap: 0.85cqw;
     }
 
-    /* Padding and line height keep the frame's 58 / 28 pill ratio while the
-       font size carries a floor so the links stay readable at 600 px. */
     .greeting__pill {
       padding: 0.43em 1em;
       font-size: 0.8rem;

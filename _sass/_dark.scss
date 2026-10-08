@@ -252,8 +252,6 @@ $dark-code-bg    : #2a2a2c;
     border-top-color: $dark-border;
   }
 
-  /* Greeting animation: only the frame around the box changes. The video and
-     the end card keep their own light colors by design. */
   .greeting__box,
   .greeting__end {
     border-color: $dark-border;
