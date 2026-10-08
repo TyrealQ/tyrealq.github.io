@@ -38,14 +38,6 @@
     var card = root.querySelector('.greeting__end');
     var replay = root.querySelector('.greeting__replay');
     if (!video || !card || !replay) return;
-    var FLAG = 'greetingPlayed';
-
-    function flagSet() {
-      try { return sessionStorage.getItem(FLAG) === '1'; } catch (e) { return false; }
-    }
-    function setFlag() {
-      try { sessionStorage.setItem(FLAG, '1'); } catch (e) {}
-    }
     function showCard(fade) {
       card.hidden = false;
       if (fade) {
@@ -62,7 +54,7 @@
       var promise;
       try { promise = video.play(); } catch (e) { showCard(false); return; }
       if (promise && typeof promise.then === 'function') {
-        promise.then(function () { setFlag(); }, function () { showCard(false); });
+        promise.then(null, function () { showCard(false); });
       }
     }
 
@@ -74,7 +66,7 @@
     });
 
     var reduced = window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
-    if (reduced || flagSet()) {
+    if (reduced) {
       showCard(false);
     } else {
       start();
