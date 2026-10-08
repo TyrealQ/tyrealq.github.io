@@ -1,0 +1,377 @@
+/* ==========================================================================
+   GREETING ANIMATION (homepage)
+   A 16:9 box that plays the rendered greeting video once per session, then
+   shows an HTML end card with the real links. Sizes above 600 px use container
+   query units so the card keeps the proportions of the 1920 x 1080 frame.
+   The video and the end card keep their own light colors in both themes.
+   ========================================================================== */
+
+$greeting-crimson : #990000;
+$greeting-ink     : #191919;
+$greeting-slate   : #4A4A4A;
+$greeting-line    : #DCDAD6;
+$greeting-stage   : #F3F2F0;
+$greeting-white   : #FFFFFF;
+$greeting-serif   : Georgia, "Times New Roman", serif;
+$greeting-sans    : -apple-system, "Helvetica Neue", "Segoe UI", Arial, sans-serif;
+$greeting-cjk     : "Songti SC", "Noto Serif CJK SC", "SimSun", Georgia, serif;
+
+.greeting {
+  position: relative;
+  margin: 0 0 1.5em;
+  container-type: inline-size;
+
+  &__box {
+    position: relative;
+    aspect-ratio: 16 / 9;
+    overflow: hidden;
+    background: $greeting-stage;
+    border: 1px solid $greeting-line;
+    border-radius: 4px;
+  }
+
+  &__video {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    display: block;
+    object-fit: cover;
+    background: $greeting-stage;
+  }
+
+  /* Replay control: one small circle in the lower right corner of the box,
+     shown only once the end card is up. */
+  &__replay {
+    position: absolute;
+    right: 3%;
+    bottom: 5%;
+    z-index: 3;
+    display: none;
+    width: 36px;
+    height: 36px;
+    padding: 0;
+    margin: 0;
+    border: 1px solid $greeting-line;
+    border-radius: 50%;
+    background: $greeting-white;
+    color: $greeting-crimson;
+    cursor: pointer;
+    line-height: 0;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.12);
+
+    svg {
+      display: block;
+      margin: 0 auto;
+    }
+
+    &:hover,
+    &:focus-visible {
+      border-color: $greeting-crimson;
+      background: $greeting-crimson;
+      color: $greeting-white;
+    }
+  }
+
+  &--ended &__replay {
+    display: block;
+  }
+
+  /* End card: the HTML copy of the last take of the video. */
+  &__end {
+    position: relative;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background: $greeting-white;
+    color: $greeting-ink;
+    font-family: $greeting-sans;
+    opacity: 0;
+    transition: opacity 0.6s ease;
+  }
+
+  &__end[hidden] {
+    display: none;
+  }
+
+  &--ended &__end {
+    opacity: 1;
+  }
+
+  &__head {
+    display: flex;
+    align-items: baseline;
+    flex-wrap: wrap;
+  }
+
+  &__portrait {
+    flex: 0 0 auto;
+    display: inline-block;
+    align-self: center;
+    overflow: hidden;
+    border-radius: 50%;
+    border: 3px solid $greeting-crimson;
+    background: $greeting-stage;
+
+    img {
+      display: block;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      object-position: top;
+      border: 0;
+      border-radius: 50%;
+    }
+  }
+
+  &__name {
+    font-family: $greeting-serif;
+    font-weight: 700;
+    line-height: 1;
+    color: $greeting-ink;
+    white-space: nowrap;
+  }
+
+  &__cn {
+    font-family: $greeting-cjk;
+    font-weight: 600;
+    line-height: 1;
+    color: $greeting-crimson;
+    white-space: nowrap;
+  }
+
+  /* Crimson rule with a dot at its end. */
+  &__rule {
+    position: relative;
+    height: 2px;
+    background: $greeting-crimson;
+
+    &::after {
+      content: "";
+      position: absolute;
+      right: -5px;
+      top: 50%;
+      width: 10px;
+      height: 10px;
+      margin-top: -5px;
+      border-radius: 50%;
+      background: $greeting-crimson;
+    }
+  }
+
+  &__line {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 0.25em 1em;
+  }
+
+  &__caption {
+    font-family: $greeting-sans;
+    font-weight: 500;
+    color: $greeting-slate;
+  }
+
+  &__explore {
+    margin-left: auto;
+    font-family: $greeting-serif;
+    font-style: italic;
+    color: $greeting-crimson;
+    text-align: right;
+  }
+
+  &__pills {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  /* Nested under .greeting so these rules win over the theme's link rules
+     (.page__content a and [data-theme="dark"] a). */
+  .greeting__pill {
+    display: inline-block;
+    box-sizing: border-box;
+    border: 1px solid $greeting-line;
+    border-radius: 999px;
+    background: $greeting-white;
+    color: $greeting-ink;
+    font-family: $greeting-sans;
+    font-weight: 500;
+    line-height: 1.2;
+    text-decoration: none;
+    white-space: nowrap;
+    transition: background 0.2s ease, color 0.2s ease, border-color 0.2s ease;
+
+    &:hover,
+    &:focus-visible {
+      border-color: $greeting-crimson;
+      color: $greeting-crimson;
+      text-decoration: none;
+    }
+
+    &--solid {
+      border-color: $greeting-crimson;
+      background: $greeting-crimson;
+      color: $greeting-white;
+
+      &:hover,
+      &:focus-visible {
+        background: #7a0000;
+        border-color: #7a0000;
+        color: $greeting-white;
+      }
+    }
+  }
+
+  /* Corner mark: the same Dr. Q mark the video keeps in its top right corner
+     (center at 0.905 W, 0.13 H; the PNG has transparent padding). Shown only
+     in the overlay layout, where the card stands in for the last frame. */
+  &__mark {
+    display: none;
+    position: absolute;
+    left: 85.3%;
+    top: 3.7%;
+    width: 10.4%;
+    height: auto;
+    border: 0;
+    pointer-events: none;
+  }
+
+  /* Narrow screens: the end card is a block under the video. */
+  &__end {
+    margin-top: 0.75em;
+    padding: 1em 1em 1.1em;
+    border: 1px solid $greeting-line;
+    border-radius: 4px;
+    gap: 0.7em;
+  }
+
+  &__head {
+    gap: 0 0.5em;
+  }
+
+  &__portrait {
+    width: 56px;
+    height: 56px;
+    margin-right: 0.3em;
+  }
+
+  &__name {
+    font-size: 2.2rem;
+  }
+
+  &__cn {
+    font-size: 1.25rem;
+  }
+
+  &__rule {
+    margin: 0.1em 0 0.2em;
+    width: 100%;
+  }
+
+  &__caption {
+    font-size: 0.8rem;
+  }
+
+  &__explore {
+    font-size: 1.35rem;
+  }
+
+  &__pills {
+    gap: 0.5em;
+  }
+
+  .greeting__pill {
+    padding: 0.45em 0.95em;
+    font-size: 0.8rem;
+  }
+
+  /* 600 px and wider: the end card is an overlay inside the 16:9 box, sized
+     in container query units from the 1920 px frame (5 % inner margins). */
+  @media (min-width: 600px) {
+    &__mark {
+      display: block;
+    }
+
+    &__end {
+      position: absolute;
+      inset: 0;
+      z-index: 2;
+      margin: 0;
+      border: 0;
+      border-radius: 4px;
+      padding: 5% 10%;
+      gap: 1.2cqw;
+    }
+
+    &__head {
+      gap: 0 1.5cqw;
+    }
+
+    &__portrait {
+      width: 56px;
+      width: clamp(48px, 7.5cqw, 120px);
+      height: 56px;
+      height: clamp(48px, 7.5cqw, 120px);
+      margin-right: 1cqw;
+      border-width: 3px;
+      border-width: clamp(3px, 0.4cqw, 6px);
+    }
+
+    &__name {
+      font-size: 3.6rem;
+      font-size: clamp(2.2rem, 8.85cqw, 7rem);
+    }
+
+    &__cn {
+      font-size: 1.8rem;
+      font-size: clamp(1.2rem, 4.4cqw, 3.4rem);
+    }
+
+    &__rule {
+      margin: 0.6cqw 0 1cqw;
+      height: 0.21cqw;
+      min-height: 2px;
+
+      &::after {
+        width: 0.85cqw;
+        height: 0.85cqw;
+        min-width: 8px;
+        min-height: 8px;
+        right: -0.42cqw;
+        margin-top: -0.42cqw;
+      }
+    }
+
+    &__caption {
+      font-size: 0.8rem;
+      font-size: clamp(0.75rem, 1.67cqw, 1.3rem);
+    }
+
+    &__explore {
+      font-size: 1.5rem;
+      font-size: clamp(1.2rem, 3.33cqw, 2.6rem);
+    }
+
+    &__pills {
+      gap: 0.85cqw;
+    }
+
+    /* Padding and line height keep the frame's 58 / 28 pill ratio while the
+       font size carries a floor so the links stay readable at 600 px. */
+    .greeting__pill {
+      padding: 0.43em 1em;
+      font-size: 0.8rem;
+      font-size: clamp(0.8rem, 1.46cqw, 1.4rem);
+      line-height: 1.2;
+    }
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .greeting__end,
+  .greeting .greeting__pill {
+    transition: none;
+  }
+}

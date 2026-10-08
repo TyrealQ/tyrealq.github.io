@@ -29,6 +29,8 @@ npm run watch:js        # watch mode
 
 Site serves at `http://localhost:4000`. Changes to `_config.yml` require a server restart.
 
+The system Ruby (2.6) cannot resolve the `github-pages` gem (it needs Ruby 3); install Homebrew Ruby first (`brew install ruby`, put `/opt/homebrew/opt/ruby/bin` first on `PATH`, then `bundle install`). A production check is `JEKYLL_ENV=production bundle exec jekyll build`; the production config sets the absolute site `url`, so a local build loads the live stylesheet unless `url` is overridden.
+
 ## Architecture
 
 **Theme**: Academic Pages (fork of Minimal Mistakes) | **Markdown**: Kramdown with GFM | **Plugins**: jekyll-feed, jekyll-sitemap, jekyll-paginate, jemoji
@@ -52,7 +54,7 @@ Site serves at `http://localhost:4000`. Changes to `_config.yml` require a serve
 - `_data/navigation.yml` — Header navigation links and order
 - `_drafts/` — Unpublished content
 - `images/` — Site images
-- `files/` — Downloadable files (PDFs) and self-hosted standalone HTML pages (`SMQ_timeline.html` and `SMQ_cited_works.html`, each iframed from its own talk entry)
+- `files/` — Downloadable files (PDFs), self-hosted standalone HTML pages (`SMQ_timeline.html` and `SMQ_cited_works.html`, each iframed from its own talk entry), and `files/greeting/` (the rendered homepage greeting video: `greeting.mp4`, `greeting.webm`, `poster.jpg`, plus `portrait.jpg` for the HTML end card)
 - `assets/js/` — JavaScript; `main.min.js` is the bundled output
 
 ### Dark Mode
@@ -63,6 +65,17 @@ The site supports a light/dark theme toggle (sun/moon button in the masthead, ri
 - `_includes/masthead.html` — `#theme-toggle` button
 - `_includes/scripts.html` — inline handler flips `data-theme`, persists the choice to `localStorage` (`theme`), and swaps the icon
 - `_sass/_dark.scss` — `[data-theme="dark"]` override layer, imported last in `assets/css/main.scss`
+
+### Greeting Animation
+
+The homepage plays a short code-rendered greeting video (about 30 s, muted, 16:9) directly under the welcome paragraph, then shows an HTML end card with the real links. It follows the same pattern as the theme toggle: markup in an include, a guarded vanilla IIFE in `_includes/scripts.html`, an SCSS partial, no build step.
+
+- **Source**: `~/Dropbox/1CV/Brands_Qian/animation/greeting/` (a Remotion project with its own `DESIGN.md` and `README.md`). The site repo holds only the rendered outputs and the embed. Never edit the video here.
+- **Outputs**: `files/greeting/greeting.mp4`, `files/greeting/greeting.webm`, `files/greeting/poster.jpg` (poster is the 7.5 s frame, since nothing has entered at frame 0); `files/greeting/portrait.jpg` is the square studio portrait used by the HTML end card
+- `_includes/greeting.html`: `.greeting` wrapper: a 16:9 box (`aspect-ratio: 16 / 9`, so the page never shifts) holding the `<video>` (WebM then MP4 sources, `muted playsinline preload="metadata"`, no `autoplay` attribute) and the replay button, plus the end card `.greeting__end` (white card, portrait with crimson ring, `Dr. Q` and `钱亦舟`, crimson rule, affiliation caption, `Explore.`, two rows of pill links: CV, Research Highlights, Featured Talks, Fun Stuff; GitHub, Hugging Face, OSF, YouTube). `about.md` places it with `{% include greeting.html %}`.
+- `_includes/scripts.html`: the IIFE exits when `.greeting` is absent. Once per browser session: it calls `video.play()` and sets `sessionStorage.greetingPlayed` only when the play promise resolves (a blocked autoplay does not mark the session as played). If the flag is already set, or `prefers-reduced-motion: reduce` matches, or `play()` rejects, it shows the poster with the end card and does not play. On `ended` it reveals the end card with a short fade (class `greeting--ended`). The replay button hides the card, seeks to 0, and plays again. Storage access is wrapped in try/catch; comments are `/* */` only because production `compress_html` breaks `//` comments.
+- `_sass/_greeting.scss`: imported in `assets/css/main.scss` immediately before `_dark.scss`. At 600 px and wider the end card is an overlay inside the box, sized in container query units (`cqw`) from the 1920 px frame with the frame's own margins (5 % top and bottom, 10 % left and right) and the corner Dr. Q mark; below 600 px it renders as a block directly under the video with fixed sizes and wrapping pills, and only the replay control stays in the box corner. `_dark.scss` recolors only the frame border; the video and end card keep their light colors by design.
+- **Update**: re-render in the source project (`npx remotion render` there), then copy the three files into `files/greeting/`. Edit copy, timing, or links in the source project's `story.ts`; the end-card link labels and URLs in `greeting.html` must match its last take.
 
 ### Content Generation Pipeline
 
@@ -171,7 +184,7 @@ AI-generated art and creative projects:
 
 | File | Permalink | Purpose |
 |---|---|---|
-| `about.md` | `/` | Homepage — bio, research areas, open resource links |
+| `about.md` | `/` | Homepage — bio, greeting animation (`{% include greeting.html %}` under the welcome paragraph), research areas, open resource links, visitor map (MapMyVisitors script at the end of the page) |
 | `cv.md` | `/cv/` | Academic CV — appointments, education, work in progress, skills |
 | `publications.html` | `/publications/` | Publication listing (grouped by category) |
 | `talks.html` | `/talks/` | Talks listing |
@@ -264,6 +277,11 @@ All images live in `images/`. Grouped by purpose:
 **Add a portfolio item:**
 1. Create `_portfolio/<slug>.md` with front matter: `title`, `excerpt` (include thumbnail img tag), `collection: portfolio`, `permalink`
 2. Add images to `images/`, reference in body
+
+**Update the homepage greeting video:**
+1. Edit and re-render in `~/Dropbox/1CV/Brands_Qian/animation/greeting/` (see Greeting Animation above); never edit the video in this repo
+2. Copy `out/greeting.mp4`, `out/greeting.webm`, and `out/poster.jpg` from that project into `files/greeting/`
+3. If the end card's links or labels changed, update `_includes/greeting.html` to match
 
 ## Deployment
 

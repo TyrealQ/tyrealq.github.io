@@ -8,9 +8,7 @@ redirect_from:
 ---
 Welcome! I'm Ty, also known as Dr. Q, an Assistant Professor of Sport Management at Indiana University Bloomington. Outside of work, I enjoy video games (DOTA2, Diablo2, Black Myth: Wukong) and cherish a joyful life with my wife, Tracy. We share our passions, celebrate special moments, and find meaning in the beauty of everyday life. 
 
-Here is a glimpse of where visitors are connecting from around the world.
-
-<script type='text/javascript' id='mapmyvisitors' src='https://mapmyvisitors.com/map.js?cl=c3fbb1&w=a&t=tt&d=6NSMM9lrJc5M_xL0jlSDtBsuZtRRx7kvsq_3gSIA-oo&cmo=000000&cmn=ff5353&co=0080ff&ct=ffffff'></script>
+{% include greeting.html %}
 
 ---
 
@@ -25,5 +23,9 @@ I manage knowledge spaces in the following areas:
 - Agent Skills: Development of specialized agentic modules ([q-skills](https://github.com/TyrealQ/q-skills)) that autonomously execute end-to-end tasks, including analytical pipeline execution, social media content generation, and the production of formatted research reports.
 
 Resources available on: [GitHub](https://github.com/TyrealQ), [Hugging Face](https://huggingface.co/tyrealqian), [OSF](https://osf.io/dx8bc/), and [YouTube](https://youtube.com/@tyrealq?si=nAMjGEzRCEXQ7SBt).
+
+Here is a glimpse of where visitors are connecting from around the world.
+
+<script type='text/javascript' id='mapmyvisitors' src='https://mapmyvisitors.com/map.js?cl=c3fbb1&w=a&t=tt&d=6NSMM9lrJc5M_xL0jlSDtBsuZtRRx7kvsq_3gSIA-oo&cmo=000000&cmn=ff5353&co=0080ff&ct=ffffff'></script>
 
 ---

@@ -27,4 +27,59 @@
   })();
 </script>
 
+<script>
+  /* Greeting animation on the homepage: play once per browser session, then
+     show the HTML end card. Comments stay in this form because the production
+     build compresses HTML and would break line comments. */
+  (function () {
+    var root = document.querySelector('.greeting');
+    if (!root) return;
+    var video = root.querySelector('.greeting__video');
+    var card = root.querySelector('.greeting__end');
+    var replay = root.querySelector('.greeting__replay');
+    if (!video || !card || !replay) return;
+    var FLAG = 'greetingPlayed';
+
+    function flagSet() {
+      try { return sessionStorage.getItem(FLAG) === '1'; } catch (e) { return false; }
+    }
+    function setFlag() {
+      try { sessionStorage.setItem(FLAG, '1'); } catch (e) {}
+    }
+    function showCard(fade) {
+      card.hidden = false;
+      if (fade) {
+        /* A forced reflow makes the card start at opacity 0, so the class change below runs the fade. */
+        void card.offsetWidth;
+      }
+      root.classList.add('greeting--ended');
+    }
+    function hideCard() {
+      root.classList.remove('greeting--ended');
+      card.hidden = true;
+    }
+    function start() {
+      var promise;
+      try { promise = video.play(); } catch (e) { showCard(false); return; }
+      if (promise && typeof promise.then === 'function') {
+        promise.then(function () { setFlag(); }, function () { showCard(false); });
+      }
+    }
+
+    video.addEventListener('ended', function () { showCard(true); });
+    replay.addEventListener('click', function () {
+      hideCard();
+      try { video.currentTime = 0; } catch (e) {}
+      start();
+    });
+
+    var reduced = window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+    if (reduced || flagSet()) {
+      showCard(false);
+    } else {
+      start();
+    }
+  })();
+</script>
+
 {% include analytics.html %}
