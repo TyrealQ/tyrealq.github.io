@@ -65,7 +65,7 @@ The site supports a light/dark theme toggle (sun/moon button in the masthead, ri
 - `_includes/head.html` — inline script applies the saved theme before paint; light is the default, and `data-theme="dark"` is set on `<html>` only when the visitor previously chose dark
 - `_includes/masthead.html` — `#theme-toggle` button
 - `_includes/scripts.html` — inline handler flips `data-theme`, persists the choice to `localStorage` (`theme`), and swaps the icon
-- `_sass/_dark.scss` — `[data-theme="dark"]` override layer, imported last in `assets/css/main.scss`
+- `_sass/_dark.scss` — `[data-theme="dark"]` override layer, imported last in `assets/css/main.scss`; it also recolors the sidebar GitHub icon to the dark text color, since GitHub's near-black brand color (`#171516`) disappears on the dark background
 
 ### Greeting Animation
 

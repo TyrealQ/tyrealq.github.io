@@ -121,6 +121,12 @@ $dark-code-bg    : #2a2a2c;
     a {
       color: $dark-text;
     }
+
+    .fa-github,
+    .fa-github-alt,
+    .fa-github-square {
+      color: $dark-text;
+    }
   }
 
   .page__content,
