@@ -24,6 +24,10 @@ I manage knowledge spaces in the following areas:
 
 Resources available on: [GitHub](https://github.com/TyrealQ), [Hugging Face](https://huggingface.co/tyrealqian), [OSF](https://osf.io/dx8bc/), and [YouTube](https://youtube.com/@tyrealq?si=nAMjGEzRCEXQ7SBt).
 
+---
+
+## Visitors Around the World
+
 Here is a glimpse of where visitors are connecting from around the world.
 
 <script type='text/javascript' id='mapmyvisitors' src='https://mapmyvisitors.com/map.js?cl=c3fbb1&w=a&t=tt&d=6NSMM9lrJc5M_xL0jlSDtBsuZtRRx7kvsq_3gSIA-oo&cmo=000000&cmn=ff5353&co=0080ff&ct=ffffff'></script>

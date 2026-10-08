@@ -189,7 +189,7 @@ AI-generated art and creative projects:
 
 | File | Permalink | Purpose |
 |---|---|---|
-| `about.md` | `/` | Homepage — bio, greeting animation (`{% include greeting.html %}` under the welcome paragraph), research areas, open resource links, visitor map (MapMyVisitors script at the end of the page) |
+| `about.md` | `/` | Homepage — bio, greeting animation (`{% include greeting.html %}` under the welcome paragraph), research areas, open resource links, visitor map under its own "Visitors Around the World" header (MapMyVisitors script at the end of the page) |
 | `cv.md` | `/cv/` | Academic CV — appointments, education, work in progress, skills |
 | `publications.html` | `/publications/` | Publication listing (grouped by category) |
 | `talks.html` | `/talks/` | Talks listing |
