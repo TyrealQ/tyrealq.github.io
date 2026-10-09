@@ -4,7 +4,7 @@ excerpt: "<br/><img src='/images/Journey.jpg'>"
 collection: portfolio
 permalink: /portfolio/Journey
 ---
-A 36-second animation of the six cities on my path so far, from my hometown in Fujian to Indiana University. It runs through one full day, from dawn in Sanming to dawn in Bloomington, and shows each city through its landmark and the details the city is known for. The animation was written in code and rendered with [Remotion](https://www.remotion.dev/); its style follows [Tengwang Pavilion moonlit river](https://prompt-motion.com/demitiyageekzen-7770ad) by @DemitiyaGeekzen. The six cities are the same as in the [3D City Landmark Weather Visualization](/portfolio/Landmark_Weather).
+A 36-second animation of the six cities on my path so far, from my hometown in Fujian to Indiana University. It runs through one full day, from dawn in Sanming to dawn in Bloomington, and shows each city through its landmark and the details the city is known for. The animation was written in code and rendered with [Remotion](https://www.remotion.dev/), with its style inspired by animations on [Prompt Motion](https://prompt-motion.com/). The six cities are the same as in the [3D City Landmark Weather Visualization](/portfolio/Landmark_Weather).
 
 <video controls muted playsinline preload="metadata" poster="/files/journey/poster.jpg"
     style="display: block; width: 100%; aspect-ratio: 16 / 9; border: 1px solid #ddd; border-radius: 8px; margin: 1.6em 0 0.9em;">
