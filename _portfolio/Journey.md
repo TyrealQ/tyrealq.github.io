@@ -17,6 +17,6 @@ A 36-second animation of the six cities on my path so far, from my hometown in F
 - **Sanming 三明**: hometown. Qilin Mountain and its pavilion above the city, in the forested hills of northwest Fujian.
 - **Xiamen 厦门**, 2007 to 2011: BA in English Literature, Xiamen University of Technology. Gulangyu and Sunlight Rock across the strait, with egrets, the city bird.
 - **Shanghai 上海**, 2012 to 2015: MEd in Sport Management, Shanghai University of Sport. The Lujiazui skyline over the Huangpu River at sunset, with white magnolia, the city flower.
-- **Athens 阿森斯**, 2015 to 2019: Ph.D. in Sport Management, University of Georgia. A graduate walks through the Arch, which by tradition students pass under only on graduation day.
+- **Athens 阿森斯**, 2015 to 2019: Ph.D. in Sport Management, University of Georgia. A graduate stands just past the Arch, which by tradition students pass under only on graduation day.
 - **Baton Rouge 巴吞鲁日**, 2019 to 2026: Assistant Professor, then Associate Professor, Louisiana State University. Tiger Stadium lit for a night game.
 - **Bloomington 布鲁明顿**, 2026 to present: Assistant Professor, Indiana University Bloomington. The Sample Gates at dawn, with Little 500 riders passing.
