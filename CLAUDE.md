@@ -55,7 +55,7 @@ The system Ruby (2.6) cannot resolve the `github-pages` gem (it needs Ruby 3); i
 - `_data/navigation.yml` — Header navigation links and order
 - `_drafts/` — Unpublished content
 - `images/` — Site images
-- `files/` — Downloadable files (PDFs), self-hosted standalone HTML pages (`SMQ_timeline.html` and `SMQ_cited_works.html`, each iframed from its own talk entry), and `files/greeting/` (the rendered homepage greeting video: `greeting.mp4`, `greeting.webm`, `poster.jpg`, plus `portrait.jpg` for the HTML end card) and `files/journey/` (the rendered career-path video embedded by `_portfolio/Journey.md`: `journey.mp4`, `journey.webm`, `poster.jpg`; source in `~/Dropbox/1CV/Brands_Qian/animation/journey/`, never edited here)
+- `files/` — Downloadable files (PDFs), self-hosted standalone HTML pages (`SMQ_timeline.html` and `SMQ_cited_works.html`, each iframed from its own talk entry), and `files/greeting/` (the rendered homepage greeting video: `greeting.mp4`, `greeting.webm`, `poster.jpg`, plus `portrait.jpg` for the HTML end card) and `files/journey/` (the rendered career-path video embedded by `_portfolio/01_Journey.md`: `journey.mp4`, `journey.webm`, `poster.jpg`; source in `~/Dropbox/1CV/Brands_Qian/animation/journey/`, never edited here)
 - `assets/js/` — JavaScript; `main.min.js` is the bundled output
 
 ### Dark Mode
@@ -154,18 +154,18 @@ Publication categories in `_config.yml`: Books, Journal Articles (`manuscripts`)
 
 ### Portfolio (`_portfolio/`) — 8 files, ALL ACTIVE
 
-AI-generated art and creative projects:
+AI-generated art and creative projects. The gallery (`_pages/portfolio.html`) lists entries in filename order, so each file starts with a two-digit number that sets its place; the web address comes from each file's `permalink`, so renumbering does not change it.
 
 | File | Title | Tool | Image(s) |
 |---|---|---|---|
-| `City.md` | 3D City Landmark Weather Visualization | Nano Banana Pro | `SM_FJ.jpeg`, `XM_FJ.jpeg`, `SH.jpeg`, `Athens_GA.jpeg`, `BR_LA.jpeg`, `Bloomington_IN.jpeg` |
-| `Journey.md` | From Sanming to Bloomington: A Career Journey (36 s bilingual animation of the same six cities) | Remotion (code-rendered video) | `Journey.jpg` teaser; video in `files/journey/` |
-| `Logo_Q.md` | Brand Logos for Dr. Q | Ideogram + Canva | `Logo_Q.png`, `Logo_Q_SB.png`, and variants (`_B`, `_Horizontal`, `_OB`, `_W`) |
-| `Sticker_Q.md` | Social Sticker (chibi LINE-style) | Nano Banana Pro | `Ty_Q_EN.jpeg`, `Ty_Q_CN.jpeg` |
-| `Tracy_cute.md` | Whispers of Dawn in Tracy's Smile | ComfyUI-InstantID | `Tracy_cute1.png` |
-| `Ty_football.md` | Tyreal's Gridiron Dream | ComfyUI-InstantID | `Q.png` |
-| `XL.md` | Xiaoli's Radiant Moment: Portrait of a Mother | ComfyUI-InstantID | `XL.png` |
-| `XSP.md` | Siping's Poem: Portrait of a Father | ComfyUI-InstantID | `SP8.png` |
+| `01_Journey.md` | From Sanming to Bloomington: A Career Journey (36 s bilingual animation of the same six cities) | Remotion (code-rendered video) | `Journey.jpg` teaser; video in `files/journey/` |
+| `02_City.md` | 3D City Landmark Weather Visualization | Nano Banana Pro | `SM_FJ.jpeg`, `XM_FJ.jpeg`, `SH.jpeg`, `Athens_GA.jpeg`, `BR_LA.jpeg`, `Bloomington_IN.jpeg` |
+| `03_Logo_Q.md` | Brand Logos for Dr. Q | Ideogram + Canva | `Logo_Q.png`, `Logo_Q_SB.png`, and variants (`_B`, `_Horizontal`, `_OB`, `_W`) |
+| `04_Sticker_Q.md` | Social Sticker (chibi LINE-style) | Nano Banana Pro | `Ty_Q_EN.jpeg`, `Ty_Q_CN.jpeg` |
+| `05_Tracy_cute.md` | Whispers of Dawn in Tracy's Smile | ComfyUI-InstantID | `Tracy_cute1.png` |
+| `06_Ty_football.md` | Tyreal's Gridiron Dream | ComfyUI-InstantID | `Q.png` |
+| `07_XL.md` | Xiaoli's Radiant Moment: Portrait of a Mother | ComfyUI-InstantID | `XL.png` |
+| `08_XSP.md` | Siping's Poem: Portrait of a Father | ComfyUI-InstantID | `SP8.png` |
 
 ### Teaching (`_teaching/`) — 2 files, PLACEHOLDER (theme template)
 
