@@ -158,7 +158,7 @@ AI-generated art and creative projects. The gallery (`_pages/portfolio.html`) li
 
 | File | Title | Tool | Image(s) |
 |---|---|---|---|
-| `01_Journey.md` | From Sanming to Bloomington: A Career Journey (36 s bilingual animation of the same six cities) | Remotion (code-rendered video) | `Journey.jpg` teaser; video in `files/journey/` |
+| `01_Journey.md` | From Sanming to Bloomington: A Career Journey (36 s bilingual animation of the same six cities) | Claude Opus 5.5 + Remotion (code-rendered video) | `Journey.jpg` teaser; video in `files/journey/` |
 | `02_City.md` | 3D City Landmark Weather Visualization | Nano Banana Pro | `SM_FJ.jpeg`, `XM_FJ.jpeg`, `SH.jpeg`, `Athens_GA.jpeg`, `BR_LA.jpeg`, `Bloomington_IN.jpeg` |
 | `03_Logo_Q.md` | Brand Logos for Dr. Q | Ideogram + Canva | `Logo_Q.png`, `Logo_Q_SB.png`, and variants (`_B`, `_Horizontal`, `_OB`, `_W`) |
 | `04_Sticker_Q.md` | Social Sticker (chibi LINE-style) | Nano Banana Pro | `Ty_Q_EN.jpeg`, `Ty_Q_CN.jpeg` |
