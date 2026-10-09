@@ -55,7 +55,7 @@ The system Ruby (2.6) cannot resolve the `github-pages` gem (it needs Ruby 3); i
 - `_data/navigation.yml` — Header navigation links and order
 - `_drafts/` — Unpublished content
 - `images/` — Site images
-- `files/` — Downloadable files (PDFs), self-hosted standalone HTML pages (`SMQ_timeline.html` and `SMQ_cited_works.html`, each iframed from its own talk entry), and `files/greeting/` (the rendered homepage greeting video: `greeting.mp4`, `greeting.webm`, `poster.jpg`, plus `portrait.jpg` for the HTML end card)
+- `files/` — Downloadable files (PDFs), self-hosted standalone HTML pages (`SMQ_timeline.html` and `SMQ_cited_works.html`, each iframed from its own talk entry), and `files/greeting/` (the rendered homepage greeting video: `greeting.mp4`, `greeting.webm`, `poster.jpg`, plus `portrait.jpg` for the HTML end card) and `files/journey/` (the rendered career-path video embedded by `_portfolio/Journey.md`: `journey.mp4`, `journey.webm`, `poster.jpg`; source in `~/Dropbox/1CV/Brands_Qian/animation/journey/`, never edited here)
 - `assets/js/` — JavaScript; `main.min.js` is the bundled output
 
 ### Dark Mode
@@ -152,13 +152,14 @@ Publication categories in `_config.yml`: Books, Journal Articles (`manuscripts`)
 | `Interactive_SMQ_Timeline.md` | Interactive Visualization: Intellectual lineage of SMQ, 1999 to 2026 (citation timeline; manuscript in preparation) | Self-hosted interactive HTML (`files/SMQ_timeline.html`) | 2026-09-14 |
 | `Interactive_SMQ_Cited_Works.md` | Interactive Visualization: What SMQ cites beyond itself, 1999 to 2026 (cited works; companion to the timeline) | Self-hosted interactive HTML (`files/SMQ_cited_works.html`) | 2026-09-17 |
 
-### Portfolio (`_portfolio/`) — 7 files, ALL ACTIVE
+### Portfolio (`_portfolio/`) — 8 files, ALL ACTIVE
 
 AI-generated art and creative projects:
 
 | File | Title | Tool | Image(s) |
 |---|---|---|---|
 | `City.md` | 3D City Landmark Weather Visualization | Nano Banana Pro | `SM_FJ.jpeg`, `XM_FJ.jpeg`, `SH.jpeg`, `Athens_GA.jpeg`, `BR_LA.jpeg`, `Bloomington_IN.jpeg` |
+| `Journey.md` | From Sanming to Bloomington: A Career Journey (36 s bilingual animation of the same six cities) | Remotion (code-rendered video) | `Journey.jpg` teaser; video in `files/journey/` |
 | `Logo_Q.md` | Brand Logos for Dr. Q | Ideogram + Canva | `Logo_Q.png`, `Logo_Q_SB.png`, and variants (`_B`, `_Horizontal`, `_OB`, `_W`) |
 | `Sticker_Q.md` | Social Sticker (chibi LINE-style) | Nano Banana Pro | `Ty_Q_EN.jpeg`, `Ty_Q_CN.jpeg` |
 | `Tracy_cute.md` | Whispers of Dawn in Tracy's Smile | ComfyUI-InstantID | `Tracy_cute1.png` |
