@@ -4,9 +4,9 @@ excerpt: "<br/><img src='/images/Journey.jpg'>"
 collection: portfolio
 permalink: /portfolio/Journey
 ---
-A 36-second animation of the six cities on my path so far, from my hometown in Fujian to Indiana University. It runs through one full day, from dawn in Sanming to dawn in Bloomington, and shows each city through its landmark and the details the city is known for. The animation was created with Claude Opus 5.5, written in code and rendered with [Remotion](https://www.remotion.dev/), with its style inspired by animations on [Prompt Motion](https://prompt-motion.com/). The six cities are the same as in the [3D City Landmark Weather Visualization](/portfolio/Landmark_Weather).
+A 68-second animation of the six cities on my path so far, from my hometown in Fujian to Indiana University, with a song for each place. It runs through one full day, from dawn in Sanming to dawn in Bloomington, and shows each city through its landmark and the details the city is known for. The animation was created with Claude Opus 5.5, written in code and rendered with [Remotion](https://www.remotion.dev/), with its style inspired by animations on [Prompt Motion](https://prompt-motion.com/). The music was also written in code, as instrumental arrangements of 鼓浪屿之波 (The Waves of Gulangyu) for Sanming and Xiamen, 夜上海 (Shanghai Nights) for Shanghai, Glory, Glory to Old Georgia for Athens, Callin' Baton Rouge for Baton Rouge, and Indiana, Our Indiana for Bloomington. The six cities are the same as in the [3D City Landmark Weather Visualization](/portfolio/Landmark_Weather).
 
-<video controls muted playsinline preload="metadata" poster="/files/journey/poster.jpg"
+<video controls playsinline preload="metadata" poster="/files/journey/poster.jpg"
     style="display: block; width: 100%; aspect-ratio: 16 / 9; border: 1px solid #ddd; border-radius: 8px; margin: 1.6em 0 0.9em;">
   <source src="/files/journey/journey.mp4" type="video/mp4">
   <source src="/files/journey/journey.webm" type="video/webm">
