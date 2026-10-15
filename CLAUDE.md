@@ -190,7 +190,7 @@ AI-generated art and creative projects. The gallery (`_pages/portfolio.html`) li
 
 | File | Permalink | Purpose |
 |---|---|---|
-| `about.md` | `/` | Homepage — bio, greeting animation (`{% include greeting.html %}` under the welcome paragraph), "Join Our Team" PhD recruiting section (lab members and five questions for prospective students), research areas, open resource links, visitor map under its own "Visitors Around the World" header (MapMyVisitors script at the end of the page) |
+| `about.md` | `/` | Homepage — bio, greeting animation (`{% include greeting.html %}` under the welcome paragraph), research areas, open resource links, "Join Our Team" PhD recruiting section (lab members and five questions for prospective students), visitor map under its own "Visitors Around the World" header (MapMyVisitors script at the end of the page) |
 | `cv.md` | `/cv/` | Academic CV — appointments, education, work in progress, skills |
 | `publications.html` | `/publications/` | Publication listing (grouped by category) |
 | `talks.html` | `/talks/` | Talks listing |
