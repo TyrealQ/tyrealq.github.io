@@ -14,7 +14,7 @@ Welcome! I'm Ty, also known as Dr. Q, an Assistant Professor of Sport Management
 
 ## Join Our Team
 
-The Applied Artificial Intelligence in Sport Lab at Indiana University Bloomington is growing. Our team includes [John Ruichen Yang](https://mukj1.github.io/), and I am recruiting PhD students to join us. If you are interested, please email me at [tyqian@iu.edu](mailto:tyqian@iu.edu) with your CV and your answers to these questions:
+The Applied Artificial Intelligence in Sport Lab at Indiana University Bloomington is growing. Our team includes PhD student [John Ruichen Yang](https://mukj1.github.io/), and I am recruiting PhD students to join us. If you are interested, please email me at [tyqian@iu.edu](mailto:tyqian@iu.edu) with your CV and your answers to these questions:
 
 1. What led you to reach out to me, and what do you hope to gain from joining the lab?
 2. How would my mentorship support your development, and what skills, experiences, or ideas would you bring to the lab?
