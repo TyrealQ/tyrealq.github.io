@@ -105,7 +105,7 @@ Header links (defined in `_data/navigation.yml`):
 
 Homepage: `_pages/about.md` (permalink: `/`)
 
-The homepage and CV use the default `single` layout (no `layout:` line), so each `##` section heading gets the layout's underline. Research Highlights (`publications.html`) uses `layout: archive`, the same template as Featured Talks (`talks.html`); its section headings are `<h2 class="archive__subtitle">`, the theme's underlined heading for archive pages. On every page, sections are separated by that underline alone; do not add `---` dividers between them.
+The homepage, CV, Resources & Publications, and Outreach & Presentations pages all use the default `single` layout (no `layout:` line), so they share one design and each `##` section heading gets the layout's underline. Sections are separated by that underline alone; do not add `---` dividers between them. `_sass/_archive.scss` removes the right-side padding of `.list__item` inside `.page__content`, so the publication and talk listings use the full column. Published Research lists journal articles and then conference papers (the order of `publication_category` in `_config.yml`) with no category headings. The talks page has two `##` sections written into the page, Public Outreach and then Academic Presentations, each listing the talks with that `category` newest first.
 
 ## Content Inventory
 
@@ -126,9 +126,13 @@ The homepage and CV use the default `single` layout (no `layout:` line), so each
 
 Publication categories in `_config.yml`: Books, Journal Articles (`manuscripts`), Conference Papers (`conferences`).
 
-### Talks (`_talks/`) — 17 files, ALL ACTIVE
+### Talks (`_talks/`) — 18 files, ALL ACTIVE
 
-**Podcast episodes (7)** — YouTube video discussions of Q's research:
+Each talk's `category` front matter places it in one of the two sections of the talks page: `outreach` (Public Outreach) or `presentations` (Academic Presentations).
+
+**Public Outreach (13)**: podcast episodes (YouTube video discussions of Q's research), QLearning tutorials, and self-hosted interactive figures.
+
+Podcast episodes (7):
 
 | File | Title (short) | Related publication | Date |
 |---|---|---|---|
@@ -140,21 +144,26 @@ Publication categories in `_config.yml`: Books, Journal Articles (`manuscripts`)
 | `Podcast_TS_NFL.md` | NFL's Swift-Kelce Instagram strategy | JSM_TS.md | 2024-11-14 |
 | `Podcast_Twitch.md` | TNF co-streaming on Twitch | SMR_costream.md | 2021-06-16 |
 
-**Teaching demos and interactive demos (11)** — QLearning tutorials, conference presentations, and self-hosted interactive figures:
+QLearning tutorials and interactive figures (6):
+
+| File | Title (short) | Format | Date |
+|---|---|---|---|
+| `Teaching_Agents.md` | QLearning: From Chatbots to Agents | YouTube tutorial | 2026-03-04 |
+| `Teaching_LLM101.md` | QLearning: LLM 101 (GPT-4o in Colab) | YouTube tutorial | 2025-04-04 |
+| `Teaching_NLP.md` | QLearning: NLP 101 (sentiment analysis) | YouTube tutorial | 2025-03-03 |
+| `Teaching_TS_NFL.md` | QLearning: Swift-Kelce Instagram case study | YouTube tutorial + slides | 2024-12-02 |
+| `Interactive_SMQ_Timeline.md` | Interactive Visualization: Intellectual lineage of SMQ, 1999 to 2026 (citation timeline; manuscript in preparation) | Self-hosted interactive HTML (`files/SMQ_timeline.html`) | 2026-09-14 |
+| `Interactive_SMQ_Cited_Works.md` | Interactive Visualization: What SMQ cites beyond itself, 1999 to 2026 (cited works; companion to the timeline) | Self-hosted interactive HTML (`files/SMQ_cited_works.html`) | 2026-09-17 |
+
+**Academic Presentations (5)**: conference presentations, workshops, and symposium talks.
 
 | File | Title (short) | Format | Date |
 |---|---|---|---|
 | `MMAB_AMA.md` | AMA Presentation: Athlete branding via adaptive multimodal strategies (MMAB) | Canva slides | 2026-07-25 |
-| `Teaching_LLM101.md` | QLearning: LLM 101 (GPT-4o in Colab) | YouTube tutorial | 2025-04-04 |
-| `Teaching_NASSM_AI.md` | NASSM Conversations: Applied AI in Sport Mgmt | Canva slides | 2025-03-03 |
-| `Teaching_NASSM_NLP.md` | NASSM Workshop: NLP4ALL (Zeigler Lectures) | Canva slides + GitHub repo | 2025-05-29 |
 | `Teaching_NASSM_TGL.md` | NASSM Presentation: TMRW Golf League pre-launch video analytics | Canva slides | 2026-05-29 |
-| `Teaching_NLP.md` | QLearning: NLP 101 (sentiment analysis) | YouTube tutorial | 2025-03-03 |
 | `Teaching_SMA_HAI.md` | SMA Symposium: Human-AI Collaboration | Canva slides + GitHub repo | 2025-10-23 |
-| `Teaching_TS_NFL.md` | QLearning: Swift-Kelce Instagram case study | YouTube tutorial + slides | 2024-12-02 |
-| `Teaching_Agents.md` | QLearning: From Chatbots to Agents | YouTube tutorial | 2026-03-04 |
-| `Interactive_SMQ_Timeline.md` | Interactive Visualization: Intellectual lineage of SMQ, 1999 to 2026 (citation timeline; manuscript in preparation) | Self-hosted interactive HTML (`files/SMQ_timeline.html`) | 2026-09-14 |
-| `Interactive_SMQ_Cited_Works.md` | Interactive Visualization: What SMQ cites beyond itself, 1999 to 2026 (cited works; companion to the timeline) | Self-hosted interactive HTML (`files/SMQ_cited_works.html`) | 2026-09-17 |
+| `Teaching_NASSM_NLP.md` | NASSM Workshop: NLP4ALL (Zeigler Lectures) | Canva slides + GitHub repo | 2025-05-29 |
+| `Teaching_NASSM_AI.md` | NASSM Conversations: Applied AI in Sport Mgmt | Canva slides | 2025-03-03 |
 
 ### Portfolio (`_portfolio/`) — 8 files, ALL ACTIVE
 
@@ -196,8 +205,8 @@ AI-generated art and creative projects. The gallery (`_pages/portfolio.html`) li
 |---|---|---|
 | `about.md` | `/` | Homepage — bio, greeting animation (`{% include greeting.html %}` under the welcome paragraph), "Join Our Team" PhD recruiting section (lab members, a paragraph on assistantship funding, teaching, resources, and publication expectations, and five questions for prospective students), visitor map under its own "Visitors Around the World" header (MapMyVisitors script at the end of the page) |
 | `cv.md` | `/cv/` | Academic CV — appointments, education, work in progress, skills |
-| `publications.html` | `/publications/` | "Resources & Publications" page (menu label: Research Highlights): an "Open Resources" section (five research areas, each technique or task linked inline to a research resource: a GitHub repo, a Hugging Face dataset, a paper, or a q-skills subskill; teaching materials are linked only where the text is about teaching; written in markdown inside a Liquid `capture` passed through `markdownify`), then "Published Research" (Google Scholar link and the listing, with category headings as h3) |
-| `talks.html` | `/talks/` | Talks listing |
+| `publications.html` | `/publications/` | "Resources & Publications" page (menu label: Research Highlights): an "Open Resources" section (five research areas, each technique or task linked inline to a research resource: a GitHub repo, a Hugging Face dataset, a paper, or a q-skills subskill; teaching materials are linked only where the text is about teaching; written in markdown inside a Liquid `capture` passed through `markdownify`), then "Published Research" (Google Scholar link and the listing) |
+| `talks.html` | `/talks/` | "Outreach & Presentations" page (menu label: Featured Talks): "Public Outreach" and "Academic Presentations" sections |
 | `portfolio.html` | `/portfolio/` | Portfolio gallery |
 | `teaching.html` | `/teaching/` | Teaching listing |
 | `404.md` | `/404.html` | Custom 404 page |
@@ -280,7 +289,7 @@ All images live in `images/`. Grouped by purpose:
 3. Or: add a row to `markdown_generator/publications.tsv` and run `publications.py`
 
 **Add a new talk (podcast, teaching demo, or interactive demo):**
-1. Create `_talks/<Podcast_or_Teaching>_<slug>.md` with front matter: `title`, `collection: talks`, `excerpt`, `type: "Talk"`, `permalink`, `date`
+1. Create `_talks/<Podcast_or_Teaching>_<slug>.md` with front matter: `title`, `collection: talks`, `category` (`outreach` or `presentations`; a talk without it does not appear on the talks page), `excerpt`, `type: "Talk"`, `permalink`, `date`
 2. Embed YouTube iframe or Canva slides in the body
 3. For a self-hosted interactive page: put the self-contained HTML in `files/` with no front matter (Jekyll copies it verbatim; front matter would trigger Liquid and layouts), then embed it with a fixed-height iframe (`height: 85vh; min-height: 640px`) plus an "open in a new tab" link. fitvids only wraps YouTube/Vimeo, so the iframe carries its own sizing. The SMQ pages are copied from the SMA25 project (`~/Dropbox/2026 Fall/SMA25`, `manuscript/figures/<name>/`) with the outreach rewording recorded in that project's `outreach/README.md`; edit them there and re-copy, never here
 

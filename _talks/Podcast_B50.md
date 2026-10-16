@@ -1,6 +1,7 @@
 ---
 title: "The Break 50 Phenomenon"
 collection: talks
+category: outreach
 excerpt: Introduce an [analysis](https://youtu.be/eF3-8QLw7Z8?si=M2eH2pXHBH1C3E13) of the varied online reactions to a viral golf video featuring Donald Trump and Bryson DeChambeau, which shows how one event created three competing stories. Based on over 54,000 comments, viewers applied either an entertainment, political, or athletic frame, leading to different judgments of admiration or contempt. The research concludes that online reputation is not fixed but is a dynamic concept, shaped by the audience's chosen frame, the platform, and the specific context of the interaction.
 type: "Talk"
 permalink: /talks/Podcast_B50

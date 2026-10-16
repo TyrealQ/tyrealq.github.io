@@ -1,6 +1,7 @@
 ---
 title: "Interactive Visualization: The Intellectual Sources Beyond Sport Marketing Quarterly, 1999 to 2026"
 collection: talks
+category: outreach
 excerpt: >
   An interactive map of the intellectual sources beyond Sport Marketing Quarterly, covering all 639 articles published from 1999 to 2026 and the nearly 2,900 works that at least two of them cite. The companion to the intellectual lineage within the journal, and part of the same larger project tracing how sport marketing scholarship has developed across the journal and the association's conferences. Each article is placed by year and colored by topic family; each cited work is placed by its own year, sized by the number of citing articles, and sorted into rows by the kind of source, from sport management and marketing journals to psychology, business, the trade press, and books, with the most cited journals as rows of their own. Hover, click, filter by topic, source, or period, set a citation threshold, and search by author, title, or outlet.
 type: "Talk"

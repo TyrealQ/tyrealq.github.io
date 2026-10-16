@@ -1,6 +1,7 @@
 ---
 title: "QLearning: Step-by-Step NLP 101 Guide for Beginners"
 collection: talks
+category: outreach
 excerpt: Introduce [NLP 101](https://youtu.be/waUZ_Khn7ZY) where we explore the fundamentals of natural language processing (NLP) by performing sentiment analysis—a powerful tool to analyze public opinion and emotion in text data. This step-by-step tutorial will show you how to apply both advanced pretrained models from Hugging Face’s Transformers library and the lexicon-based VADER approach. Using a practical dataset of college football stadium reviews, we'll evaluate and compare these methods using key metrics like accuracy, precision, recall, and F1-score. Designed for all experience levels, this video aims to make AI approachable, useful, and impactful for sport management professionals and researchers alike.
 type: "Talk"
 permalink: /talks/Teaching_NLP

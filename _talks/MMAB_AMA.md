@@ -1,6 +1,7 @@
 ---
 title: "AMA Presentation: Athlete Branding Through Adaptive Multimodal Strategies in Women's Sports"
 collection: talks
+category: presentations
 excerpt: >
   It was a pleasure to share our research on digital entrepreneurship in women's sports at the AMA Summer 2026 conference. Our talk, "[Digital Entrepreneurship and Marketing Communication Strategy in Women's Sports: Athlete Branding Through Adaptive Multimodal Strategies](https://www.canva.com/design/DAHKHv3n_VQ/eXWtCpdWZb1kt5Fey_G_ZQ/view?utm_content=DAHKHv3n_VQ&utm_campaign=designshare&utm_medium=embeds&utm_source=link)," introduces the Model of Multimodal Athlete Branding (MMAB) and traces how Angel Reese and Caitlin Clark configured marketing communications to build entrepreneurial personal brands across their amateur-to-professional transitions from 2017 to 2024. Drawing on computational analyses of 215 Instagram posts, 853 visual assets, and 387,945 user comments, we show that athlete branding is best understood not as a content category but as an adaptive configuration.
 type: "Talk"

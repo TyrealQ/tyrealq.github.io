@@ -1,6 +1,7 @@
 ---
 title: "NASSM Presentation: Multimodal Video Analytics of TMRW Golf League Pre-Launch Coverage"
 collection: talks
+category: presentations
 excerpt: >
   It was a pleasure to present our research on emerging sport properties at NASSM 2026. Our talk, "[Before the First Swing: How Creator Videos Shape First Impressions of a New Sport](https://www.canva.com/design/DAHJ9wu3n7c/TAvPTQeq9zC0tZmyA4LcOg/view?utm_content=DAHJ9wu3n7c&utm_campaign=designshare&utm_medium=embeds&utm_source=link)," examines how pre-launch YouTube coverage of the TMRW Golf League shaped audience engagement before its inaugural season. Drawing on the Stereotype Content Model, we measured warmth and competence signals across 310 creator videos with a multimodal computational pipeline and used fuzzy-set Qualitative Comparative Analysis to identify which combinations of content perceptions and creator characteristics drove high and low engagement.
 type: "Talk"

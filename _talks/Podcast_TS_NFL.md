@@ -1,6 +1,7 @@
 ---
 title: "When Love Story Meets Cruel Summer: Did the NFL Score with Taylor Swift and Travis Kelce’s Romance on Instagram?"
 collection: talks
+category: outreach
 excerpt: One of our most intriguing findings shared in the [podcast](https://youtu.be/HpOOvWrgiGM) is that posts showing Swift and Kelce together naturally garnered the best engagement - no staged moments needed, just their genuine connection speaking for itself.
 type: "Talk"
 permalink: /talks/Podcast_TS_NFL

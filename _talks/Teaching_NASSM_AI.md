@@ -1,6 +1,7 @@
 ---
 title: "NASSM Conversations: Applied AI in Sport Management"
 collection: talks
+category: presentations
 excerpt: I was honored to speak at the February NASSM Conversations, where Michael and I explored the exciting and evolving role of AI in sport management. Our session, "[A Conversation about Applied AI in Sport Management](https://www.canva.com/design/DAGgOSaOCQU/28G4AsJgjSTgl3CaUBM5lA/view?utm_content=DAGgOSaOCQU&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h702e46d8f9)," sparked valuable discussions around practical AI applications, and it was wonderful engaging with an enthusiastic audience. Huge thanks to NASSM and everyone who participated!
 type: "Talk"
 permalink: /talks/NASSM_AI

@@ -1,6 +1,7 @@
 ---
 title: "Interactive Visualization: The Intellectual Lineage Within Sport Marketing Quarterly, 1999 to 2026"
 collection: talks
+category: outreach
 excerpt: >
   An interactive map of the intellectual lineage within Sport Marketing Quarterly, covering all 639 articles published from 1999 to 2026. Part of a larger project that traces how sport marketing scholarship has developed across the journal and the association's conferences. Each article is placed by year, colored by topic family, and sized by citations received; curves trace each citation to earlier work. Hover, click, filter by topic or period, and search by author or title.
 type: "Talk"

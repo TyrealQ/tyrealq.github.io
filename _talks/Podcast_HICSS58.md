@@ -1,6 +1,7 @@
 ---
 title: "Esports Debuts as Medal Sport at 2023 Asian Games: Public Perception on X"
 collection: talks
+category: outreach
 excerpt: This [podcast](https://youtu.be/OGSWYdjpHUE) examines an interesting study accepted by _The 58th Hawaii International Conference on System Sciences_ that uses latest NLP techniques (BERTopic and LLM topic representation) to analyze public discourse around esports’ inclusion in the Asian Games on X.
 type: "Talk"
 permalink: /talks/Podcast_HICSS58

@@ -1,6 +1,5 @@
 ---
-layout: archive
-title: "Talks & Podcasts"
+title: "Outreach & Presentations"
 permalink: /talks/
 author_profile: true
 ---
@@ -11,6 +10,16 @@ author_profile: true
 
 {% endif %}
 
-{% for post in site.talks reversed %}
+<h2>Public Outreach</h2>
+
+{% assign outreach = site.talks | where: "category", "outreach" | sort: "date" | reverse %}
+{% for post in outreach %}
+  {% include archive-single-talk.html %}
+{% endfor %}
+
+<h2>Academic Presentations</h2>
+
+{% assign presentations = site.talks | where: "category", "presentations" | sort: "date" | reverse %}
+{% for post in presentations %}
   {% include archive-single-talk.html %}
 {% endfor %}

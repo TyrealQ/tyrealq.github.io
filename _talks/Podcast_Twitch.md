@@ -1,6 +1,7 @@
 ---
 title: "Thursday Night Transformed: Twitch's TNF Co-Streaming"
 collection: talks
+category: outreach
 excerpt: In this [podcast](https://youtu.be/qa1Fd29Z36Q), Tracy and I dive into the innovative partnership between the NFL and Twitch, examining how gaming personalities are transforming Thursday Night Football through interactive co-streaming. We share the research findings on what makes TNF co-streaming unique.
 type: "Talk"
 permalink: /talks/Podcast_Twitch

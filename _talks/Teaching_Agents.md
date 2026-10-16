@@ -1,6 +1,7 @@
 ---
 title: "QLearning: From Chatbots to Agents"
 collection: talks
+category: outreach
 excerpt: Explore [From Chatbots to Agents](https://youtu.be/ZdxtN3y6Wpk) where we trace the evolution from simple chatbots to powerful AI agents. This tutorial demonstrates how tools like Claude Code enable agentic workflows—where AI doesn't just answer questions but actively plans, executes, and iterates on complex tasks. Using real-world examples from sport management research, we'll show how agent skill development and multi-agent system design can transform your research and content creation workflows. Designed for all experience levels, this video makes agentic AI practical and accessible.
 type: "Talk"
 permalink: /talks/Teaching_Agents
