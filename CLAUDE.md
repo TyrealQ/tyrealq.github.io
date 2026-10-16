@@ -105,7 +105,7 @@ Header links (defined in `_data/navigation.yml`):
 
 Homepage: `_pages/about.md` (permalink: `/`)
 
-The homepage, CV, and Resources & Publications pages all use the default `single` layout (no `layout:` line), so each `##` section heading gets the layout's underline. Sections are separated by that underline alone; do not add `---` dividers between them. `_sass/_archive.scss` removes the right-side padding of `.list__item` inside `.page__content`, so the publication listing uses the full column.
+The homepage and CV use the default `single` layout (no `layout:` line), so each `##` section heading gets the layout's underline. Research Highlights (`publications.html`) uses `layout: archive`, the same template as Featured Talks (`talks.html`); its section headings are `<h2 class="archive__subtitle">`, the theme's underlined heading for archive pages. On every page, sections are separated by that underline alone; do not add `---` dividers between them.
 
 ## Content Inventory
 

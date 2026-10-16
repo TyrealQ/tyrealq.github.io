@@ -1,10 +1,11 @@
 ---
+layout: archive
 title: "Resources & Publications"
 permalink: /publications/
 author_profile: true
 ---
 
-<h2>Open Resources</h2>
+<h2 class="archive__subtitle">Open Resources</h2>
 
 {% capture open_resources %}
 I manage knowledge spaces in the following areas:
@@ -19,7 +20,7 @@ Resources available on: [GitHub](https://github.com/TyrealQ), [Hugging Face](htt
 {% endcapture %}
 {{ open_resources | markdownify }}
 
-<h2>Published Research</h2>
+<h2 class="archive__subtitle">Published Research</h2>
 
 {% if site.author.googlescholar %}
   <div class="wordwrap">For a complete collection of my publications, <a href="{{site.author.googlescholar}}">view my Google Scholar profile here</a>.</div>
