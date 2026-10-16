@@ -1,5 +1,4 @@
 ---
-layout: archive
 title: "Yizhou (Tyreal) Qian 钱亦舟"
 permalink: /cv/
 author_profile: true
@@ -7,6 +6,7 @@ redirect_from:
   - /resume
 ---
 For a comprehensive overview of my academic and professional work, [view my full CV here](https://www.dropbox.com/scl/fi/r7oill570nu2d76p02gro/CV_Tyreal-Yizhou-Qian_PR.pdf?rlkey=ezwq0pkbr1j40ly8qcm0tbjss&st=67qrqsd2&dl=0).
+
 ## Academic Appointment
 - Indiana University Bloomington
 	- Assistant Professor, June 2026-Present

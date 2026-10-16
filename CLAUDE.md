@@ -31,6 +31,8 @@ Site serves at `http://localhost:4000`. Changes to `_config.yml` require a serve
 
 The system Ruby (2.6) cannot resolve the `github-pages` gem (it needs Ruby 3); install Homebrew Ruby first (`brew install ruby`, put `/opt/homebrew/opt/ruby/bin` first on `PATH`, then `bundle install`). A production check is `JEKYLL_ENV=production bundle exec jekyll build`; the production config sets the absolute site `url`, so a local build loads the live stylesheet unless `url` is overridden.
 
+Homebrew now installs Ruby 4, and `github-pages` still pins Jekyll 3.9 and Liquid 4.0.3, so a local build needs two workarounds kept outside the repo: a separate Gemfile (selected with `BUNDLE_GEMFILE`) that runs `eval_gemfile` on the repo `Gemfile` and adds `csv`, `base64`, `bigdecimal`, `logger`, and `ostruct`, which Ruby 4 no longer bundles; and a small Ruby file loaded through `RUBYOPT=-r<path>` that defines `Object#tainted?`, `taint`, and `untaint` as no-ops, since Liquid 4.0.3 calls methods Ruby removed. Never commit either to the repo; GitHub Pages builds with its own Ruby.
+
 ## Architecture
 
 **Theme**: Academic Pages (fork of Minimal Mistakes) | **Markdown**: Kramdown with GFM | **Plugins**: jekyll-feed, jekyll-sitemap, jekyll-paginate, jemoji
@@ -102,6 +104,8 @@ Header links (defined in `_data/navigation.yml`):
 | Fun Stuff | `/portfolio/` | `_pages/portfolio.html` |
 
 Homepage: `_pages/about.md` (permalink: `/`)
+
+The homepage, CV, and Resources & Publications pages all use the default `single` layout (no `layout:` line), so each `##` section heading gets the layout's underline. Sections are separated by that underline alone; do not add `---` dividers between them. `_sass/_archive.scss` removes the right-side padding of `.list__item` inside `.page__content`, so the publication listing uses the full column.
 
 ## Content Inventory
 
@@ -190,9 +194,9 @@ AI-generated art and creative projects. The gallery (`_pages/portfolio.html`) li
 
 | File | Permalink | Purpose |
 |---|---|---|
-| `about.md` | `/` | Homepage — bio, greeting animation (`{% include greeting.html %}` under the welcome paragraph), research areas, open resource links, "Join Our Team" PhD recruiting section (lab members, a paragraph on assistantship funding, teaching, resources, and publication expectations, and five questions for prospective students), visitor map under its own "Visitors Around the World" header (MapMyVisitors script at the end of the page) |
+| `about.md` | `/` | Homepage — bio, greeting animation (`{% include greeting.html %}` under the welcome paragraph), "Join Our Team" PhD recruiting section (lab members, a paragraph on assistantship funding, teaching, resources, and publication expectations, and five questions for prospective students), visitor map under its own "Visitors Around the World" header (MapMyVisitors script at the end of the page) |
 | `cv.md` | `/cv/` | Academic CV — appointments, education, work in progress, skills |
-| `publications.html` | `/publications/` | Publication listing (grouped by category) |
+| `publications.html` | `/publications/` | "Resources & Publications" page (menu label: Research Highlights): an "Open Resources" section (five research areas, each technique or task linked inline to a research resource: a GitHub repo, a Hugging Face dataset, a paper, or a q-skills subskill; teaching materials are linked only where the text is about teaching; written in markdown inside a Liquid `capture` passed through `markdownify`), then "Published Research" (Google Scholar link and the listing, with category headings as h3) |
 | `talks.html` | `/talks/` | Talks listing |
 | `portfolio.html` | `/portfolio/` | Portfolio gallery |
 | `teaching.html` | `/teaching/` | Teaching listing |
