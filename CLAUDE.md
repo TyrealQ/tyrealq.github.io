@@ -275,7 +275,7 @@ All images live in `images/`. Grouped by purpose:
 
 | File | Purpose |
 |---|---|
-| `_config.yml` | Site metadata, author info, collections, plugins, publication categories, defaults |
+| `_config.yml` | Site metadata, author info, collections, plugins, publication categories, defaults, analytics (Google Analytics 4, measurement ID `G-RWCLV9S01S`, loaded on every page through `_includes/analytics.html`; the homepage MapMyVisitors map counts homepage visits only) |
 | `_data/navigation.yml` | Header nav links: CV, Research Highlights, Featured Talks, Fun Stuff |
 | `Gemfile` | Ruby deps (`jekyll`, `github-pages`, `webrick`) |
 | `package.json` | Node deps for JS bundling (`jquery`, `fitvids`, `magnific-popup`) |
