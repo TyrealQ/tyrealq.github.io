@@ -13,9 +13,9 @@
 ## Build & Serve
 
 ```bash
-# Local development (requires Ruby + Bundler)
-bundle install
-bundle exec jekyll serve -l -H localhost
+# Local preview (Homebrew Ruby + the fixes in ~/.jekyll-local/, see below)
+PATH=/opt/homebrew/opt/ruby/bin:$PATH BUNDLE_GEMFILE=$HOME/.jekyll-local/Gemfile \
+  RUBYOPT=-r$HOME/.jekyll-local/liquid-taint-fix.rb bundle exec jekyll serve -l -H localhost
 
 # Docker alternative
 docker build -t academic-pages .
@@ -29,9 +29,7 @@ npm run watch:js        # watch mode
 
 Site serves at `http://localhost:4000`. Changes to `_config.yml` require a server restart.
 
-The system Ruby (2.6) cannot resolve the `github-pages` gem (it needs Ruby 3); install Homebrew Ruby first (`brew install ruby`, put `/opt/homebrew/opt/ruby/bin` first on `PATH`, then `bundle install`). A production check is `JEKYLL_ENV=production bundle exec jekyll build`; the production config sets the absolute site `url`, so a local build loads the live stylesheet unless `url` is overridden.
-
-Homebrew now installs Ruby 4, and `github-pages` still pins Jekyll 3.9 and Liquid 4.0.3, so a local build needs two workarounds kept outside the repo: a separate Gemfile (selected with `BUNDLE_GEMFILE`) that runs `eval_gemfile` on the repo `Gemfile` and adds `csv`, `base64`, `bigdecimal`, `logger`, and `ostruct`, which Ruby 4 no longer bundles; and a small Ruby file loaded through `RUBYOPT=-r<path>` that defines `Object#tainted?`, `taint`, and `untaint` as no-ops, since Liquid 4.0.3 calls methods Ruby removed. Never commit either to the repo; GitHub Pages builds with its own Ruby.
+The local preview needs Homebrew Ruby (`brew install ruby`), since the system Ruby 2.6 is too old for the `github-pages` gem. Homebrew installs Ruby 4, while `github-pages` pins Jekyll 3.9 and Liquid 4.0.3, so the preview command loads two fixes from `~/.jekyll-local/`, a folder outside the repo whose `README.md` explains each file: a Gemfile that loads the repo `Gemfile` and adds the libraries Ruby 4 no longer includes, and `liquid-taint-fix.rb`, which restores three methods Liquid 4.0.3 still calls. Never copy either into the repo; GitHub Pages builds the live site with its own Ruby and needs neither. When the repo `Gemfile` changes, run `bundle install` with the same `PATH` and `BUNDLE_GEMFILE`. A production check is the same command with `JEKYLL_ENV=production` and `jekyll build` in place of `jekyll serve -l -H localhost`; the production config sets the absolute site `url`, so that build loads the live stylesheet unless `url` is overridden.
 
 ## Architecture
 
