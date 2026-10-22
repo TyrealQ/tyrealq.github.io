@@ -265,7 +265,7 @@ All images live in `images/`. Grouped by purpose:
 - `Ty.png` — Author avatar (sidebar)
 - `bio-photo.jpg`, `bio-photo-2.jpg`, `profile.jpg` — Stock/theme bios
 - `site-logo.png`, `homepage.png` — Site branding
-- `favicon.ico`, `safari-pinned-tab.svg`, `browserconfig.xml`, `manifest.json`, `mstile-*.png` — Favicon/PWA
+- `favicon.ico` (16, 32, 48 px), `apple-touch-icon.png` (180 px), `android-chrome-192x192.png`, `manifest.json` — site icons, made from `Logo_Q_B.png`. The tab and Android icons are the black Q on a transparent background, and the Apple icon is the black Q on white because iOS fills transparent areas with black. The icons are linked in `_includes/head/custom.html`; when they change, raise the `?v=` number on those links so browsers fetch the new files
 - `500x300.png` — Default teaser
 - Other theme stock images: `foo-bar-identity*.jpg`, `editing-talk.png`, `paragraph-*.png`, `image-alignment-*.jpg`, `3953273590_704e3899d5_m.jpg`
 
