@@ -6,7 +6,7 @@ redirect_from:
   - /about/
   - /about.html
 ---
-Welcome! I'm Ty, also known as Dr. Q, an Assistant Professor of Sport Management at Indiana University Bloomington. Outside of work, I enjoy video games (DOTA2, Diablo2, Black Myth: Wukong) and cherish a joyful life with my wife, Tracy. We share our passions, celebrate special moments, and find meaning in the beauty of everyday life. 
+Welcome! I'm Ty, also known as Dr. Q, an Assistant Professor of Sport Management at [Indiana University Bloomington](https://publichealth.indiana.edu/about/directory/tyreal-yizhou-qian-tyqian.html). Outside of work, I enjoy video games (DOTA2, Diablo2, Black Myth: Wukong) and cherish a joyful life with my wife, Tracy. We share our passions, celebrate special moments, and find meaning in the beauty of everyday life. 
 
 {% include greeting.html %}
 
