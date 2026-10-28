@@ -124,7 +124,7 @@ The homepage, CV, Resources & Publications, and Outreach & Presentations pages a
 
 Publication categories in `_config.yml`: Books, Journal Articles (`manuscripts`), Conference Papers (`conferences`).
 
-### Talks (`_talks/`) — 18 files, ALL ACTIVE
+### Talks (`_talks/`) — 19 files, ALL ACTIVE
 
 Each talk's `category` front matter places it in one of the two sections of the talks page: `outreach` (Public Outreach) or `presentations` (Academic Presentations).
 
@@ -153,10 +153,11 @@ QLearning tutorials and interactive figures (6):
 | `Interactive_SMQ_Timeline.md` | Interactive Visualization: Intellectual lineage of SMQ, 1999 to 2026 (citation timeline; manuscript in preparation) | Self-hosted interactive HTML (`files/SMQ_timeline.html`) | 2026-09-14 |
 | `Interactive_SMQ_Cited_Works.md` | Interactive Visualization: What SMQ cites beyond itself, 1999 to 2026 (cited works; companion to the timeline) | Self-hosted interactive HTML (`files/SMQ_cited_works.html`) | 2026-09-17 |
 
-**Academic Presentations (5)**: conference presentations, workshops, and symposium talks.
+**Academic Presentations (6)**: conference presentations, workshops, and symposium talks.
 
 | File | Title (short) | Format | Date |
 |---|---|---|---|
+| `MMAB_SMA.md` | SMA Presentation: Multi-lens computational account of NBA athlete branding on Instagram (MMAB) | Canva slides | 2026-10-28 |
 | `MMAB_AMA.md` | AMA Presentation: Athlete branding via adaptive multimodal strategies (MMAB) | Canva slides | 2026-07-25 |
 | `Teaching_NASSM_TGL.md` | NASSM Presentation: TMRW Golf League pre-launch video analytics | Canva slides | 2026-05-29 |
 | `Teaching_SMA_HAI.md` | SMA Symposium: Human-AI Collaboration | Canva slides + GitHub repo | 2025-10-23 |
