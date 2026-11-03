@@ -55,7 +55,7 @@ The local preview needs Homebrew Ruby (`brew install ruby`), since the system Ru
 - `_data/navigation.yml` — Header navigation links and order
 - `_drafts/` — Unpublished content
 - `images/` — Site images
-- `files/` — Downloadable files (PDFs), self-hosted standalone HTML pages (`SMQ_timeline.html` and `SMQ_cited_works.html`, each iframed from its own talk entry), and `files/greeting/` (the rendered homepage greeting video: `greeting.mp4`, `greeting.webm`, `poster.jpg`, plus `portrait.jpg` for the HTML end card) and `files/journey/` (the rendered career-path video with its music, embedded with sound by `_portfolio/01_Journey.md`: `journey.mp4`, `journey.webm`, `poster.jpg`; source in `~/Dropbox/1CV/Brands_Qian/animation/journey/`, never edited here)
+- `files/` — Downloadable files (PDFs), self-hosted standalone HTML pages (`SMQ_timeline.html` and `SMQ_cited_works.html`, each iframed from its own talk entry), and `files/greeting/` (the rendered homepage greeting video: `greeting.mp4`, `greeting.webm`, `poster.jpg`, plus `portrait.jpg` for the HTML end card) and `files/journey/` (the rendered career-path video with its music, embedded with sound by `_portfolio/01_Journey.md`: `journey.mp4`, `journey.webm`, `poster.jpg`; source in `~/Dropbox/1CV/CV_Yizhou Qian/brands/animation/journey/`, never edited here)
 - `assets/js/` — JavaScript; `main.min.js` is the bundled output
 
 ### Dark Mode
@@ -71,7 +71,7 @@ The site supports a light/dark theme toggle (sun/moon button in the masthead, ri
 
 The homepage plays a short code-rendered greeting video (about 30 s, muted, 16:9) directly under the welcome paragraph, then shows an HTML end card with the real links. It follows the same pattern as the theme toggle: markup in an include, a guarded vanilla IIFE in `_includes/scripts.html`, an SCSS partial, no build step. Both renders carry BT.709 limited-range color tags (`--color-space bt709`) so the stage matches the HTML end card in every browser.
 
-- **Source**: `~/Dropbox/1CV/Brands_Qian/animation/greeting/` (a Remotion project documented in its `README.md`). The site repo holds only the rendered outputs and the embed. Never edit the video here.
+- **Source**: `~/Dropbox/1CV/CV_Yizhou Qian/brands/animation/greeting/` (a Remotion project documented in its `README.md`). The site repo holds only the rendered outputs and the embed. Never edit the video here.
 - **Outputs**: `files/greeting/greeting.mp4`, `files/greeting/greeting.webm`, `files/greeting/poster.jpg` (poster is the 7.5 s frame, since nothing has entered at frame 0); `files/greeting/portrait.jpg` is the square studio portrait used by the HTML end card
 - `_includes/greeting.html`: `.greeting` wrapper: a 16:9 box (`aspect-ratio: 16 / 9`, so the page never shifts) holding the `<video>` (MP4 then WebM sources; H.264 first because every browser decodes it in hardware, `muted playsinline preload="metadata"`, no `autoplay` attribute) and the replay button, plus the end card `.greeting__end` (white card, portrait with crimson ring, `Dr. Q` and `钱亦舟`, crimson rule, affiliation caption, `Explore.`, two rows of pill links: CV, Research Highlights, Featured Talks, Fun Stuff; GitHub, Hugging Face, OSF, YouTube). `about.md` places it with `{% include greeting.html %}`.
 - `_includes/scripts.html`: the IIFE exits when `.greeting` is absent. On every page load it calls `video.play()` (muted autoplay; the user wants it to play on each visit, so there is no once-per-session flag). If `prefers-reduced-motion: reduce` matches, or `play()` rejects, it shows the end card and does not play. On `ended` it reveals the end card with a short fade (class `greeting--ended`). The replay button hides the card, seeks to 0, and plays again. The code carries no explanatory comments; any comment added to this script must be `/* */`, because production `compress_html` breaks `//` comments.
@@ -297,7 +297,7 @@ All images live in `images/`. Grouped by purpose:
 2. Add images to `images/`, reference in body
 
 **Update the homepage greeting video:**
-1. Edit and re-render in `~/Dropbox/1CV/Brands_Qian/animation/greeting/` (see Greeting Animation above); never edit the video in this repo
+1. Edit and re-render in `~/Dropbox/1CV/CV_Yizhou Qian/brands/animation/greeting/` (see Greeting Animation above); never edit the video in this repo
 2. Copy `outputs/greeting.mp4`, `outputs/greeting.webm`, and `outputs/poster.jpg` from that project into `files/greeting/`
 3. If the end card's links or labels changed, update `_includes/greeting.html` to match
 
