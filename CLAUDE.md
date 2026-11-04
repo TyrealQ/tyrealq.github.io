@@ -124,11 +124,11 @@ The homepage, CV, Resources & Publications, and Outreach & Presentations pages a
 
 Publication categories in `_config.yml`: Books, Journal Articles (`manuscripts`), Conference Papers (`conferences`).
 
-### Talks (`_talks/`) — 19 files, ALL ACTIVE
+### Talks (`_talks/`) — 20 files, ALL ACTIVE
 
 Each talk's `category` front matter places it in one of the two sections of the talks page: `outreach` (Public Outreach) or `presentations` (Academic Presentations).
 
-**Public Outreach (13)**: podcast episodes (YouTube video discussions of Q's research), QLearning tutorials, and self-hosted interactive figures.
+**Public Outreach (14)**: podcast episodes (YouTube video discussions of Q's research), QLearning tutorials, self-hosted interactive figures, and short research promo videos.
 
 Podcast episodes (7):
 
@@ -142,10 +142,11 @@ Podcast episodes (7):
 | `Podcast_TS_NFL.md` | NFL's Swift-Kelce Instagram strategy | JSM_TS.md | 2024-11-14 |
 | `Podcast_Twitch.md` | TNF co-streaming on Twitch | SMR_costream.md | 2021-06-16 |
 
-QLearning tutorials and interactive figures (6):
+QLearning tutorials, interactive figures, and promo videos (7):
 
 | File | Title (short) | Format | Date |
 |---|---|---|---|
+| `JerseyHoodie.md` | The Jersey and the Hoodie: how NBA and WNBA athletes build their brands on Instagram (promo of the NBA study behind MMAB_SMA.md) | YouTube Short (vertical) | 2026-11-03 |
 | `Teaching_Agents.md` | QLearning: From Chatbots to Agents | YouTube tutorial | 2026-03-04 |
 | `Teaching_LLM101.md` | QLearning: LLM 101 (GPT-4o in Colab) | YouTube tutorial | 2025-04-04 |
 | `Teaching_NLP.md` | QLearning: NLP 101 (sentiment analysis) | YouTube tutorial | 2025-03-03 |
@@ -289,7 +290,7 @@ All images live in `images/`. Grouped by purpose:
 
 **Add a new talk (podcast, teaching demo, or interactive demo):**
 1. Create `_talks/<Podcast_or_Teaching>_<slug>.md` with front matter: `title`, `collection: talks`, `category` (`outreach` or `presentations`; a talk without it does not appear on the talks page), `excerpt`, `type: "Talk"`, `permalink`, `date`
-2. Embed YouTube iframe or Canva slides in the body
+2. Embed YouTube iframe or Canva slides in the body. A vertical YouTube Short goes inside `<div class="fluid-width-video-wrapper" style="max-width: 360px; aspect-ratio: 9/16; margin: 0 auto 2em;">`, with no sizing on the iframe: fitvids skips an iframe whose parent already carries that class, and the class's own CSS fills the box (otherwise fitvids squeezes the Short into a 16:9-derived box and crops it; see `_talks/JerseyHoodie.md`)
 3. For a self-hosted interactive page: put the self-contained HTML in `files/` with no front matter (Jekyll copies it verbatim; front matter would trigger Liquid and layouts), then embed it with a fixed-height iframe (`height: 85vh; min-height: 640px`) plus an "open in a new tab" link. fitvids only wraps YouTube/Vimeo, so the iframe carries its own sizing. The SMQ pages are copied from the SMA25 project (`~/Dropbox/2026 Fall/SMA25`, `manuscript/figures/<name>/`) with the outreach rewording recorded in that project's `outreach/README.md`; edit them there and re-copy, never here
 
 **Add a portfolio item:**
