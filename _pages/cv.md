@@ -30,7 +30,6 @@ My research addresses problems at the intersection of service marketing and digi
 ## Work in Progress
 Note: * student mentored.<br/>
 - Qian, T.Y., Allaway, H., & Xu, C. (Manuscript in preparation). Motherhood in motion: Multimodal insights into #Fitmom health and fitness narratives. _Sport Management Review_.
-- Qian, T.Y., *Li, W., & Xu, C. (Manuscript in preparation). Athlete branding in women’s sport: Multimodal analytics of Caitlin Clark and Angel Reese’s Instagram posts. _Journal of Sport Management_.
 - Qian, T.Y., Gong, H., & Xu, C. (Manuscript in preparation). Enhancing insights into college football game day experience through text and image sentiment analysis: A natural language processing and computer vision approach. _Tourism Management_.
 - Qian, T.Y., Yu, B., & Xu, C. (Manuscript in preparation). Breaking boundaries: Public perceptions of esports’ debut as a medal sport in the Asian Games. _Computers in Human Behavior_.
 
